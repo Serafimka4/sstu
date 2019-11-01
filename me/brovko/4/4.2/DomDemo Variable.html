@@ -1,0 +1,57 @@
+<HTML>
+<HEAD>
+	<TITLE>Book Inventory</TITLE>
+
+	<SCRIPT LANGUAGE="JavaScript" FOR="window" EVENT="ONLOAD">
+		var xhttp = new XMLHttpRequest();
+
+		xhttp.onreadystatechange = function() {
+			if (this.readyState == 4 && this.status == 200)
+				myFunction(this);
+		};
+
+		xhttp.open("GET", "Inventory.xml", true);
+		xhttp.send();
+
+		function myFunction(xml) {
+			const list = document.querySelector('ol');
+			console.log(list)
+			const xmlDoc = xml.responseXML;
+			const bookList = xmlDoc.getElementsByTagName("BOOK");
+
+			for (i=0; i < bookList.length; i++) {
+				const HTMLCode =
+				"<SPAN STYLE='font-style:italic'>Title: </SPAN>"
+				+ bookList[i].getElementsByTagName("TITLE")[0].childNodes[0].nodeValue
+				+ "<BR>"
+				+ "<SPAN STYLE='font-style:italic'>Author: </SPAN>"
+				+ bookList[i].getElementsByTagName("AUTHOR")[0].childNodes[0].nodeValue
+				+ "<BR>"
+				+ "<SPAN STYLE='font-style:italic'>Binding: </SPAN>"
+				+ bookList[i].getElementsByTagName("BINDING")[0].childNodes[0].nodeValue
+				+ "<BR>"
+				+ "<SPAN STYLE='font-style:italic'>Number of pages: "
+				+ "</SPAN>"
+				+ bookList[i].getElementsByTagName("PAGES")[0].childNodes[0].nodeValue
+				+ "<BR>"
+				+ "<SPAN STYLE='font-style:italic'>Price: </SPAN>"
+				+ bookList[i].getElementsByTagName("PRICE")[0].childNodes[0].nodeValue
+				+ "<P>";
+
+				const li = document.createElement('li');
+
+				li.innerHTML = HTMLCode;
+				list.appendChild(li);
+			}
+		}
+	</SCRIPT>
+</HEAD>
+<BODY>
+	<H2>Book Inventory</H2>
+	
+	<DIV ID="DisplayDIV">
+	 <ol class='list'>
+	 </ol>
+	</DIV>
+</BODY>
+</HTML>

@@ -1,0 +1,56 @@
+<HTML>
+<HEAD>
+	<TITLE>Book Description</TITLE>
+
+	<SCRIPT LANGUAGE="JavaScript" FOR="window" EVENT="ONLOAD">
+		var xhttp = new XMLHttpRequest();
+
+		xhttp.onreadystatechange = function() {
+			myFunction(this);
+		};
+
+		xhttp.open("GET", "Book.xml", true);
+		xhttp.send();
+
+		function myFunction(xml) {
+			var xmlDoc = xml.responseXML;
+
+			const author = document.getElementById("author");
+			const bookPrice = document.getElementById("price");
+
+			document.getElementById("title").innerHTML = xmlDoc.getElementsByTagName("TITLE")[0].childNodes[0].nodeValue;
+			document.getElementById("binding").innerHTML = xmlDoc.getElementsByTagName("BINDING")[0].childNodes[0].nodeValue;
+			document.getElementById("pages").innerHTML = xmlDoc.getElementsByTagName("PAGES")[0].childNodes[0].nodeValue;
+			author.innerHTML = xmlDoc.getElementsByTagName("AUTHOR")[0].childNodes[0].nodeValue;
+			bookPrice.innerHTML = xmlDoc.getElementsByTagName("PRICE")[0].childNodes[0].nodeValue;
+
+			author.style.color = 'red';
+			bookPrice.style.color = 'green';
+		}
+	</SCRIPT>
+</HEAD>
+
+<BODY>
+	<H2>Book Description</H2>
+
+	<SPAN STYLE="font-style:italic">Title: </SPAN>
+	<SPAN ID="title" STYLE="font-weight:bold"></SPAN>
+	
+	<BR>
+	<SPAN STYLE="font-style:italic">Author: </SPAN>
+	<SPAN ID="author"></SPAN>
+	
+	<BR>
+	<SPAN STYLE="font-style:italic">Binding: </SPAN>
+	<SPAN ID="binding"></SPAN>
+	
+	<BR>
+	<SPAN STYLE="font-style:italic">Number of pages: </SPAN>
+	<SPAN ID="pages"></SPAN>
+	
+	<BR>
+	
+	<SPAN STYLE="font-style:italic">Price: </SPAN>
+	<SPAN ID="price"></SPAN>
+</BODY>
+</HTML>

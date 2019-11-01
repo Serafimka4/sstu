@@ -1,0 +1,67 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type='text/xsl' href='table.xsl'?>
+
+<!DOCTYPE table SYSTEM "table.dtd">
+
+<table>
+	<class id="1">
+		<studentCount>120</studentCount>
+		<presentCount>117</presentCount>
+		<sectionCount>4</sectionCount>
+	</class>
+	<class id="2">
+		<studentCount>110</studentCount>
+		<presentCount>103</presentCount>
+		<sectionCount>3</sectionCount>
+	</class>
+	<class id="3">
+		<studentCount>90</studentCount>
+		<presentCount>89</presentCount>
+		<sectionCount>2</sectionCount>
+	</class>
+	<class id="4">
+		<studentCount>120</studentCount>
+		<presentCount>117</presentCount>
+		<sectionCount>4</sectionCount>
+	</class>
+	<class id="5">
+		<studentCount>120</studentCount>
+		<presentCount>117</presentCount>
+		<sectionCount>4</sectionCount>
+	</class>
+	<class id="6">
+		<studentCount>120</studentCount>
+		<presentCount>117</presentCount>
+		<sectionCount>4</sectionCount>
+	</class>
+	<class id="7">
+		<studentCount>120</studentCount>
+		<presentCount>117</presentCount>
+		<sectionCount>4</sectionCount>
+	</class>
+	<class id="8">
+		<studentCount>120</studentCount>
+		<presentCount>117</presentCount>
+		<sectionCount>4</sectionCount>
+	</class>
+	<class id="9">
+		<studentCount>120</studentCount>
+		<presentCount>117</presentCount>
+		<sectionCount>4</sectionCount>
+	</class>
+	<class id="10">
+		<studentCount>120</studentCount>
+		<presentCount>117</presentCount>
+		<sectionCount>4</sectionCount>
+	</class>
+	<class id="11">
+		<studentCount>120</studentCount>
+		<presentCount>117</presentCount>
+		<sectionCount>4</sectionCount>
+	</class>
+	<class id="12">
+		<studentCount>120</studentCount>
+		<presentCount>117</presentCount>
+		<sectionCount>4</sectionCount>
+	</class>
+</table>

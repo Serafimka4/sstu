@@ -1,0 +1,33 @@
+span {
+	font: bold 15px Calibri;
+}
+
+span#Result {
+	font-weight: normal;
+}
+
+li {
+	font: 15px Calibri;
+}
+
+a {
+	color: #000;
+	border-radius: 2px;
+	font: 15px Calibri;
+	background-color: #eee;
+	padding: 4px;
+	text-decoration: none;
+}
+
+a:hover {
+	background-color: #ddd;
+}
+
+div {
+	margin: 5px;
+}
+
+.active {
+	font-weight: bold;
+}
+

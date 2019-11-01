@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<title>Promise</title>
+	<meta charset="utf-8">
+
+	<script>
+		let promise = new Promise(function(resolve, reject) {
+			const isBirthday = confirm("Сегодня ваш день рождения?");
+
+			if (isBirthday)
+				resolve("собаку");
+			else
+				reject("");
+		});
+
+		promise.then(result => {
+			alert("С ДР! Держите " + result + ".");
+		});
+
+		promise.catch(error => {
+			alert("Сегодня без подарка.");
+		});
+	</script>
+</head>
+</html>
+

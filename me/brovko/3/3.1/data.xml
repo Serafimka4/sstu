@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/css" href="stylesheet.css" ?>
+
+<lines>
+	<line_1>Style is applied for this line</line_1>
+	<line_2>No style is applied for this line</line_2>
+</lines>

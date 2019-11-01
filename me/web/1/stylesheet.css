@@ -1,0 +1,7 @@
+.active {
+    font-weight: bold;
+}
+
+#FilterByYear li:hover, #FilterByCountry li:hover {
+	cursor: pointer;
+}

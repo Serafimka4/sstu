@@ -1,0 +1,16 @@
+__wrapper {
+	display: block;
+	margin: 20px;
+	padding: 40px 20px;
+	overflow: auto;
+	height: 400px;
+	width: 500px;
+}
+
+person, id, name, email {
+	display: block;
+}
+
+name {
+	font-size: 32px;
+}

@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/css" href="stylesheet.css"?>
+
+<!DOCTYPE people SYSTEM "people.dtd">
+
+<people>
+	<person>
+		<id>E01</id>
+		<name>Tony Blair</name>
+		<address>10 Downing Street, London, UK</address>
+		<telephone>(061) 98765</telephone>
+		<fax>(061) 98765</fax>
+		<email>blair@everywhere.com</email>
+	</person>
+	<person>
+		<id>E02</id>
+		<name>Bill Clinton</name>
+		<address>White House, USA</address>
+		<telephone>(001) 6400 98765</telephone>
+		<fax>(001) 6400 98765</fax>
+		<email>bill@everywhere.com</email>
+	</person>
+	<person>
+		<id>E03</id>
+		<name>Tom Cruise</name>
+		<address>57 Jumbo Street, New York, USA</address>
+		<telephone>(001) 4500 67859</telephone>
+		<fax>(001) 4500 67859</fax>
+		<email>cruise@everywhere.com</email>
+	</person>
+	<person>
+		<id>E04</id>
+		<name>Lorena Bobbit</name>
+		<address>78 Crux Lane, London, UK</address>
+		<telephone>(061) 54 56789</telephone>
+		<fax>(061) 54 56789</fax>
+		<email>lorena@everywhere.com</email>
+	</person>
+	<person>
+		<id>E05</id>
+		<name>Abraham Lincoln</name>
+		<address>White House, USA</address>
+		<telephone>(001) 6400 98765</telephone>
+		<fax>(001) 6400 98765</fax>
+		<email>alincoln@everywhere.com</email>
+	</person>
+	<person>
+		<id>E06</id>
+		<name>Margaret Tatcher</name>
+		<address>10 Downing Street, London, UK</address>
+		<telephone>(061) 98765</telephone>
+		<fax>(061) 98765</fax>
+		<email>mtatcher@everywhere.com</email>
+	</person>
+</people>

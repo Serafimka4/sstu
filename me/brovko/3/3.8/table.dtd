@@ -1,0 +1,8 @@
+<!ELEMENT table (class)*>
+
+<!ELEMENT class (studentCount, presentCount, sectionCount)>
+<!ATTLIST class id CDATA #REQUIRED>
+
+<!ELEMENT studentCount (#CDATA)>
+<!ELEMENT presentCount (#CDATA)>
+<!ELEMENT sectionCount (#CDATA)>

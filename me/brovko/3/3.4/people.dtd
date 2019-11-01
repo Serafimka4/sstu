@@ -1,0 +1,8 @@
+<!ELEMENT people (person)*>
+<!ELEMENT person (id, name, address, telephone, fax, email)>
+<!ELEMENT id (#PCDATA)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT address (#PCDATA)>
+<!ELEMENT telephone (#PCDATA)>
+<!ELEMENT fax (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
