@@ -5,7 +5,6 @@ women.metr$weight <- 0.45359237 * women.metr$weight
 
 # Вычисление параметров уравнения регрессии:
 lm.women <- lm(formula = weight ~ height, data = women.metr)
-lm.women$coefficients
 
 # Вывод модельных значений:
 b0 <- lm.women$coefficient[1]
