@@ -1,41 +1,22 @@
-#
-# 1. Загрузите данные из файла в датафрейм HousePrice, используя
-#    функцию read.table.
-#
-
-HousePrice <- read.table("houses.data")
 
 #
-# 2. Загрузите данные из файла в датафрейм HousePrice1,
-#    используя функцию read.table. Загрузку следует выполнить
-#    так, чтобы первая строка воспринималась как заголовки столбцов,
-#    а не как текстовые данные.
+# 1. 2. Воспроизведите пример, приведенный в справке, для случая сгенерированных
+#       данных с двумя кластерами.
 #
 
-HousePrice1 <- read.table("houses1.data", header = TRUE)
+x <- rbind(matrix(rnorm(100, sd = 0.3), ncol = 2), matrix(rnorm(100, mean = 1, sd = 0.3), ncol = 2))
+colnames(x) <- c("x", "y")
+cl <- kmeans(x, 2)
+plot(x, col = cl$cluster)
+points(cl$centers, col = 1:2, pch = 8, cex = 2)
 
 #
-# 3. Выполните команду HP <- edit(HousePrice), записав в
-#    переменную HP отредактированные данные (измените несколько
-#    значений в открывшемся окне редактора).
+# 1. 3. Выполните кластеризацию для сгенерированных в пункте 1.2 данных,
+#       для случаев К = 3, 4, 5. Изобразите кластеры с их центрами на
+#       отдельных рисунках, сохраните их в графическом формате,
+#       вставьте в отчет.
 #
 
-HP <- edit(HousePrice)
-
-#
-# 4. Сохраните фрейм HP в файл “myframe.txt”, используя функцию
-#    write.table. Сохранение следует выполнить так, чтобы содержимое
-#    файла имело тот же формат, что и файл  “houses1.data”, то есть
-#    без номеров строк и без кавычек у текстовых данных.
-#
-
-write.table(HP, file = "myframe.txt", row.names = FALSE, quote = FALSE)
-
-#
-# 5. Выведите на консоль содержимое столбца Rooms у датафреймов HousePrice,
-#    HousePrice1, HP. Подсказка: используйте функции attach() и detach().
-#
-
-print(HousePrice$Rooms)
-print(HousePrice1$Rooms)
-print(HP$Rooms)
+cl <- kmeans(x, 3)
+plot(x, col = cl$cluster)
+points(cl$centers, col = 1:3, pch = 8, cex = 3)

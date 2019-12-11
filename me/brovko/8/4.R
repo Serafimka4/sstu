@@ -13,6 +13,5 @@ plot(x = cars$speed, y = cars$dist, xlab = "Скорость, миль в час
 
 lines(x, y, col = "blue")
 
-cars.loess <- loess(formula = dist ~ speed, data = cars)
-cars.smoothed <- predict(cars.loess)
-lines(cars.smoothed, col = "red")
+cars.loess <- loess.smooth(cars$speed, cars$dist, lty = 1)
+lines(cars.loess, col = "red")
