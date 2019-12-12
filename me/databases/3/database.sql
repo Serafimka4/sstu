@@ -29,7 +29,11 @@ CREATE TABLE Земельный_участок(
 	Доступно_для_покупки bit NOT NULL,
 	Кадастровый_номер nchar(15) NOT NULL,
 	Кадастровая_стоимость money NOT NULL,
-	Площадь int NOT NULL
+	Площадь int NOT NULL,
+
+	FOREIGN KEY (Владелец) REFERENCES Клиент(ID)
+		ON UPDATE NO ACTION
+		ON DELETE NO ACTION
 )
 
 CREATE TABLE Помещение(
@@ -42,7 +46,11 @@ CREATE TABLE Помещение(
 	Тип nchar(30) NOT NULL,
 	Количество_комнат int NULL,
 	Жилплощадь int NULL,
-	Общая_площадь int NOT NULL
+	Общая_площадь int NOT NULL,
+
+	FOREIGN KEY (Владелец) REFERENCES Клиент(ID)
+		ON UPDATE NO ACTION
+		ON DELETE NO ACTION
 )
 
 CREATE TABLE Сотрудник(
@@ -68,7 +76,23 @@ CREATE TABLE Купля_продажа_помещения(
 	Выручка money NOT NULL,
 	Стоимость money NOT NULL,
 	Электронная_копия_договора binary(4096) NULL,
-	Дата_заключения_договора date NOT NULL
+	Дата_заключения_договора date NOT NULL,
+
+	FOREIGN KEY (Продавец) REFERENCES Клиент(ID)
+		ON UPDATE NO ACTION
+		ON DELETE NO ACTION,
+
+	FOREIGN KEY (Покупатель) REFERENCES Клиент(ID)
+		ON UPDATE NO ACTION
+		ON DELETE NO ACTION,
+
+	FOREIGN KEY (Сотрудник) REFERENCES Сотрудник(ID)
+		ON UPDATE NO ACTION
+		ON DELETE NO ACTION,
+
+	FOREIGN KEY (Помещение) REFERENCES Помещение(ID)
+		ON UPDATE NO ACTION
+		ON DELETE NO ACTION
 )
 
 CREATE TABLE Купля_продажа_земельного_участка(
@@ -80,7 +104,23 @@ CREATE TABLE Купля_продажа_земельного_участка(
 	Выручка money NOT NULL,
 	Стоимость money NOT NULL,
 	Электронная_копия_договора binary(4096) NULL,
-	Дата_заключения_договора date NOT NULL
+	Дата_заключения_договора date NOT NULL,
+
+	FOREIGN KEY (Продавец) REFERENCES Клиент(ID)
+		ON UPDATE NO ACTION
+		ON DELETE NO ACTION,
+
+	FOREIGN KEY (Покупатель) REFERENCES Клиент(ID)
+		ON UPDATE NO ACTION
+		ON DELETE NO ACTION,
+
+	FOREIGN KEY (Сотрудник) REFERENCES Сотрудник(ID)
+		ON UPDATE NO ACTION
+		ON DELETE NO ACTION,
+
+	FOREIGN KEY (Земельный_участок) REFERENCES Земельный_участок(ID)
+		ON UPDATE NO ACTION
+		ON DELETE NO ACTION
 )
 
 CREATE TABLE Аренда_помещения(
@@ -93,7 +133,23 @@ CREATE TABLE Аренда_помещения(
 	Арендная_плата money NOT NULL,
 	Электронная_копия_договора binary(4096) NULL,
 	Дата_заключения_договора date NOT NULL,
-	Дата_окончания_аренды date NOT NULL
+	Дата_окончания_аренды date NOT NULL,
+
+	FOREIGN KEY (Арендатор) REFERENCES Клиент(ID)
+		ON UPDATE NO ACTION
+		ON DELETE NO ACTION,
+
+	FOREIGN KEY (Арендодатель) REFERENCES Клиент(ID)
+		ON UPDATE NO ACTION
+		ON DELETE NO ACTION,
+
+	FOREIGN KEY (Сотрудник) REFERENCES Сотрудник(ID)
+		ON UPDATE NO ACTION
+		ON DELETE NO ACTION,
+
+	FOREIGN KEY (Помещение) REFERENCES Помещение(ID)
+		ON UPDATE NO ACTION
+		ON DELETE NO ACTION
 )
 
 CREATE TABLE Аренда_земельного_участка(
@@ -106,7 +162,23 @@ CREATE TABLE Аренда_земельного_участка(
 	Арендная_плата money NOT NULL,
 	Электронная_копия_договора binary(4096) NULL,
 	Дата_заключения_договора date NOT NULL,
-	Дата_окончания_аренды date NOT NULL
+	Дата_окончания_аренды date NOT NULL,
+
+	FOREIGN KEY (Арендатор) REFERENCES Клиент(ID)
+		ON UPDATE NO ACTION
+		ON DELETE NO ACTION,
+
+	FOREIGN KEY (Арендодатель) REFERENCES Клиент(ID)
+		ON UPDATE NO ACTION
+		ON DELETE NO ACTION,
+
+	FOREIGN KEY (Сотрудник) REFERENCES Сотрудник(ID)
+		ON UPDATE NO ACTION
+		ON DELETE NO ACTION,
+
+	FOREIGN KEY (Земельный_участок) REFERENCES Земельный_участок(ID)
+		ON UPDATE NO ACTION
+		ON DELETE NO ACTION
 )
 
 --=============================================================
@@ -284,20 +356,3 @@ CHECK (Арендная_плата > 0)
 ALTER TABLE Аренда_земельного_участка
 ADD
 CHECK (Дата_заключения_договора < Дата_окончания_аренды)
-
---=============================================================
---
--- 3. Создание связей.
---
---=============================================================
-
--- Связываем "Помещение" и "Клиент" через внешний ключ "Помещение.Владелец" и
--- первичный ключ "Клиент.ID". При удалении клиента должны удаляется и все его
--- помещения (например, если клиент перестал пользоваться услугами фирмы).
-
-ALTER TABLE Помещение
-ADD
-CONSTRAINT Помещение_Владелец_FK
-FOREIGN KEY (Владелец) REFERENCES Клиент(ID)
-ON DELETE CASCADE
-ON UPDATE CASCADE
