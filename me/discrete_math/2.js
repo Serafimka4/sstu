@@ -85,29 +85,29 @@ let books = [
 	console.log('}');
 }
 
-{
-	Book.prototype.toString = function() {
-		return `${this.title}, ${this.genre}, ${FgBlue}${Bright}${this.publicationYear}${Reset}`;
-	};
+// {
+// 	Book.prototype.toString = function() {
+// 		return `${this.title}, ${this.genre}, ${FgBlue}${Bright}${this.publicationYear}${Reset}`;
+// 	};
 
-	let classes = [];
+// 	let classes = [];
 
-	console.log('{');
+// 	console.log('{');
 
-	for (let i = 0; i < books.length; ++i) {
-		if (classes.includes(books[i].publicationYear))
-			continue;
+// 	for (let i = 0; i < books.length; ++i) {
+// 		if (classes.includes(books[i].publicationYear))
+// 			continue;
 
-		console.log('\t{\n\t\t' + books[i].toString());
+// 		console.log('\t{\n\t\t' + books[i].toString());
 
-		for (let j = i + 1; j < books.length; ++j)
-			if (books[i].equalsByPublicationYear(books[j]))
-				console.log('\t\t' + books[j].toString());
+// 		for (let j = i + 1; j < books.length; ++j)
+// 			if (books[i].equalsByPublicationYear(books[j]))
+// 				console.log('\t\t' + books[j].toString());
 
-		console.log("\t}")
+// 		console.log("\t}")
 
-		classes.push(books[i].publicationYear);
-	}
+// 		classes.push(books[i].publicationYear);
+// 	}
 
-	console.log('}');
-}
+// 	console.log('}');
+// }
