@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Math #3</title>
+	<meta charset="utf-8">
+
+	<style>
+		body {
+			padding: 10px 20px;
+			font: 13px "Consolas";
+		}
+	</style>
+</head>
+<body>
+<script>
+let DEBUG = false;
+let EXPRESSION = "(X ⊕ (Y ∧ ¬Z)) <-> ((X ∧ ¬Z) | Y)";
+
+function and(a, b) {
+	let result = (a && b) ? 1 : 0;
+	if (DEBUG) console.log(`AND(${a}, ${b}) = ${result}`);
+	return result;
+}
+
+function xor(a, b) {
+	let result = !((a && b) || ((!a) && (!b))) ? 1 : 0;
+	if (DEBUG) console.log(`XOR(${a}, ${b}) = ${result}`);
+	return result;
+}
+
+function eq(a, b) {
+	let result = a === b ? 1 : 0;
+	if (DEBUG) console.log(`EQ(${a}, ${b}) = ${result}`);
+	return result;
+}
+
+function nand(a, b) {
+	let result = !(a && b) ? 1 : 0;
+	if (DEBUG) console.log(`NAND(${a}, ${b}) = ${result}`);
+	return result;
+}
+
+let binaryBooleanFunctions = [
+	{char: "∧", proc: and},
+	{char: "⊕", proc: xor},
+	{char: "\\|", proc: nand},
+	{char: "<->", proc: eq}
+];
+
+function calculateExpression(EXPRESSION, variables)
+{
+	let expr = EXPRESSION;
+
+	let replaceAll = function(string, search, replacement) {
+		return string.replace(new RegExp(search, 'g'), replacement);
+	};
+
+	expr = replaceAll(expr, " ", "");
+
+	for (let v of variables)
+		expr = replaceAll(expr, v[0], v[1]);
+	
+	expr = replaceAll(expr, "¬0", "1");
+	expr = replaceAll(expr, "¬1", "0");
+
+	for (let f of binaryBooleanFunctions) {
+		if (DEBUG) console.log(expr);
+
+		expr = replaceAll(expr, `(\\d)${f.char}(\\d)`, function (match, a, b, offset, string) {
+			return f.proc(Number(a), Number(b));
+		});
+
+		expr = replaceAll(expr, "\\((\\d)\\)", "$1");
+	}
+
+	if (DEBUG)
+		console.log(" ");
+
+	return expr;
+}
+
+function createTruthTableForThreeVariables(expr)
+{
+	let result = "<b>X Y Z F</b>";
+
+	for (let x = 0; x < 2; ++x) {
+		for (let y = 0; y < 2; ++y) {
+			for (let z = 0; z < 2; ++z) {
+				let variables = [
+					["X", x],
+					["Y", y],
+					["Z", z]
+				];
+
+				result += `<br>${x} ${y} ${z} ${calculateExpression(expr, variables)}`;
+			}
+		}
+	}
+
+	return result;
+}
+
+function createCnfForThreeVariables(truthTableAsString)
+{
+	let cnf = function (x, y, z) {
+		let result = "";
+
+		result += ((x === '1') ? "¬X" : "X") + " ∨ ";
+		result += ((y === '1') ? "¬Y" : "Y") + " ∨ ";
+		result += (z === '1') ? "¬Z" : "Z";
+
+		return result;
+	};
+
+	let result = "";
+
+	let truthTable = truthTableAsString.split('<br>');
+	
+	for (let i = 0; i < truthTable.length; ++i)
+		truthTable[i] = truthTable[i].split(' ');
+
+	for (let line of truthTable) {
+		if (line[3] === '0')
+			result += "(" + cnf(line[0], line[1], line[2]) + ") ∧ ";
+	}
+
+	result = result.slice(0, result.length - 2);
+
+	return result;
+}
+
+function createDnfForThreeVariables(truthTableAsString)
+{
+	let cnf = function (x, y, z) {
+		let result = "";
+
+		result += ((x === '0') ? "¬X" : "X") + " ∧ ";
+		result += ((y === '0') ? "¬Y" : "Y") + " ∧ ";
+		result += (z === '0') ? "¬Z" : "Z";
+
+		return result;
+	};
+
+	let result = "";
+
+	let truthTable = truthTableAsString.split('<br>');
+	
+	for (let i = 0; i < truthTable.length; ++i)
+		truthTable[i] = truthTable[i].split(' ');
+
+	for (let line of truthTable) {
+		if (line[3] === '1')
+			result += "(" + cnf(line[0], line[1], line[2]) + ") ∨ ";
+	}
+
+	result = result.slice(0, result.length - 2);
+
+	return result;
+}
+
+let truthTable = createTruthTableForThreeVariables(EXPRESSION);
+document.write("<h2>ВЫРАЖЕНИЕ</h2>" + EXPRESSION);
+document.write("<h2>ТАБЛИЦА ИСТИННОСТИ</h2>" + truthTable);
+document.write("<h2>СКНФ</h2>" + createCnfForThreeVariables(truthTable));
+document.write("<h2>СДНФ</h2>" + createDnfForThreeVariables(truthTable));
+</script>
+
+</body>
+</html>

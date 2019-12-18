@@ -1,20 +1,16 @@
 'use strict';
 
-const DEBUG = false;
-
-const expression = "(X ∧ ¬Y ⊕ Z) | ((X -> ¬Z) <-> Y)";
-
-function and(a, b)
+function conjunction(a, b)
 {
 	const result = (a && b) ? 1 : 0;
 
 	if (DEBUG)
-		console.log(`AND(${a}, ${b}) = ${result}`);
+		console.log(`conjunction(${a}, ${b}) = ${result}`);
 
 	return result;
 }
 
-function not(a)
+function Negation(a)
 {
 	const result = (!a) ? 1 : 0;
 	
@@ -34,45 +30,45 @@ function xor(a, b)
 	return result;
 }
 
-function imply(a, b)
+function Implication(a, b)
 {
 	const result = (a && (!b)) ? 0 : 1;
 	
 	if (DEBUG)
-		console.log(`IMPLY(${a}, ${b}) = ${result}`);
+		console.log(`Implication(${a}, ${b}) = ${result}`);
 	
 	return result;
 }
 
-function eq(a, b)
+function Equivalence(a, b)
 {
 	const result = a === b ? 1 : 0;
 	
 	if (DEBUG)
-		console.log(`EQ(${a}, ${b}) = ${result}`);
+		console.log(`Equivalence(${a}, ${b}) = ${result}`);
 	
 	return result;
 }
 
-function nand(a, b)
+function Sheffer(a, b)
 {
 	const result = !(a && b) ? 1 : 0;
 	
 	if (DEBUG)
-		console.log(`NAND(${a}, ${b}) = ${result}`);
+		console.log(`Sheffer(${a}, ${b}) = ${result}`);
 	
 	return result;
 }
 
 const binaryBooleanFunctions = [
-	{char: "∧", proc: and},
+	{char: "∧", proc: conjunction},
 	{char: "⊕", proc: xor},
-	{char: "->", proc: imply},
-	{char: "<->", proc: eq},
-	{char: "\\|", proc: nand}
+	{char: "->", proc: Implication},
+	{char: "<->", proc: Equivalence},
+	{char: "\\|", proc: Sheffer}
 ];
 
-function calculateExpression(expression, variables)
+function calc(expression, variables)
 {
 	let expr = expression;
 
@@ -109,9 +105,9 @@ function calculateExpression(expression, variables)
 	return expr;
 }
 
-function createTruthTableForThreeVariables(expression)
+function truth_table(expression)
 {
-	let result = "X Y Z F\n";
+	let result = "X Y Z R\n";
 	result +=    "-------";
 
 	for (let x = 0; x < 2; ++x) {
@@ -123,7 +119,7 @@ function createTruthTableForThreeVariables(expression)
 					["Z", z]
 				];
 
-				result += `\n${x} ${y} ${z} ${calculateExpression(expression, variables)}`;
+				result += `\n${x} ${y} ${z} ${calc(expression, variables)}`;
 			}
 		}
 	}
@@ -131,7 +127,7 @@ function createTruthTableForThreeVariables(expression)
 	return result;
 }
 
-function createCnfForThreeVariables(truthTableAsString)
+function cnf(truthTableAsString)
 {
 	let cnf = function (x, y, z) {
 		let result = "";
@@ -160,20 +156,19 @@ function createCnfForThreeVariables(truthTableAsString)
 	return result;
 }
 
-function createDnfForThreeVariables(truthTableAsString)
+function dnf(truthTableAsString)
 {
 	let cnf = function (x, y, z) {
 		let result = "";
 
-		result += ((x === '0') ? "¬X" : "X") + " ∧ ";
-		result += ((y === '0') ? "¬Y" : "Y") + " ∧ ";
-		result += (z === '0') ? "¬Z" : "Z";
+		result += (x === '0' ? "¬" : "") + "X";
+		result += (y === '0' ? "¬" : "") + "Y";
+		result += (z === '0' ? "¬" : "") + "Z";
 
 		return result;
 	};
 
 	let result = "";
-
 	let truthTable = truthTableAsString.split('\n');
 	
 	for (let i = 0; i < truthTable.length; ++i)
@@ -181,7 +176,7 @@ function createDnfForThreeVariables(truthTableAsString)
 
 	for (let line of truthTable) {
 		if (line[3] === '1')
-			result += "(" + cnf(line[0], line[1], line[2]) + ") ∨ ";
+			result += cnf(line[0], line[1], line[2]) + " ∨ ";
 	}
 
 	result = result.slice(0, result.length - 2);
@@ -189,7 +184,8 @@ function createDnfForThreeVariables(truthTableAsString)
 	return result;
 }
 
-let truthTable = createTruthTableForThreeVariables(expression);
+const DEBUG = true;
+let truthTable = truth_table("(X ∧ ¬Y ⊕ Z) | ((X -> ¬Z) <-> Y)");
 console.log(truthTable);
-console.log("\nСКНФ: " + createCnfForThreeVariables(truthTable));
-console.log("СДНФ: " + createDnfForThreeVariables(truthTable));
+console.log("\nСКНФ: " + cnf(truthTable));
+console.log("СДНФ: " + dnf(truthTable));
