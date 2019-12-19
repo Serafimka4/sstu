@@ -9,7 +9,6 @@ CREATE TABLE CD_диск(
 	Исполнитель nvarchar(30) NOT NULL,
 	Название nvarchar(30) NOT NULL,
 	Дата_выпуска date NOT NULL,
-	Трек_лист nvarchar(128) NOT NULL,
 	Издатель nvarchar(39) NOT NULL,
 	Общая_длительность int NOT NULL,
 	Жанр nvarchar(20) NOT NULL,
@@ -46,9 +45,7 @@ CREATE TABLE Нотное_издание(
 	Дата_издания date NOT NULL,
 	Тираж int NOT NULL,
 	Авторы_составители nvarchar(128) NOT NULL,
-	Список_композиций nvarchar(256) NOT NULL,
 	Жанр nvarchar(30) NOT NULL,
-	Список_композиторов nvarchar(128) NOT NULL,
 	Место_выпуска nvarchar(20) NOT NULL,
 	Сведения_о_средствах_исполнения nvarchar(20) NOT NULL,
 	Количество_актов int NOT NULL,
@@ -132,7 +129,7 @@ CREATE TABLE Выдача_нотного_издания(
 	Сотрудник int NOT NULL,
 	Дата_выдачи date NOT NULL,
 	Дата_предполагаемого_возврата date NOT NULL,
-	Дата_реального_возврата date NOT NULL,
+	Дата_реального_возврата date NULL,
 
 	FOREIGN KEY (Посетитель) REFERENCES Посетитель(ID)
 		ON UPDATE CASCADE
