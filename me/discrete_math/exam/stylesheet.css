@@ -1,0 +1,35 @@
+html, body {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	padding-top: 40px;
+	padding-left: 40px;
+	width: 580px;
+}
+
+h1 {
+	font: bold 22px "PT Serif";	
+}
+
+h2 {
+	font: 18.5px "PT Serif";
+	font-variant: small-caps;
+}
+
+p {
+	font: 14px/1.45 "PT Serif";
+	text-align: justify;
+	hyphens: auto;
+}
+
+.formula_figure .figure_description {
+	font: italic 11px "PT Serif";
+	text-align: center;
+	margin-top: -10px;
+}
+
+.formula_figure .figure_content {
+	margin-bottom: 0;
+}
