@@ -18,8 +18,12 @@ h2 {
 	font-variant: small-caps;
 }
 
+h3 {
+	font: bold 14px/1.45 "PT Serif";
+}
+
 p {
-	font: 14px/1.45 "PT Serif";
+	font: 14px/1.5 "PT Serif";
 	text-align: justify;
 	hyphens: auto;
 }
