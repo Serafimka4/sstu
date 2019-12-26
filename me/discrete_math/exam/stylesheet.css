@@ -5,21 +5,17 @@ html, body {
 
 body {
 	padding-top: 40px;
-	padding-left: 40px;
-	width: 580px;
+	padding-left: 80px;
+	width: 530px;
 }
 
 h1 {
 	font: bold 22px "PT Serif";	
 }
 
-h2 {
-	font: 18.5px "PT Serif";
-	font-variant: small-caps;
-}
-
 h3 {
-	font: bold 14px/1.45 "PT Serif";
+	font: 16px "PT Serif";
+	font-variant: small-caps;
 }
 
 p {
@@ -36,4 +32,42 @@ p {
 
 .formula_figure .figure_content {
 	margin-bottom: 0;
+}
+
+.h2 {
+	margin-top: 20px;
+}
+
+h1 + .h2 {
+	margin-top: auto;
+}
+
+.h2 .text, .h2 .number {
+	font: 18px/1.45 "PT Serif";
+}
+
+.h2 .number {
+	position: absolute;
+	left: 48px;
+}
+
+.definition {
+	background-color: #fbf2d4;
+	padding: 3px 20px;
+	margin: 20px 0;
+}
+
+.definition .header {
+	margin-bottom: 0;
+}
+
+.definition .header:first-child {
+	display: inline-block;
+	font: bold 16px "PT Serif";
+	margin-right: 5px;
+}
+
+.definition .header .subject {
+	font: 14px "PT Serif";
+	margin-left: 10px;
 }
