@@ -10,7 +10,7 @@ body {
 }
 
 h1 {
-	font: bold 22px "PT Serif";	
+	font: 26px "PT Serif";	
 }
 
 h3 {
@@ -52,7 +52,7 @@ h1 + .h2 {
 }
 
 .definition {
-	background-color: #fbf2d4;
+	background-color: #eff0f1;
 	padding: 3px 20px;
 	margin: 20px 0;
 }
@@ -63,7 +63,7 @@ h1 + .h2 {
 
 .definition .header:first-child {
 	display: inline-block;
-	font: bold 16px "PT Serif";
+	font: bold 14px "PT Serif";
 	margin-right: 5px;
 }
 
