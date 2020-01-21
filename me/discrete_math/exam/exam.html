@@ -328,10 +328,261 @@
 		</div>
 	</div>
 
-	<h2>6. Функции. Инъекция, сюрьекция, биекция. Теорема о тотальной биекции</h2>
+	<div class="h2">
+		<div class="number">6</div>
+		<div class="text">Функции. Инъекция, сюрьекция, биекция. Теорема о тотальной биекции</div>
+	</div>
 
-	<h2>7. Индуцированная функция. Теорема об индуцированной функции</h2>
+	<div class="definition">
+		<p class="header">
+			<span>Определение</span>
+			<span class="subject">функция</span>
+		</p>
+		<div class="content">
+			<p>Функцией называют бинарное отношение, которое обладает свойством однозначности:</p>
 
-	<h2>8. Ядро функции. Теорема о ядре функции</h2>
+			<p>\[
+				(a, b) \in f \;and\; (a, c) \in f \rightarrow b = c.
+			\]</p>
+		</div>
+	</div>
+
+	<p>Бинарное отношение \(f \subseteq X \times Y\), обладающее свойством однозначности называется <em>функциональным</em> и записывается как \(f \colon X \rightarrow Y\).</p>
+
+	<div class="definition">
+		<p class="header">
+			<span>Определение</span>
+			<span class="subject">инъекция</span>
+		</p>
+		<div class="content">
+			<p>Функция называется инъективной, если у каждого значения функции есть только один прообраз:</p>
+
+			<p>\[
+				y = f(x_1) \;and\; y = f(x_2) \rightarrow x_1 = x_2.
+			\]</p>
+		</div>
+	</div>
+
+	<div class="definition">
+		<p class="header">
+			<span>Определение</span>
+			<span class="subject">сюръекция</span>
+		</p>
+		<div class="content">
+			<p>Функция \(f: X \rightarrow Y\) является сюръективной, если областью ее значений является все множество \(Y\), т. е. если она принимает все возможные значения:</p>
+
+			<p>\[
+				\forall y \in Y \exists x \in X \colon (x, y) \in f.
+			\]</p>
+		</div>
+	</div>
+
+	<div class="definition">
+		<p class="header">
+			<span>Определение</span>
+			<span class="subject">биекция</span>
+		</p>
+		<div class="content">
+			<p>Функция называется биективной, если она сюръективна и инъективна одновременно.</p>
+		</div>
+	</div>
+
+	<p>Биективная функция также называется взаимно-однозначным соответствием.</p>
+
+	<div class="h2">
+		<div class="number">7</div>
+		<div class="text">Индуцированная функция. Теорема об индуцированной функции</div>
+	</div>
+
+	<div class="h2">
+		<div class="number">8</div>
+		<div class="text">Ядро функции. Теорема о ядре функции</div>
+	</div>
+
+	<h1>III<br>Алгебраические структуры</h1>
+
+	<div class="h2">
+		<div class="number">1</div>
+		<div class="text">Операции и их свойства. Алгебраическая структура. Модель. Примеры алгебраических структур</div>
+	</div>
+
+	<div class="definition">
+		<p class="header">
+			<span>Определение</span>
+			<span class="subject">\(n\)-арная операция</span>
+		</p>
+		<div class="content">
+			<p>Всюду определенная на множестве \(M\) тотальная функция от \(n\) аргументов называется \(n\)-арной (\(n\)-местной) операцией на \(M\).</p>
+		</div>
+	</div>
+
+	<p>Если \(\varphi\) — бинарная операция, то есть \(\varphi \colon M^2 \rightarrow M\), то ее обозначают как \(\varphi (a, b)\), где \(a, b \in M\). Иногда используют инфиксную форму записи для бинарной операции: \(a \circ b\), где \(\circ\) — знак операции.</p>
+
+	<div class="definition">
+		<p class="header">
+			<span>Определение</span>
+			<span class="subject">алгебраическая структура</span>
+		</p>
+		<div class="content">
+			<p>Множество с набором определенных на нем операций \(A = \langle M; \varphi_1, \ldots, \varphi_m \rangle\), где \(\varphi_i \;\colon\; M^{n_i} \rightarrow M\) называется алгебраической структурой.</p>
+		</div>
+	</div>
+
+	<div class="definition">
+		<p class="header">
+			<span>Определение</span>
+			<span class="subject">модель</span>
+		</p>
+		<div class="content">
+			<p>Алгебраическая система с пустым множеством операций называется моделью.</p>
+		</div>
+	</div>
+
+	<p>Одним из пройстеших примеров алгебраической структуры является множество целых чисел с операциями сложения и вычитания: \(A = \langle \mathbb{Z}; +, - \rangle\).</p>
+
+	<div class="h2">
+		<div class="number">2</div>
+		<div class="text">Булева Алгебра. Примеры Булевых алгебр. Теорема Стоуна (без доказательства)</div>
+	</div>
+
+	<div class="definition">
+		<p class="header">
+			<span>Определение</span>
+			<span class="subject">булева алгебра</span>
+		</p>
+		<div class="content">
+			<p>Булевой алгеброй называется непустое множество \(A\) с двумя бинарными операциями \(\land, \lor\), одной унарной операцией \(\lnot\) и двумя фиксированными элементами \(0\) и \(1\), причем для любых \(a, b, c \in A\) верны следующие аксиомы:</p>
+
+			<ol>
+				<li><p style="text-align: left;">Ассоциативность: \(a \land (b \land c) = (a \land b) \land c\) и \(a \lor (b \lor c) = (a \lor b) \lor c\);</p></li>
+				<li><p>Коммутативность: \(a \land b = b \land a\) и \(a \lor b = b \lor a\);</p></li>
+				<li><p>Законы поглощения: \(a \land (b \lor c) = a\) и \(a \lor (b \land c) = a\);</p></li>
+				<li><p style="text-align: left;">Дистрибутивность: \( a \land (b \lor c) = a \land b \lor a \land c \) и \( a \lor (b \land c) = a \lor b \land a \lor c \);</p></li>
+				<li><p>Дополнительность: \(a \lor \lnot a = 1\) и \(a \land \lnot a = 0 \).</p></li>
+			</ol>
+		</div>
+	</div>
+
+	<p>В качестве примера булевой алгебры можно привести множество всех подмножеств данного множества \(S\), которое образует булеву алгебру относительно операций объединения, пересечения и унарной операции дополнения. Наименьший элемент здесь — пустое множество, а наибольший — всё \(S\).</p>
+
+	<div class="definition">
+		<p class="header">
+			<span>Теорема</span>
+			<span class="subject">Стоуна</span>
+		</p>
+		<div class="content">
+			<p>Всякую булеву алгебру можно интерпретировать как булеву алгебру подмножеств некоторого множества.</p>
+		</div>
+	</div>
+
+	<p>Другими словами, какой бы ни была булева алгебра мы можем считать ее элементы подмножествами некоторого множества, а ее операции, соответственно, — теоретико-множественными операциями.</p>
+
+	<div class="h2">
+		<div class="number">3</div>
+		<div class="text">Подалгебра. Теорема о непустом пересечении подалгебр</div>
+	</div>
+
+	<div class="definition">
+		<p class="header">
+			<span>Определение</span>
+			<span class="subject">подалгебра</span>
+		</p>
+		<div class="content">
+			<p>Если в алгебре \(\langle M; \Sigma \rangle\) мы рассмотрим \(X \subset M\) такое, что \(X\) замкнуто относительно всех операций из \(\Sigma\), то система \(\langle X; \Sigma_X \rangle\) образует подалгебру алгебры \(\langle M; \Sigma \rangle\), где \(\Sigma_X\) состоит из сужений операций из \(\Sigma\) на \(X\).</p>
+		</div>
+	</div>
+
+	<div class="definition">
+		<p class="header">
+			<span>Теорема</span>
+			<span class="subject">о непустом пересечении подалгебр</span>
+		</p>
+		<div class="content">
+			<p>Непустое пересечение подалгебр одной алгебры образует подалгебру той же алгебры.</p>
+		</div>
+	</div>
+
+	<div class="h2">
+		<div class="number">4</div>
+		<div class="text">Полугруппа. Примеры. Свободная полугруппа</div>
+	</div>
+
+	<div class="definition">
+		<p class="header">
+			<span>Определение</span>
+			<span class="subject">полугруппа</span>
+		</p>
+		<div class="content">
+			<p>Алгебраическая система \(\langle M; \circ \rangle\), где \(\circ\) является ассоциативной бинарной операцией называется полугруппой.</p>
+		</div>
+	</div>
+
+	<p>Например, алгебраическая система \(\langle A^+; \cdot \rangle\), где \(A^+\) — множество слов в алфавите, а \(\cdot\) — операция конкатенации строк, является полугруппой.</p>
+
+	<div class="definition">
+		<p class="header">
+			<span>Определение</span>
+			<span class="subject">свободная полугруппа</span>
+		</p>
+		<div class="content">
+			<p>Если в полугруппе все различные слова, состоящие из образующих определяют различные элементы носителя, то полугруппа называется свободной.</p>
+		</div>
+	</div>
+
+	<p>Например, системой образующих полугруппы \(\langle \mathbb{N}; + \rangle\) является множество \(\{1\}\). Так как различные слова в алфавите \(\{1\}\) — суть различные элементы носителя, то \(\langle \mathbb{N}; + \rangle\) является полугруппой.</p>
+
+	<div class="h2">
+		<div class="number">5</div>
+		<div class="text">Моноид. Примеры. Теорема о единственности единицы в моноиде</div>
+	</div>
+
+	<div class="h2">
+		<div class="number">6</div>
+		<div class="text">Группа. Примеры. Теорема о единственности обратного элемента в группе</div>
+	</div>
+
+	<div class="h2">
+		<div class="number">7</div>
+		<div class="text">Теорема о свойствах операций в группе</div>
+	</div>
+
+	<div class="h2">
+		<div class="number">8</div>
+		<div class="text">Теорема об однозначности решения в группе уравнения \(a \times x = b\)</div>
+	</div>
+
+	<div class="h2">
+		<div class="number">9</div>
+		<div class="text">Коммутативная группа. Примеры</div>
+	</div>
+
+	<div class="definition">
+		<p class="header">
+			<span>Определение</span>
+			<span class="subject">коммутативная (абелева) группа</span>
+		</p>
+		<div class="content">
+			<p>Коммутативной (или абелевой) группой называют группу, в которой бинарная операция коммутативна.</p>
+		</div>
+	</div>
+
+	<p>Например, группа \(\langle \mathbb{Z}; +\rangle\) является абелевой группой, так как операция \(+\) обладает свойством коммутативности.</p>
+
+	<div class="h2">
+		<div class="number">10</div>
+		<div class="text">Кольцо. Примеры. Теорема о соотношениях в кольце</div>
+	</div>
+
+	<div class="definition">
+		<p class="header">
+			<span>Определение</span>
+			<span class="subject">кольцо</span>
+		</p>
+		<div class="content">
+			<p>Кольцом называют алгебраическую систему \(\langle M; +, \times\rangle\), являющуюся абелевой группой по сложению, полугруппой по умножению, и обладающая двухсторонней дистрибутивностью умножения относительно сложения.</p>
+		</div>
+	</div>
+
+	<p>Простейшим примером кольца является множество целых чисел с обычными операциями сложения и умножения.</p>
 </body>
 </html>
