@@ -133,11 +133,19 @@
 \end{definition}
 
 \begin{definition}
-	Пусть дано два бинарных отношения \(\rho \subseteq A \times B\) и \(\phi \subseteq B \times C\). Тогда их композицией \(\rho \circ \phi\) будет называться бинарное отношение \(\mu \subseteq A \times C\):
+	Пусть дано два бинарных отношения \(\rho \subseteq A \times B\) и \(\phi \subseteq B \times C\). Тогда их \textit{композицией} \(\rho \circ \phi\) будет называться бинарное отношение \(\mu \subseteq A \times C\):
 
 	\[
 		\mu = \rho \circ \phi = \{(a,\; c) \;\colon\; (\exists b \in B)\; [(a,\; b) \in \rho \;and\; (b,\; c) \in \phi]\}.
 	\]
+\end{definition}
+
+\begin{definition}
+	Бинарное отношение \(\varphi \subseteq A^2 = \{(a, a) \colon a \in A\}\) называется \textit{тождественным} и обозначается как \(\mathrm{id}_A\).
+\end{definition}
+
+\begin{definition}
+	Отношение \(\varphi \subseteq A \times B = \{(a, b) \colon a \in A, b \in B\}\) называется \textit{универсальным}.
 \end{definition}
 
 \subsection{Степень отношения}
