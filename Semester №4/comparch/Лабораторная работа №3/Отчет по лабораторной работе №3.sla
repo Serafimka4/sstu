@@ -1,0 +1,1116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SCRIBUSUTF8NEW Version="1.5.5">
+    <DOCUMENT ANZPAGES="4" PAGEWIDTH="595.2744" PAGEHEIGHT="841.8888" BORDERLEFT="40" BORDERRIGHT="40" BORDERTOP="40" BORDERBOTTOM="40" PRESET="0" BleedTop="0" BleedLeft="0" BleedRight="0" BleedBottom="0" ORIENTATION="0" PAGESIZE="A4" FIRSTNUM="1" BOOK="0" AUTOSPALTEN="1" ABSTSPALTEN="11" UNITS="2" DFONT="Arial Regular" DSIZE="12" DCOL="1" DGAP="0" TabFill="" TabWidth="36" TextDistLeft="0" TextDistRight="0" TextDistBottom="0" TextDistTop="0" AUTHOR="" COMMENTS="" KEYWORDS="" PUBLISHER="" DOCDATE="" DOCTYPE="" DOCFORMAT="" DOCIDENT="" DOCSOURCE="" DOCLANGINFO="" DOCRELATION="" DOCCOVER="" DOCRIGHTS="" DOCCONTRIB="" TITLE="" SUBJECT="" VHOCH="33" VHOCHSC="66" VTIEF="33" VTIEFSC="66" VKAPIT="75" BASEGRID="14.4" BASEO="0" AUTOL="100" UnderlinePos="-1" UnderlineWidth="-1" StrikeThruPos="-1" StrikeThruWidth="-1" GROUPC="1" HCMS="0" DPSo="0" DPSFo="0" DPuse="0" DPgam="0" DPbla="1" DPPr="ISO Coated v2 300% (basICColor)" DPIn="sRGB display profile (ICC v2.2)" DPInCMYK="ISO Coated v2 300% (basICColor)" DPIn2="sRGB display profile (ICC v2.2)" DPIn3="ISO Coated v2 300% (basICColor)" DISc="1" DIIm="0" ALAYER="0" LANGUAGE="en_US" AUTOMATIC="1" AUTOCHECK="0" GUIDELOCK="0" SnapToGuides="1" SnapToGrid="0" SnapToElement="0" MINGRID="20" MAJGRID="100" SHOWGRID="0" SHOWGUIDES="0" showcolborders="1" SHOWFRAME="0" SHOWControl="0" SHOWLAYERM="0" SHOWMARGIN="1" SHOWBASE="0" SHOWPICT="1" SHOWLINK="0" rulerMode="1" showrulers="1" showBleed="1" rulerXoffset="0" rulerYoffset="0" GuideRad="10" GRAB="4" POLYC="4" POLYF="0.5" POLYR="0" POLYIR="0" POLYCUR="0" POLYOCUR="0" POLYS="0" arcStartAngle="30" arcSweepAngle="300" spiralStartAngle="0" spiralEndAngle="1080" spiralFactor="1.2" AutoSave="1" AutoSaveTime="600000" AutoSaveCount="1" AutoSaveKeep="0" AUtoSaveInDocDir="1" AutoSaveDir="" ScratchBottom="20" ScratchLeft="100" ScratchRight="100" ScratchTop="20" GapHorizontal="0" GapVertical="40" StartArrow="0" EndArrow="0" PEN="Black" BRUSH="None" PENLINE="Black" PENTEXT="Black" StrokeText="Black" TextBackGround="None" TextLineColor="None" TextBackGroundShade="100" TextLineShade="100" TextPenShade="100" TextStrokeShade="100" STIL="1" STILLINE="1" WIDTH="1" WIDTHLINE="1" PENSHADE="100" LINESHADE="100" BRUSHSHADE="100" CPICT="None" PICTSHADE="100" CSPICT="None" PICTSSHADE="100" PICTSCX="1" PICTSCY="1" PSCALE="1" PASPECT="1" EmbeddedPath="0" HalfRes="1" dispX="10" dispY="10" constrain="15" MINORC="#00ff00" MAJORC="#00ff00" GuideC="#000080" BaseC="#c0c0c0" renderStack="2 0 4 1 3" GridType="0" PAGEC="#ffffff" MARGC="#0000ff" RANDF="0" currentProfile="PDF 1.4" calligraphicPenFillColor="Black" calligraphicPenLineColor="Black" calligraphicPenFillColorShade="100" calligraphicPenLineColorShade="100" calligraphicPenLineWidth="1" calligraphicPenAngle="0" calligraphicPenWidth="10" calligraphicPenStyle="1">
+        <CheckProfile Name="PDF 1.3" ignoreErrors="0" autoCheck="1" checkGlyphs="1" checkOrphans="1" checkOverflow="1" checkPictures="1" checkPartFilledImageFrames="0" checkResolution="1" checkTransparency="1" minResolution="144" maxResolution="2400" checkAnnotations="0" checkRasterPDF="1" checkForGIF="1" ignoreOffLayers="0" checkNotCMYKOrSpot="0" checkDeviceColorsAndOutputIntent="0" checkFontNotEmbedded="1" checkFontIsOpenType="1" checkAppliedMasterDifferentSide="1" checkEmptyTextFrames="1"/>
+        <CheckProfile Name="PDF 1.4" ignoreErrors="0" autoCheck="1" checkGlyphs="1" checkOrphans="1" checkOverflow="1" checkPictures="1" checkPartFilledImageFrames="0" checkResolution="1" checkTransparency="0" minResolution="144" maxResolution="2400" checkAnnotations="0" checkRasterPDF="1" checkForGIF="1" ignoreOffLayers="0" checkNotCMYKOrSpot="0" checkDeviceColorsAndOutputIntent="0" checkFontNotEmbedded="1" checkFontIsOpenType="1" checkAppliedMasterDifferentSide="1" checkEmptyTextFrames="1"/>
+        <CheckProfile Name="PDF 1.5" ignoreErrors="0" autoCheck="1" checkGlyphs="1" checkOrphans="1" checkOverflow="1" checkPictures="1" checkPartFilledImageFrames="0" checkResolution="1" checkTransparency="0" minResolution="144" maxResolution="2400" checkAnnotations="0" checkRasterPDF="1" checkForGIF="1" ignoreOffLayers="0" checkNotCMYKOrSpot="0" checkDeviceColorsAndOutputIntent="0" checkFontNotEmbedded="1" checkFontIsOpenType="1" checkAppliedMasterDifferentSide="1" checkEmptyTextFrames="1"/>
+        <CheckProfile Name="PDF/X-1a" ignoreErrors="0" autoCheck="1" checkGlyphs="1" checkOrphans="1" checkOverflow="1" checkPictures="1" checkPartFilledImageFrames="0" checkResolution="1" checkTransparency="1" minResolution="144" maxResolution="2400" checkAnnotations="1" checkRasterPDF="1" checkForGIF="1" ignoreOffLayers="0" checkNotCMYKOrSpot="1" checkDeviceColorsAndOutputIntent="0" checkFontNotEmbedded="1" checkFontIsOpenType="1" checkAppliedMasterDifferentSide="1" checkEmptyTextFrames="1"/>
+        <CheckProfile Name="PDF/X-3" ignoreErrors="0" autoCheck="1" checkGlyphs="1" checkOrphans="1" checkOverflow="1" checkPictures="1" checkPartFilledImageFrames="0" checkResolution="1" checkTransparency="1" minResolution="144" maxResolution="2400" checkAnnotations="1" checkRasterPDF="1" checkForGIF="1" ignoreOffLayers="0" checkNotCMYKOrSpot="0" checkDeviceColorsAndOutputIntent="1" checkFontNotEmbedded="1" checkFontIsOpenType="1" checkAppliedMasterDifferentSide="1" checkEmptyTextFrames="1"/>
+        <CheckProfile Name="PDF/X-4" ignoreErrors="0" autoCheck="1" checkGlyphs="1" checkOrphans="1" checkOverflow="1" checkPictures="1" checkPartFilledImageFrames="0" checkResolution="1" checkTransparency="0" minResolution="144" maxResolution="2400" checkAnnotations="1" checkRasterPDF="1" checkForGIF="1" ignoreOffLayers="0" checkNotCMYKOrSpot="0" checkDeviceColorsAndOutputIntent="1" checkFontNotEmbedded="1" checkFontIsOpenType="0" checkAppliedMasterDifferentSide="1" checkEmptyTextFrames="1"/>
+        <CheckProfile Name="PostScript" ignoreErrors="0" autoCheck="1" checkGlyphs="1" checkOrphans="1" checkOverflow="1" checkPictures="1" checkPartFilledImageFrames="0" checkResolution="1" checkTransparency="1" minResolution="144" maxResolution="2400" checkAnnotations="0" checkRasterPDF="1" checkForGIF="1" ignoreOffLayers="0" checkNotCMYKOrSpot="0" checkDeviceColorsAndOutputIntent="0" checkFontNotEmbedded="0" checkFontIsOpenType="0" checkAppliedMasterDifferentSide="1" checkEmptyTextFrames="1"/>
+        <COLOR NAME="Black" SPACE="CMYK" C="0" M="0" Y="0" K="100"/>
+        <COLOR NAME="Blue" SPACE="RGB" R="0" G="0" B="255"/>
+        <COLOR NAME="Cool Black" SPACE="CMYK" C="60" M="0" Y="0" K="100"/>
+        <COLOR NAME="Cyan" SPACE="CMYK" C="100" M="0" Y="0" K="0"/>
+        <COLOR NAME="Green" SPACE="RGB" R="0" G="255" B="0"/>
+        <COLOR NAME="Magenta" SPACE="CMYK" C="0" M="100" Y="0" K="0"/>
+        <COLOR NAME="Red" SPACE="RGB" R="255" G="0" B="0"/>
+        <COLOR NAME="Registration" SPACE="CMYK" C="100" M="100" Y="100" K="100" Register="1"/>
+        <COLOR NAME="Rich Black" SPACE="CMYK" C="60" M="40" Y="40" K="100"/>
+        <COLOR NAME="Warm Black" SPACE="CMYK" C="0" M="60" Y="29.8039215686275" K="100"/>
+        <COLOR NAME="White" SPACE="CMYK" C="0" M="0" Y="0" K="0"/>
+        <COLOR NAME="Yellow" SPACE="CMYK" C="0" M="0" Y="100" K="0"/>
+        <HYPHEN/>
+        <STYLE NAME="Default Paragraph Style" DefaultStyle="1" ALIGN="0" DIRECTION="0" LINESPMode="0" LINESP="15" INDENT="0" RMARGIN="0" FIRST="0" VOR="0" NACH="0" ParagraphEffectOffset="0" DROP="0" DROPLIN="2" Bullet="0" Numeration="0" HyphenConsecutiveLines="2" BCOLOR="None" BSHADE="100"/>
+        <CHARSTYLE CNAME="Default Character Style" DefaultStyle="1" FONT="Arial Regular" FONTSIZE="12" FONTFEATURES="" FEATURES="inherit" FCOLOR="Black" FSHADE="100" HyphenWordMin="3" SCOLOR="Black" BGCOLOR="None" BGSHADE="100" SSHADE="100" TXTSHX="5" TXTSHY="-5" TXTOUT="1" TXTULP="-0.1" TXTULW="-0.1" TXTSTP="-0.1" TXTSTW="-0.1" SCALEH="100" SCALEV="100" BASEO="0" KERN="0" LANGUAGE="en_US"/>
+        <TableStyle NAME="Default Table Style" DefaultStyle="1" FillColor="None" FillShade="100">
+            <TableBorderLeft>
+                <TableBorderLine Width="1" PenStyle="1" Color="Black" Shade="100"/>
+            </TableBorderLeft>
+            <TableBorderRight>
+                <TableBorderLine Width="1" PenStyle="1" Color="Black" Shade="100"/>
+            </TableBorderRight>
+            <TableBorderTop>
+                <TableBorderLine Width="1" PenStyle="1" Color="Black" Shade="100"/>
+            </TableBorderTop>
+            <TableBorderBottom>
+                <TableBorderLine Width="1" PenStyle="1" Color="Black" Shade="100"/>
+            </TableBorderBottom>
+        </TableStyle>
+        <CellStyle NAME="Default Cell Style" DefaultStyle="1" FillColor="None" FillShade="100" LeftPadding="1" RightPadding="1" TopPadding="1" BottomPadding="1">
+            <TableBorderLeft>
+                <TableBorderLine Width="1" PenStyle="1" Color="Black" Shade="100"/>
+            </TableBorderLeft>
+            <TableBorderRight>
+                <TableBorderLine Width="1" PenStyle="1" Color="Black" Shade="100"/>
+            </TableBorderRight>
+            <TableBorderTop>
+                <TableBorderLine Width="1" PenStyle="1" Color="Black" Shade="100"/>
+            </TableBorderTop>
+            <TableBorderBottom>
+                <TableBorderLine Width="1" PenStyle="1" Color="Black" Shade="100"/>
+            </TableBorderBottom>
+        </CellStyle>
+        <LAYERS NUMMER="0" LEVEL="0" NAME="Background" SICHTBAR="1" DRUCKEN="1" EDIT="1" SELECT="0" FLOW="1" TRANS="1" BLEND="0" OUTL="0" LAYERC="#000000"/>
+        <Printer firstUse="1" toFile="0" useAltPrintCommand="0" outputSeparations="0" useSpotColors="0" useColor="0" mirrorH="0" mirrorV="0" useICC="0" doGCR="0" doClip="0" setDevParam="0" useDocBleeds="0" cropMarks="0" bleedMarks="0" registrationMarks="0" colorMarks="0" includePDFMarks="0" PSLevel="0" PDLanguage="0" markLength="0" markOffset="0" BleedTop="0" BleedLeft="0" BleedRight="0" BleedBottom="0" printer="" filename="" separationName="" printerCommand=""/>
+        <PDF firstUse="0" Thumbnails="0" Articles="0" Bookmarks="0" Compress="1" CMethod="0" Quality="0" EmbedPDF="0" MirrorH="0" MirrorV="0" Clip="0" rangeSel="0" rangeTxt="" RotateDeg="0" PresentMode="0" RecalcPic="0" FontEmbedding="0" Grayscale="0" RGBMode="1" UseProfiles="0" UseProfiles2="0" Binding="0" PicRes="300" Resolution="300" Version="14" Intent="1" Intent2="0" SolidP="sRGB display profile (ICC v2.2)" ImageP="sRGB display profile (ICC v2.2)" PrintP="ISO Coated v2 300% (basICColor)" InfoString="" BTop="0" BLeft="0" BRight="0" BBottom="0" useDocBleeds="1" cropMarks="0" bleedMarks="0" registrationMarks="0" colorMarks="0" docInfoMarks="0" markLength="20.0016" markOffset="0" ImagePr="0" PassOwner="" PassUser="" Permissions="-4" Encrypt="0" UseLayers="0" UseLpi="0" UseSpotColors="1" doMultiFile="0" displayBookmarks="0" displayFullscreen="0" displayLayers="0" displayThumbs="0" hideMenuBar="0" hideToolBar="0" fitWindow="0" openAfterExport="0" PageLayout="0" openAction="">
+            <Subset Name="Arial Regular"/>
+            <Subset Name="Iosevka SS03 Bold"/>
+            <Subset Name="Iosevka SS03 Regular"/>
+            <Subset Name="Times New Roman Bold"/>
+            <Subset Name="Times New Roman Regular"/>
+            <LPI Color="" Frequency="133" Angle="45" SpotFunction="3"/>
+            <LPI Color="Black" Frequency="133" Angle="45" SpotFunction="3"/>
+            <LPI Color="Cyan" Frequency="133" Angle="105" SpotFunction="3"/>
+            <LPI Color="Magenta" Frequency="133" Angle="75" SpotFunction="3"/>
+            <LPI Color="Yellow" Frequency="133" Angle="90" SpotFunction="3"/>
+        </PDF>
+        <DocItemAttributes/>
+        <TablesOfContents/>
+        <NotesStyles>
+            <notesStyle Name="Default" Start="1" Endnotes="0" Type="Type_1_2_3" Range="0" Prefix="" Suffix=")" AutoHeight="1" AutoWidth="1" AutoRemove="1" AutoWeld="1" SuperNote="1" SuperMaster="1" MarksStyle="" NotesStyle=""/>
+        </NotesStyles>
+        <NotesFrames/>
+        <PageSets>
+            <Set Name="Single Page" FirstPage="0" Rows="1" Columns="1"/>
+            <Set Name="Facing Pages" FirstPage="1" Rows="1" Columns="2">
+                <PageNames Name="Left Page"/>
+                <PageNames Name="Right Page"/>
+            </Set>
+            <Set Name="3-Fold" FirstPage="0" Rows="1" Columns="3">
+                <PageNames Name="Left Page"/>
+                <PageNames Name="Middle"/>
+                <PageNames Name="Right Page"/>
+            </Set>
+            <Set Name="4-Fold" FirstPage="0" Rows="1" Columns="4">
+                <PageNames Name="Left Page"/>
+                <PageNames Name="Middle Left"/>
+                <PageNames Name="Middle Right"/>
+                <PageNames Name="Right Page"/>
+            </Set>
+        </PageSets>
+        <Sections>
+            <Section Number="0" Name="0" From="0" To="3" Type="Type_1_2_3" Start="1" Reversed="0" Active="1" FillChar="0" FieldWidth="0"/>
+        </Sections>
+        <MASTERPAGE PAGEXPOS="100" PAGEYPOS="20" PAGEWIDTH="595.2744" PAGEHEIGHT="841.8888" BORDERLEFT="40" BORDERRIGHT="40" BORDERTOP="40" BORDERBOTTOM="40" NUM="0" NAM="Normal" MNAM="" Size="Custom" Orientation="0" LEFT="0" PRESET="0" VerticalGuides="" HorizontalGuides="" AGhorizontalAutoGap="0" AGverticalAutoGap="0" AGhorizontalAutoCount="0" AGverticalAutoCount="0" AGhorizontalAutoRefer="0" AGverticalAutoRefer="0" AGSelection="0 0 0 0" pageEffectDuration="1" pageViewDuration="1" effectType="0" Dm="0" M="0" Di="0"/>
+        <PAGE PAGEXPOS="100" PAGEYPOS="20" PAGEWIDTH="595.2744" PAGEHEIGHT="841.8888" BORDERLEFT="43.2" BORDERRIGHT="43.2" BORDERTOP="40" BORDERBOTTOM="40" NUM="0" NAM="" MNAM="Normal" Size="Custom" Orientation="0" LEFT="0" PRESET="0" VerticalGuides="551.75 42.5 " HorizontalGuides="" AGhorizontalAutoGap="0" AGverticalAutoGap="0" AGhorizontalAutoCount="0" AGverticalAutoCount="0" AGhorizontalAutoRefer="0" AGverticalAutoRefer="0" AGSelection="0 0 0 0" pageEffectDuration="1" pageViewDuration="1" effectType="0" Dm="0" M="0" Di="0"/>
+        <PAGE PAGEXPOS="100" PAGEYPOS="901.8888" PAGEWIDTH="595.2744" PAGEHEIGHT="841.8888" BORDERLEFT="40" BORDERRIGHT="40" BORDERTOP="40" BORDERBOTTOM="40" NUM="1" NAM="" MNAM="Normal" Size="Custom" Orientation="0" LEFT="0" PRESET="0" VerticalGuides="" HorizontalGuides="" AGhorizontalAutoGap="0" AGverticalAutoGap="0" AGhorizontalAutoCount="0" AGverticalAutoCount="0" AGhorizontalAutoRefer="0" AGverticalAutoRefer="0" AGSelection="0 0 0 0" pageEffectDuration="1" pageViewDuration="1" effectType="0" Dm="0" M="0" Di="0"/>
+        <PAGE PAGEXPOS="100" PAGEYPOS="1783.7776" PAGEWIDTH="595.2744" PAGEHEIGHT="841.8888" BORDERLEFT="40" BORDERRIGHT="40" BORDERTOP="40" BORDERBOTTOM="40" NUM="2" NAM="" MNAM="Normal" Size="Custom" Orientation="0" LEFT="0" PRESET="0" VerticalGuides="" HorizontalGuides="" AGhorizontalAutoGap="0" AGverticalAutoGap="0" AGhorizontalAutoCount="0" AGverticalAutoCount="0" AGhorizontalAutoRefer="0" AGverticalAutoRefer="0" AGSelection="0 0 0 0" pageEffectDuration="1" pageViewDuration="1" effectType="0" Dm="0" M="0" Di="0"/>
+        <PAGE PAGEXPOS="100" PAGEYPOS="2665.6664" PAGEWIDTH="595.2744" PAGEHEIGHT="841.8888" BORDERLEFT="40" BORDERRIGHT="40" BORDERTOP="40" BORDERBOTTOM="40" NUM="3" NAM="" MNAM="Normal" Size="Custom" Orientation="0" LEFT="0" PRESET="0" VerticalGuides="" HorizontalGuides="" AGhorizontalAutoGap="0" AGverticalAutoGap="0" AGhorizontalAutoCount="0" AGverticalAutoCount="0" AGhorizontalAutoRefer="0" AGverticalAutoRefer="0" AGSelection="0 0 0 0" pageEffectDuration="1" pageViewDuration="1" effectType="0" Dm="0" M="0" Di="0"/>
+        <PAGEOBJECT XPOS="143.2" YPOS="60" OwnPage="0" ItemID="1938341209" PTYPE="4" WIDTH="508.8744" HEIGHT="60" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L508.874 0 L508.874 60 L0 60 L0 0 Z" copath="M0 0 L508.874 0 L508.874 60 L0 60 L0 0 Z" gXpos="143.2" gYpos="60" gWidth="0" gHeight="0" ALIGN="1" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
+            <StoryText>
+                <DefaultStyle ALIGN="1" LINESPMode="1" FONT="Times New Roman Regular" FONTSIZE="12"/>
+                <ITEXT FONT="Times New Roman Regular" FONTSIZE="12" CH="Федеральное государственное бюджетное образовательное учреждение высшего образования"/>
+                <para ALIGN="1" LINESPMode="1"/>
+                <ITEXT FONT="Times New Roman Regular" FONTSIZE="12" CH="«Саратовский государственный технический университет имени Гагарина Ю. А.»"/>
+                <trail ALIGN="1" LINESPMode="1"/>
+            </StoryText>
+        </PAGEOBJECT>
+        <PAGEOBJECT XPOS="143.2" YPOS="160" OwnPage="0" ItemID="1917049817" PTYPE="4" WIDTH="508.8744" HEIGHT="40" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L508.874 0 L508.874 40 L0 40 L0 0 Z" copath="M0 0 L508.874 0 L508.874 40 L0 40 L0 0 Z" gXpos="143.2" gYpos="160" gWidth="0" gHeight="0" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
+            <StoryText>
+                <DefaultStyle LINESPMode="1" FONTSIZE="14"/>
+                <ITEXT FONT="Times New Roman Regular" FONTSIZE="14" CH="Кафедра"/>
+                <para ALIGN="1" LINESPMode="1"/>
+                <ITEXT FONT="Times New Roman Regular" FONTSIZE="14" CH="«Прикладные информационные технологии»"/>
+                <trail ALIGN="1" LINESPMode="1"/>
+            </StoryText>
+        </PAGEOBJECT>
+        <PAGEOBJECT XPOS="140" YPOS="420" OwnPage="0" ItemID="1926193241" PTYPE="4" WIDTH="520" HEIGHT="100" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L520 0 L520 100 L0 100 L0 0 Z" copath="M0 0 L520 0 L520 100 L0 100 L0 0 Z" gXpos="140" gYpos="420" gWidth="0" gHeight="0" ALIGN="1" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
+            <StoryText>
+                <DefaultStyle ALIGN="1" LINESPMode="1" FONT="Times New Roman Bold" FONTSIZE="16"/>
+                <ITEXT FONT="Times New Roman Bold" FONTSIZE="14" CH="ОТЧЕТ"/>
+                <para ALIGN="1" LINESPMode="1"/>
+                <ITEXT FONT="Times New Roman Bold" FONTSIZE="14" CH="по лабораторной работе №"/>
+                <ITEXT CH="3"/>
+                <para LINESPMode="1"/>
+                <ITEXT FONT="Times New Roman Bold" FONTSIZE="14" CH="«АНАЛИЗ ФУНКЦИОНИРОВАНИЯ ЛОГИЧЕСКИХ ЭЛЕМЕНТОВ»"/>
+                <trail LINESPMode="1"/>
+            </StoryText>
+        </PAGEOBJECT>
+        <PAGEOBJECT XPOS="143.2" YPOS="560" OwnPage="0" ItemID="1914794297" PTYPE="4" WIDTH="508.8744" HEIGHT="60" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L508.874 0 L508.874 60 L0 60 L0 0 Z" copath="M0 0 L508.874 0 L508.874 60 L0 60 L0 0 Z" gXpos="143.2" gYpos="560" gWidth="0" gHeight="0" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
+            <StoryText>
+                <DefaultStyle LINESPMode="1" FONT="Times New Roman Regular" FONTSIZE="12"/>
+                <ITEXT FONTSIZE="12" CH="Студента группы б2-ПИНФ21  "/>
+                <para ALIGN="2" LINESPMode="1"/>
+                <ITEXT FONTSIZE="12" CH="Нефедова Д. В. "/>
+                <trail ALIGN="2" LINESPMode="1"/>
+            </StoryText>
+        </PAGEOBJECT>
+        <PAGEOBJECT XPOS="143.2" YPOS="800" OwnPage="0" ItemID="1955421097" PTYPE="4" WIDTH="508.8744" HEIGHT="21.8888000000001" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="1" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L508.874 0 L508.874 21.8888 L0 21.8888 L0 0 Z" copath="M0 0 L508.874 0 L508.874 21.8888 L0 21.8888 L0 0 Z" gXpos="143.2" gYpos="800" gWidth="0" gHeight="0" ALIGN="1" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
+            <StoryText>
+                <DefaultStyle ALIGN="1" LINESPMode="1" FONT="Times New Roman Regular" FONTSIZE="13"/>
+                <ITEXT FONT="Times New Roman Regular" FONTSIZE="13" CH="Саратов, 2020"/>
+                <trail ALIGN="1" LINESPMode="1"/>
+            </StoryText>
+        </PAGEOBJECT>
+        <PAGEOBJECT XPOS="165.7972" YPOS="981.8888" OwnPage="1" ItemID="1958398521" PTYPE="2" WIDTH="463.68" HEIGHT="252" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="0.358330757341576" LOCALSCY="0.358330757341576" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="0" RATIO="1" Pagenumber="0" PFILE="" isInlineImage="1" inlineImageExt="png" ImageData="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" IRENDER="0" EMBEDDED="0" path="M0 0 L463.68 0 L463.68 252 L0 252 L0 0 Z" copath="M0 0 L463.68 0 L463.68 252 L0 252 L0 0 Z" gXpos="165.7972" gYpos="981.8888" gWidth="0" gHeight="0" LAYER="0" NEXTITEM="-1" BACKITEM="-1"/>
+        <PAGEOBJECT XPOS="140" YPOS="1233.8888" OwnPage="1" ItemID="1946261641" PTYPE="4" WIDTH="515.2744" HEIGHT="20" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="1" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L515.274 0 L515.274 20 L0 20 L0 0 Z" copath="M0 0 L515.274 0 L515.274 20 L0 20 L0 0 Z" gXpos="140" gYpos="1233.8888" gWidth="0" gHeight="0" ALIGN="1" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
+            <StoryText>
+                <DefaultStyle ALIGN="1" ParagraphEffectOffset="0" ParagraphEffectIndent="0" DROP="0" DROPLIN="2" Bullet="0" BulletStr="•" Numeration="0" NumerationFormat="0" NumerationName="&lt;local block&gt;" NumerationLevel="0" NumerationPrefix="" NumerationSuffix="." NumerationStart="1" NumerationHigher="1"/>
+                <ITEXT FONT="Times New Roman Regular" FONTSIZE="11" CH="Рисунок 1. Функциональная и релейно-контактная схемы логической функции И-НЕ."/>
+                <trail ALIGN="1" LINESPMode="1" ParagraphEffectOffset="0" ParagraphEffectIndent="0" DROP="0" DROPLIN="2" Bullet="0" BulletStr="•" Numeration="0" NumerationFormat="0" NumerationName="&lt;local block&gt;" NumerationLevel="0" NumerationPrefix="" NumerationSuffix="." NumerationStart="1" NumerationHigher="1"/>
+            </StoryText>
+        </PAGEOBJECT>
+        <PAGEOBJECT XPOS="307.3872" YPOS="1279.8888" OwnPage="1" ItemID="1937810361" PTYPE="16" WIDTH="180.5" HEIGHT="100.5" FRTYPE="0" CLIPEDIT="0" PWIDTH="0" PLINEART="1" Rows="5" Columns="3" RowPositions="0 19.5 39.5 59.5 79.5" RowHeights="19.5 20 20 20 20" ColumnPositions="0 59.5 119.5" ColumnWidths="59.5 60 60" CellAreas="" TableStyle="" path="M0 0 L180.5 0 L180.5 100.5 L0 100.5 L0 0 Z" copath="M0 0 L180.5 0 L180.5 100.5 L0 100.5 L0 0 Z" gXpos="307.3872" gYpos="1279.8888" gWidth="0" gHeight="0" LAYER="0">
+            <TableData Style="" FillColor="None" FillShade="100">
+                <TableBorderLeft>
+                    <TableBorderLine Width="1" PenStyle="1" Color="Black" Shade="100"/>
+                </TableBorderLeft>
+                <TableBorderRight>
+                    <TableBorderLine Width="1" PenStyle="1" Color="Black" Shade="100"/>
+                </TableBorderRight>
+                <TableBorderTop>
+                    <TableBorderLine Width="1" PenStyle="1" Color="Black" Shade="100"/>
+                </TableBorderTop>
+                <TableBorderBottom>
+                    <TableBorderLine Width="1" PenStyle="1" Color="Black" Shade="100"/>
+                </TableBorderBottom>
+                <Cell Row="0" Column="0" Style="" TextColumns="1" TextColGap="0" TextDistLeft="0" TextDistTop="0" TextDistBottom="0" TextDistRight="0" TextVertAlign="1" Flop="0" FillColor="None" FillShade="100" LeftPadding="1" RightPadding="1" TopPadding="1" BottomPadding="1">
+                    <TableBorderLeft Width="0.3">
+                        <TableBorderLine Width="0.3" PenStyle="1" Color="Black" Shade="100"/>
+                    </TableBorderLeft>
+                    <TableBorderRight Width="0.3">
+                        <TableBorderLine Width="0.3" PenStyle="1" Color="Black" Shade="100"/>
+                    </TableBorderRight>
+                    <TableBorderTop Width="0.3">
+                        <TableBorderLine Width="0.3" PenStyle="1" Color="Black" Shade="100"/>
+                    </TableBorderTop>
+                    <TableBorderBottom Width="0.3">
+                        <TableBorderLine Width="0.3" PenStyle="1" Color="Black" Shade="100"/>
+                    </TableBorderBottom>
+                    <StoryText>
+                        <DefaultStyle/>
+                        <ITEXT FONT="Iosevka SS03 Bold" FONTSIZE="11" CH="I1"/>
+                        <trail ALIGN="1"/>
+                    </StoryText>
+                </Cell>
+                <Cell Row="0" Column="1" Style="" TextColumns="1" TextColGap="0" TextDistLeft="0" TextDistTop="0" TextDistBottom="0" TextDistRight="0" TextVertAlign="1" Flop="0" FillColor="None" FillShade="100" LeftPadding="1" RightPadding="1" TopPadding="1" BottomPadding="1">
+                    <TableBorderLeft Width="1">
+                        <TableBorderLine Width="1" PenStyle="1" Color="Black" Shade="100"/>
+                    </TableBorderLeft>
+                    <TableBorderRight Width="1">
+                        <TableBorderLine Width="1" PenStyle="1" Color="Black" Shade="100"/>
+                    </TableBorderRight>
+                    <TableBorderTop Width="1">
+                        <TableBorderLine Width="1" PenStyle="1" Color="Black" Shade="100"/>
+                    </TableBorderTop>
+                    <TableBorderBottom Width="1">
+                        <TableBorderLine Width="1" PenStyle="1" Color="Black" Shade="100"/>
+                    </TableBorderBottom>
+                    <StoryText>
+                        <DefaultStyle/>
+                        <ITEXT FONT="Iosevka SS03 Bold" FONTSIZE="11" CH="I2"/>
+                        <trail ALIGN="1"/>
+                    </StoryText>
+                </Cell>
+                <Cell Row="0" Column="2" Style="" TextColumns="1" TextColGap="0" TextDistLeft="0" TextDistTop="0" TextDistBottom="0" TextDistRight="0" TextVertAlign="1" Flop="0" FillColor="None" FillShade="100" LeftPadding="1" RightPadding="1" TopPadding="1" BottomPadding="1">
+                    <TableBorderLeft Width="1">
+                        <TableBorderLine Width="1" PenStyle="1" Color="Black" Shade="100"/>
+                    </TableBorderLeft>
+                    <TableBorderRight Width="1">
+                        <TableBorderLine Width="1" PenStyle="1" Color="Black" Shade="100"/>
+                    </TableBorderRight>
+                    <TableBorderTop Width="1">
+                        <TableBorderLine Width="1" PenStyle="1" Color="Black" Shade="100"/>
+                    </TableBorderTop>
+                    <TableBorderBottom Width="1">
+                        <TableBorderLine Width="1" PenStyle="1" Color="Black" Shade="100"/>
+                    </TableBorderBottom>
+                    <StoryText>
+                        <DefaultStyle/>
+                        <ITEXT FONT="Iosevka SS03 Bold" FONTSIZE="11" CH="Q1"/>
+                        <trail ALIGN="1" LINESPMode="1"/>
+                    </StoryText>
+                </Cell>
+                <Cell Row="1" Column="0" Style="" TextColumns="1" TextColGap="0" TextDistLeft="0" TextDistTop="0" TextDistBottom="0" TextDistRight="0" TextVertAlign="1" Flop="0" FillColor="None" FillShade="100" LeftPadding="1" RightPadding="1" TopPadding="1" BottomPadding="1">
+                    <TableBorderLeft Width="1">
+                        <TableBorderLine Width="1" PenStyle="1" Color="Black" Shade="100"/>
+                    </TableBorderLeft>
+                    <TableBorderRight Width="1">
+                        <TableBorderLine Width="1" PenStyle="1" Color="Black" Shade="100"/>
+                    </TableBorderRight>
+                    <TableBorderTop Width="1">
+                        <TableBorderLine Width="1" PenStyle="1" Color="Black" Shade="100"/>
+                    </TableBorderTop>
+                    <TableBorderBottom Width="1">
+                        <TableBorderLine Width="1" PenStyle="1" Color="Black" Shade="100"/>
+                    </TableBorderBottom>
+                    <StoryText>
+                        <DefaultStyle/>
+                        <ITEXT FONT="Iosevka SS03 Regular" FONTSIZE="11" CH="0"/>
+                        <trail ALIGN="1"/>
+                    </StoryText>
+                </Cell>
+                <Cell Row="1" Column="1" Style="" TextColumns="1" TextColGap="0" TextDistLeft="0" TextDistTop="0" TextDistBottom="0" TextDistRight="0" TextVertAlign="1" Flop="0" FillColor="None" FillShade="100" LeftPadding="1" RightPadding="1" TopPadding="1" BottomPadding="1">
+                    <TableBorderLeft Width="1">
+                        <TableBorderLine Width="1" PenStyle="1" Color="Black" Shade="100"/>
+                    </TableBorderLeft>
+                    <TableBorderRight Width="1">
+                        <TableBorderLine Width="1" PenStyle="1" Color="Black" Shade="100"/>
+                    </TableBorderRight>
+                    <TableBorderTop Width="1">
+                        <TableBorderLine Width="1" PenStyle="1" Color="Black" Shade="100"/>
+                    </TableBorderTop>
+                    <TableBorderBottom Width="1">
+                        <TableBorderLine Width="1" PenStyle="1" Color="Black" Shade="100"/>
+                    </TableBorderBottom>
+                    <StoryText>
+                        <DefaultStyle/>
+                        <ITEXT FONT="Iosevka SS03 Regular" FONTSIZE="11" CH="0"/>
+                        <trail ALIGN="1"/>
+                    </StoryText>
+                </Cell>
+                <Cell Row="1" Column="2" Style="" TextColumns="1" TextColGap="0" TextDistLeft="0" TextDistTop="0" TextDistBottom="0" TextDistRight="0" TextVertAlign="1" Flop="0" FillColor="None" FillShade="100" LeftPadding="1" RightPadding="1" TopPadding="1" BottomPadding="1">
+                    <TableBorderLeft Width="1">
+                        <TableBorderLine Width="1" PenStyle="1" Color="Black" Shade="100"/>
+                    </TableBorderLeft>
+                    <TableBorderRight Width="1">
+                        <TableBorderLine Width="1" PenStyle="1" Color="Black" Shade="100"/>
+                    </TableBorderRight>
+                    <TableBorderTop Width="1">
+                        <TableBorderLine Width="1" PenStyle="1" Color="Black" Shade="100"/>
+                    </TableBorderTop>
+                    <TableBorderBottom Width="1">
+                        <TableBorderLine Width="1" PenStyle="1" Color="Black" Shade="100"/>
+                    </TableBorderBottom>
+                    <StoryText>
+                        <DefaultStyle/>
+                        <ITEXT FONT="Iosevka SS03 Regular" FONTSIZE="11" CH="1"/>
+                        <trail ALIGN="1"/>
+                    </StoryText>
+                </Cell>
+                <Cell Row="2" Column="0" Style="" TextColumns="1" TextColGap="0" TextDistLeft="0" TextDistTop="0" TextDistBottom="0" TextDistRight="0" TextVertAlign="1" Flop="0" FillColor="None" FillShade="100" LeftPadding="1" RightPadding="1" TopPadding="1" BottomPadding="1">
+                    <TableBorderLeft Width="1">
+                        <TableBorderLine Width="1" PenStyle="1" Color="Black" Shade="100"/>
+                    </TableBorderLeft>
+                    <TableBorderRight Width="1">
+                        <TableBorderLine Width="1" PenStyle="1" Color="Black" Shade="100"/>
+                    </TableBorderRight>
+                    <TableBorderTop Width="1">
+                        <TableBorderLine Width="1" PenStyle="1" Color="Black" Shade="100"/>
+                    </TableBorderTop>
+                    <TableBorderBottom Width="1">
+                        <TableBorderLine Width="1" PenStyle="1" Color="Black" Shade="100"/>
+                    </TableBorderBottom>
+                    <StoryText>
+                        <DefaultStyle/>
+                        <ITEXT FONT="Iosevka SS03 Regular" FONTSIZE="11" CH="0"/>
+                        <trail ALIGN="1"/>
+                    </StoryText>
+                </Cell>
+                <Cell Row="2" Column="1" Style="" TextColumns="1" TextColGap="0" TextDistLeft="0" TextDistTop="0" TextDistBottom="0" TextDistRight="0" TextVertAlign="1" Flop="0" FillColor="None" FillShade="100" LeftPadding="1" RightPadding="1" TopPadding="1" BottomPadding="1">
+                    <TableBorderLeft Width="1">
+                        <TableBorderLine Width="1" PenStyle="1" Color="Black" Shade="100"/>
+                    </TableBorderLeft>
+                    <TableBorderRight Width="1">
+                        <TableBorderLine Width="1" PenStyle="1" Color="Black" Shade="100"/>
+                    </TableBorderRight>
+                    <TableBorderTop Width="1">
+                        <TableBorderLine Width="1" PenStyle="1" Color="Black" Shade="100"/>
+                    </TableBorderTop>
+                    <TableBorderBottom Width="1">
+                        <TableBorderLine Width="1" PenStyle="1" Color="Black" Shade="100"/>
+                    </TableBorderBottom>
+                    <StoryText>
+                        <DefaultStyle/>
+                        <ITEXT FONT="Iosevka SS03 Regular" CH="1"/>
+                        <trail ALIGN="1"/>
+                    </StoryText>
+                </Cell>
+                <Cell Row="2" Column="2" Style="" TextColumns="1" TextColGap="0" TextDistLeft="0" TextDistTop="0" TextDistBottom="0" TextDistRight="0" TextVertAlign="1" Flop="0" FillColor="None" FillShade="100" LeftPadding="1" RightPadding="1" TopPadding="1" BottomPadding="1">
+                    <TableBorderLeft Width="1">
+                        <TableBorderLine Width="1" PenStyle="1" Color="Black" Shade="100"/>
+                    </TableBorderLeft>
+                    <TableBorderRight Width="1">
+                        <TableBorderLine Width="1" PenStyle="1" Color="Black" Shade="100"/>
+                    </TableBorderRight>
+                    <TableBorderTop Width="1">
+                        <TableBorderLine Width="1" PenStyle="1" Color="Black" Shade="100"/>
+                    </TableBorderTop>
+                    <TableBorderBottom Width="1">
+                        <TableBorderLine Width="1" PenStyle="1" Color="Black" Shade="100"/>
+                    </TableBorderBottom>
+                    <StoryText>
+                        <DefaultStyle/>
+                        <ITEXT FONT="Iosevka SS03 Regular" FONTSIZE="11" CH="1"/>
+                        <trail ALIGN="1"/>
+                    </StoryText>
+                </Cell>
+                <Cell Row="3" Column="0" Style="" TextColumns="1" TextColGap="0" TextDistLeft="0" TextDistTop="0" TextDistBottom="0" TextDistRight="0" TextVertAlign="1" Flop="0" FillColor="None" FillShade="100" LeftPadding="1" RightPadding="1" TopPadding="1" BottomPadding="1">
+                    <TableBorderLeft Width="1">
+                        <TableBorderLine Width="1" PenStyle="1" Color="Black" Shade="100"/>
+                    </TableBorderLeft>
+                    <TableBorderRight Width="1">
+                        <TableBorderLine Width="1" PenStyle="1" Color="Black" Shade="100"/>
+                    </TableBorderRight>
+                    <TableBorderTop Width="1">
+                        <TableBorderLine Width="1" PenStyle="1" Color="Black" Shade="100"/>
+                    </TableBorderTop>
+                    <TableBorderBottom Width="1">
+                        <TableBorderLine Width="1" PenStyle="1" Color="Black" Shade="100"/>
+                    </TableBorderBottom>
+                    <StoryText>
+                        <DefaultStyle/>
+                        <ITEXT FONT="Iosevka SS03 Regular" FONTSIZE="11" CH="1"/>
+                        <trail ALIGN="1"/>
+                    </StoryText>
+                </Cell>
+                <Cell Row="3" Column="1" Style="" TextColumns="1" TextColGap="0" TextDistLeft="0" TextDistTop="0" TextDistBottom="0" TextDistRight="0" TextVertAlign="1" Flop="0" FillColor="None" FillShade="100" LeftPadding="1" RightPadding="1" TopPadding="1" BottomPadding="1">
+                    <TableBorderLeft Width="1">
+                        <TableBorderLine Width="1" PenStyle="1" Color="Black" Shade="100"/>
+                    </TableBorderLeft>
+                    <TableBorderRight Width="1">
+                        <TableBorderLine Width="1" PenStyle="1" Color="Black" Shade="100"/>
+                    </TableBorderRight>
+                    <TableBorderTop Width="1">
+                        <TableBorderLine Width="1" PenStyle="1" Color="Black" Shade="100"/>
+                    </TableBorderTop>
+                    <TableBorderBottom Width="1">
+                        <TableBorderLine Width="1" PenStyle="1" Color="Black" Shade="100"/>
+                    </TableBorderBottom>
+                    <StoryText>
+                        <DefaultStyle/>
+                        <ITEXT FONT="Iosevka SS03 Regular" FONTSIZE="11" CH="0"/>
+                        <trail ALIGN="1"/>
+                    </StoryText>
+                </Cell>
+                <Cell Row="3" Column="2" Style="" TextColumns="1" TextColGap="0" TextDistLeft="0" TextDistTop="0" TextDistBottom="0" TextDistRight="0" TextVertAlign="1" Flop="0" FillColor="None" FillShade="100" LeftPadding="1" RightPadding="1" TopPadding="1" BottomPadding="1">
+                    <TableBorderLeft Width="1">
+                        <TableBorderLine Width="1" PenStyle="1" Color="Black" Shade="100"/>
+                    </TableBorderLeft>
+                    <TableBorderRight Width="1">
+                        <TableBorderLine Width="1" PenStyle="1" Color="Black" Shade="100"/>
+                    </TableBorderRight>
+                    <TableBorderTop Width="1">
+                        <TableBorderLine Width="1" PenStyle="1" Color="Black" Shade="100"/>
+                    </TableBorderTop>
+                    <TableBorderBottom Width="1">
+                        <TableBorderLine Width="1" PenStyle="1" Color="Black" Shade="100"/>
+                    </TableBorderBottom>
+                    <StoryText>
+                        <DefaultStyle/>
+                        <ITEXT FONT="Iosevka SS03 Regular" FONTSIZE="11" CH="1"/>
+                        <trail ALIGN="1"/>
+                    </StoryText>
+                </Cell>
+                <Cell Row="4" Column="0" Style="" TextColumns="1" TextColGap="0" TextDistLeft="0" TextDistTop="0" TextDistBottom="0" TextDistRight="0" TextVertAlign="1" Flop="0" FillColor="None" FillShade="100" LeftPadding="1" RightPadding="1" TopPadding="1" BottomPadding="1">
+                    <TableBorderLeft Width="1">
+                        <TableBorderLine Width="1" PenStyle="1" Color="Black" Shade="100"/>
+                    </TableBorderLeft>
+                    <TableBorderRight Width="1">
+                        <TableBorderLine Width="1" PenStyle="1" Color="Black" Shade="100"/>
+                    </TableBorderRight>
+                    <TableBorderTop Width="1">
+                        <TableBorderLine Width="1" PenStyle="1" Color="Black" Shade="100"/>
+                    </TableBorderTop>
+                    <TableBorderBottom Width="1">
+                        <TableBorderLine Width="1" PenStyle="1" Color="Black" Shade="100"/>
+                    </TableBorderBottom>
+                    <StoryText>
+                        <DefaultStyle/>
+                        <ITEXT FONT="Iosevka SS03 Regular" FONTSIZE="11" CH="1"/>
+                        <trail ALIGN="1"/>
+                    </StoryText>
+                </Cell>
+                <Cell Row="4" Column="1" Style="" TextColumns="1" TextColGap="0" TextDistLeft="0" TextDistTop="0" TextDistBottom="0" TextDistRight="0" TextVertAlign="1" Flop="0" FillColor="None" FillShade="100" LeftPadding="1" RightPadding="1" TopPadding="1" BottomPadding="1">
+                    <TableBorderLeft Width="1">
+                        <TableBorderLine Width="1" PenStyle="1" Color="Black" Shade="100"/>
+                    </TableBorderLeft>
+                    <TableBorderRight Width="1">
+                        <TableBorderLine Width="1" PenStyle="1" Color="Black" Shade="100"/>
+                    </TableBorderRight>
+                    <TableBorderTop Width="1">
+                        <TableBorderLine Width="1" PenStyle="1" Color="Black" Shade="100"/>
+                    </TableBorderTop>
+                    <TableBorderBottom Width="1">
+                        <TableBorderLine Width="1" PenStyle="1" Color="Black" Shade="100"/>
+                    </TableBorderBottom>
+                    <StoryText>
+                        <DefaultStyle/>
+                        <ITEXT FONT="Iosevka SS03 Regular" FONTSIZE="11" CH="1"/>
+                        <trail ALIGN="1"/>
+                    </StoryText>
+                </Cell>
+                <Cell Row="4" Column="2" Style="" TextColumns="1" TextColGap="0" TextDistLeft="0" TextDistTop="0" TextDistBottom="0" TextDistRight="0" TextVertAlign="1" Flop="0" FillColor="None" FillShade="100" LeftPadding="1" RightPadding="1" TopPadding="1" BottomPadding="1">
+                    <TableBorderLeft Width="1">
+                        <TableBorderLine Width="1" PenStyle="1" Color="Black" Shade="100"/>
+                    </TableBorderLeft>
+                    <TableBorderRight Width="1">
+                        <TableBorderLine Width="1" PenStyle="1" Color="Black" Shade="100"/>
+                    </TableBorderRight>
+                    <TableBorderTop Width="1">
+                        <TableBorderLine Width="1" PenStyle="1" Color="Black" Shade="100"/>
+                    </TableBorderTop>
+                    <TableBorderBottom Width="1">
+                        <TableBorderLine Width="1" PenStyle="1" Color="Black" Shade="100"/>
+                    </TableBorderBottom>
+                    <StoryText>
+                        <DefaultStyle/>
+                        <ITEXT FONT="Iosevka SS03 Regular" FONTSIZE="11" CH="0"/>
+                        <trail ALIGN="1"/>
+                    </StoryText>
+                </Cell>
+            </TableData>
+        </PAGEOBJECT>
+        <PAGEOBJECT XPOS="140" YPOS="1383.8888" OwnPage="1" ItemID="1912554985" PTYPE="4" WIDTH="515.2744" HEIGHT="20" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="1" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L515.274 0 L515.274 20 L0 20 L0 0 Z" copath="M0 0 L515.274 0 L515.274 20 L0 20 L0 0 Z" gXpos="140" gYpos="1383.8888" gWidth="0" gHeight="0" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
+            <StoryText>
+                <DefaultStyle/>
+                <ITEXT FONT="Times New Roman Regular" FONTSIZE="11" CH="Таблица 1. Таблица истинности логической функции И-НЕ."/>
+                <trail ALIGN="1"/>
+            </StoryText>
+        </PAGEOBJECT>
+        <PAGEOBJECT XPOS="140" YPOS="941.8888" OwnPage="1" ItemID="1937500313" PTYPE="4" WIDTH="515.2744" HEIGHT="20" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="1" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L515.274 0 L515.274 20 L0 20 L0 0 Z" copath="M0 0 L515.274 0 L515.274 20 L0 20 L0 0 Z" gXpos="140" gYpos="941.8888" gWidth="0" gHeight="0" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
+            <StoryText>
+                <DefaultStyle/>
+                <ITEXT FONT="Times New Roman Bold" FONTSIZE="16" CH="1. Логическая функция И-НЕ"/>
+                <trail/>
+            </StoryText>
+        </PAGEOBJECT>
+        <PAGEOBJECT XPOS="165.7972" YPOS="2745.6664" OwnPage="3" ItemID="1917774201" PTYPE="2" WIDTH="463.68" HEIGHT="252" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="0.358330757341576" LOCALSCY="0.358330757341576" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="0" RATIO="1" Pagenumber="0" PFILE="" isInlineImage="1" inlineImageExt="png" ImageData="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" IRENDER="0" EMBEDDED="0" path="M0 0 L463.68 0 L463.68 252 L0 252 L0 0 Z" copath="M0 0 L463.68 0 L463.68 252 L0 252 L0 0 Z" gXpos="165.7972" gYpos="1863.7776" gWidth="0" gHeight="0" LAYER="0" NEXTITEM="-1" BACKITEM="-1"/>
+        <PAGEOBJECT XPOS="167" YPOS="2997.6664" OwnPage="3" ItemID="1913933673" PTYPE="4" WIDTH="457.5" HEIGHT="34.2224000000001" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="1" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L457.5 0 L457.5 34.2224 L0 34.2224 L0 0 Z" copath="M0 0 L457.5 0 L457.5 34.2224 L0 34.2224 L0 0 Z" gXpos="167" gYpos="2115.7776" gWidth="0" gHeight="0" ALIGN="1" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
+            <StoryText>
+                <DefaultStyle ALIGN="1" ParagraphEffectOffset="0" ParagraphEffectIndent="0" DROP="0" DROPLIN="2" Bullet="0" BulletStr="•" Numeration="0" NumerationFormat="0" NumerationName="&lt;local block&gt;" NumerationLevel="0" NumerationPrefix="" NumerationSuffix="." NumerationStart="1" NumerationHigher="1"/>
+                <ITEXT FONT="Times New Roman Regular" FONTSIZE="11" CH="Рисунок 3. Функциональная и релейно-контактная схемы логической функции ИСКЛЮЧАЮЩЕЕ ИЛИ."/>
+                <trail ALIGN="1" LINESPMode="1" ParagraphEffectOffset="0" ParagraphEffectIndent="0" DROP="0" DROPLIN="2" Bullet="0" BulletStr="•" Numeration="0" NumerationFormat="0" NumerationName="&lt;local block&gt;" NumerationLevel="0" NumerationPrefix="" NumerationSuffix="." NumerationStart="1" NumerationHigher="1"/>
+            </StoryText>
+        </PAGEOBJECT>
+        <PAGEOBJECT XPOS="307.3872" YPOS="3043.6664" OwnPage="3" ItemID="1930773897" PTYPE="16" WIDTH="180.5" HEIGHT="100.5" FRTYPE="0" CLIPEDIT="0" PWIDTH="0" PLINEART="1" Rows="5" Columns="3" RowPositions="0 19.5 39.5 59.5 79.5" RowHeights="19.5 20 20 20 20" ColumnPositions="0 59.5 119.5" ColumnWidths="59.5 60 60" CellAreas="" TableStyle="" path="M0 0 L180.5 0 L180.5 100.5 L0 100.5 L0 0 Z" copath="M0 0 L180.5 0 L180.5 100.5 L0 100.5 L0 0 Z" gXpos="307.3872" gYpos="2161.7776" gWidth="0" gHeight="0" LAYER="0">
+            <TableData Style="" FillColor="None" FillShade="100">
+                <TableBorderLeft>
+                    <TableBorderLine Width="1" PenStyle="1" Color="Black" Shade="100"/>
+                </TableBorderLeft>
+                <TableBorderRight>
+                    <TableBorderLine Width="1" PenStyle="1" Color="Black" Shade="100"/>
+                </TableBorderRight>
+                <TableBorderTop>
+                    <TableBorderLine Width="1" PenStyle="1" Color="Black" Shade="100"/>
+                </TableBorderTop>
+                <TableBorderBottom>
+                    <TableBorderLine Width="1" PenStyle="1" Color="Black" Shade="100"/>
+                </TableBorderBottom>
+                <Cell Row="0" Column="0" Style="" TextColumns="1" TextColGap="0" TextDistLeft="0" TextDistTop="0" TextDistBottom="0" TextDistRight="0" TextVertAlign="1" Flop="0" FillColor="None" FillShade="100" LeftPadding="1" RightPadding="1" TopPadding="1" BottomPadding="1">
+                    <TableBorderLeft Width="0.3">
+                        <TableBorderLine Width="0.3" PenStyle="1" Color="Black" Shade="100"/>
+                    </TableBorderLeft>
+                    <TableBorderRight Width="0.3">
+                        <TableBorderLine Width="0.3" PenStyle="1" Color="Black" Shade="100"/>
+                    </TableBorderRight>
+                    <TableBorderTop Width="0.3">
+                        <TableBorderLine Width="0.3" PenStyle="1" Color="Black" Shade="100"/>
+                    </TableBorderTop>
+                    <TableBorderBottom Width="0.3">
+                        <TableBorderLine Width="0.3" PenStyle="1" Color="Black" Shade="100"/>
+                    </TableBorderBottom>
+                    <StoryText>
+                        <DefaultStyle/>
+                        <ITEXT FONT="Iosevka SS03 Bold" FONTSIZE="11" CH="I1"/>
+                        <trail ALIGN="1"/>
+                    </StoryText>
+                </Cell>
+                <Cell Row="0" Column="1" Style="" TextColumns="1" TextColGap="0" TextDistLeft="0" TextDistTop="0" TextDistBottom="0" TextDistRight="0" TextVertAlign="1" Flop="0" FillColor="None" FillShade="100" LeftPadding="1" RightPadding="1" TopPadding="1" BottomPadding="1">
+                    <TableBorderLeft Width="1">
+                        <TableBorderLine Width="1" PenStyle="1" Color="Black" Shade="100"/>
+                    </TableBorderLeft>
+                    <TableBorderRight Width="1">
+                        <TableBorderLine Width="1" PenStyle="1" Color="Black" Shade="100"/>
+                    </TableBorderRight>
+                    <TableBorderTop Width="1">
+                        <TableBorderLine Width="1" PenStyle="1" Color="Black" Shade="100"/>
+                    </TableBorderTop>
+                    <TableBorderBottom Width="1">
+                        <TableBorderLine Width="1" PenStyle="1" Color="Black" Shade="100"/>
+                    </TableBorderBottom>
+                    <StoryText>
+                        <DefaultStyle/>
+                        <ITEXT FONT="Iosevka SS03 Bold" FONTSIZE="11" CH="I2"/>
+                        <trail ALIGN="1"/>
+                    </StoryText>
+                </Cell>
+                <Cell Row="0" Column="2" Style="" TextColumns="1" TextColGap="0" TextDistLeft="0" TextDistTop="0" TextDistBottom="0" TextDistRight="0" TextVertAlign="1" Flop="0" FillColor="None" FillShade="100" LeftPadding="1" RightPadding="1" TopPadding="1" BottomPadding="1">
+                    <TableBorderLeft Width="1">
+                        <TableBorderLine Width="1" PenStyle="1" Color="Black" Shade="100"/>
+                    </TableBorderLeft>
+                    <TableBorderRight Width="1">
+                        <TableBorderLine Width="1" PenStyle="1" Color="Black" Shade="100"/>
+                    </TableBorderRight>
+                    <TableBorderTop Width="1">
+                        <TableBorderLine Width="1" PenStyle="1" Color="Black" Shade="100"/>
+                    </TableBorderTop>
+                    <TableBorderBottom Width="1">
+                        <TableBorderLine Width="1" PenStyle="1" Color="Black" Shade="100"/>
+                    </TableBorderBottom>
+                    <StoryText>
+                        <DefaultStyle/>
+                        <ITEXT FONT="Iosevka SS03 Bold" FONTSIZE="11" CH="Q1"/>
+                        <trail ALIGN="1" LINESPMode="1"/>
+                    </StoryText>
+                </Cell>
+                <Cell Row="1" Column="0" Style="" TextColumns="1" TextColGap="0" TextDistLeft="0" TextDistTop="0" TextDistBottom="0" TextDistRight="0" TextVertAlign="1" Flop="0" FillColor="None" FillShade="100" LeftPadding="1" RightPadding="1" TopPadding="1" BottomPadding="1">
+                    <TableBorderLeft Width="1">
+                        <TableBorderLine Width="1" PenStyle="1" Color="Black" Shade="100"/>
+                    </TableBorderLeft>
+                    <TableBorderRight Width="1">
+                        <TableBorderLine Width="1" PenStyle="1" Color="Black" Shade="100"/>
+                    </TableBorderRight>
+                    <TableBorderTop Width="1">
+                        <TableBorderLine Width="1" PenStyle="1" Color="Black" Shade="100"/>
+                    </TableBorderTop>
+                    <TableBorderBottom Width="1">
+                        <TableBorderLine Width="1" PenStyle="1" Color="Black" Shade="100"/>
+                    </TableBorderBottom>
+                    <StoryText>
+                        <DefaultStyle/>
+                        <ITEXT FONT="Iosevka SS03 Regular" FONTSIZE="11" CH="0"/>
+                        <trail ALIGN="1"/>
+                    </StoryText>
+                </Cell>
+                <Cell Row="1" Column="1" Style="" TextColumns="1" TextColGap="0" TextDistLeft="0" TextDistTop="0" TextDistBottom="0" TextDistRight="0" TextVertAlign="1" Flop="0" FillColor="None" FillShade="100" LeftPadding="1" RightPadding="1" TopPadding="1" BottomPadding="1">
+                    <TableBorderLeft Width="1">
+                        <TableBorderLine Width="1" PenStyle="1" Color="Black" Shade="100"/>
+                    </TableBorderLeft>
+                    <TableBorderRight Width="1">
+                        <TableBorderLine Width="1" PenStyle="1" Color="Black" Shade="100"/>
+                    </TableBorderRight>
+                    <TableBorderTop Width="1">
+                        <TableBorderLine Width="1" PenStyle="1" Color="Black" Shade="100"/>
+                    </TableBorderTop>
+                    <TableBorderBottom Width="1">
+                        <TableBorderLine Width="1" PenStyle="1" Color="Black" Shade="100"/>
+                    </TableBorderBottom>
+                    <StoryText>
+                        <DefaultStyle/>
+                        <ITEXT FONT="Iosevka SS03 Regular" FONTSIZE="11" CH="0"/>
+                        <trail ALIGN="1"/>
+                    </StoryText>
+                </Cell>
+                <Cell Row="1" Column="2" Style="" TextColumns="1" TextColGap="0" TextDistLeft="0" TextDistTop="0" TextDistBottom="0" TextDistRight="0" TextVertAlign="1" Flop="0" FillColor="None" FillShade="100" LeftPadding="1" RightPadding="1" TopPadding="1" BottomPadding="1">
+                    <TableBorderLeft Width="1">
+                        <TableBorderLine Width="1" PenStyle="1" Color="Black" Shade="100"/>
+                    </TableBorderLeft>
+                    <TableBorderRight Width="1">
+                        <TableBorderLine Width="1" PenStyle="1" Color="Black" Shade="100"/>
+                    </TableBorderRight>
+                    <TableBorderTop Width="1">
+                        <TableBorderLine Width="1" PenStyle="1" Color="Black" Shade="100"/>
+                    </TableBorderTop>
+                    <TableBorderBottom Width="1">
+                        <TableBorderLine Width="1" PenStyle="1" Color="Black" Shade="100"/>
+                    </TableBorderBottom>
+                    <StoryText>
+                        <DefaultStyle/>
+                        <ITEXT FONT="Iosevka SS03 Regular" FONTSIZE="11" CH="0"/>
+                        <trail ALIGN="1"/>
+                    </StoryText>
+                </Cell>
+                <Cell Row="2" Column="0" Style="" TextColumns="1" TextColGap="0" TextDistLeft="0" TextDistTop="0" TextDistBottom="0" TextDistRight="0" TextVertAlign="1" Flop="0" FillColor="None" FillShade="100" LeftPadding="1" RightPadding="1" TopPadding="1" BottomPadding="1">
+                    <TableBorderLeft Width="1">
+                        <TableBorderLine Width="1" PenStyle="1" Color="Black" Shade="100"/>
+                    </TableBorderLeft>
+                    <TableBorderRight Width="1">
+                        <TableBorderLine Width="1" PenStyle="1" Color="Black" Shade="100"/>
+                    </TableBorderRight>
+                    <TableBorderTop Width="1">
+                        <TableBorderLine Width="1" PenStyle="1" Color="Black" Shade="100"/>
+                    </TableBorderTop>
+                    <TableBorderBottom Width="1">
+                        <TableBorderLine Width="1" PenStyle="1" Color="Black" Shade="100"/>
+                    </TableBorderBottom>
+                    <StoryText>
+                        <DefaultStyle/>
+                        <ITEXT FONT="Iosevka SS03 Regular" FONTSIZE="11" CH="0"/>
+                        <trail ALIGN="1"/>
+                    </StoryText>
+                </Cell>
+                <Cell Row="2" Column="1" Style="" TextColumns="1" TextColGap="0" TextDistLeft="0" TextDistTop="0" TextDistBottom="0" TextDistRight="0" TextVertAlign="1" Flop="0" FillColor="None" FillShade="100" LeftPadding="1" RightPadding="1" TopPadding="1" BottomPadding="1">
+                    <TableBorderLeft Width="1">
+                        <TableBorderLine Width="1" PenStyle="1" Color="Black" Shade="100"/>
+                    </TableBorderLeft>
+                    <TableBorderRight Width="1">
+                        <TableBorderLine Width="1" PenStyle="1" Color="Black" Shade="100"/>
+                    </TableBorderRight>
+                    <TableBorderTop Width="1">
+                        <TableBorderLine Width="1" PenStyle="1" Color="Black" Shade="100"/>
+                    </TableBorderTop>
+                    <TableBorderBottom Width="1">
+                        <TableBorderLine Width="1" PenStyle="1" Color="Black" Shade="100"/>
+                    </TableBorderBottom>
+                    <StoryText>
+                        <DefaultStyle/>
+                        <ITEXT FONT="Iosevka SS03 Regular" CH="1"/>
+                        <trail ALIGN="1"/>
+                    </StoryText>
+                </Cell>
+                <Cell Row="2" Column="2" Style="" TextColumns="1" TextColGap="0" TextDistLeft="0" TextDistTop="0" TextDistBottom="0" TextDistRight="0" TextVertAlign="1" Flop="0" FillColor="None" FillShade="100" LeftPadding="1" RightPadding="1" TopPadding="1" BottomPadding="1">
+                    <TableBorderLeft Width="1">
+                        <TableBorderLine Width="1" PenStyle="1" Color="Black" Shade="100"/>
+                    </TableBorderLeft>
+                    <TableBorderRight Width="1">
+                        <TableBorderLine Width="1" PenStyle="1" Color="Black" Shade="100"/>
+                    </TableBorderRight>
+                    <TableBorderTop Width="1">
+                        <TableBorderLine Width="1" PenStyle="1" Color="Black" Shade="100"/>
+                    </TableBorderTop>
+                    <TableBorderBottom Width="1">
+                        <TableBorderLine Width="1" PenStyle="1" Color="Black" Shade="100"/>
+                    </TableBorderBottom>
+                    <StoryText>
+                        <DefaultStyle/>
+                        <ITEXT FONT="Iosevka SS03 Regular" FONTSIZE="11" CH="1"/>
+                        <trail ALIGN="1"/>
+                    </StoryText>
+                </Cell>
+                <Cell Row="3" Column="0" Style="" TextColumns="1" TextColGap="0" TextDistLeft="0" TextDistTop="0" TextDistBottom="0" TextDistRight="0" TextVertAlign="1" Flop="0" FillColor="None" FillShade="100" LeftPadding="1" RightPadding="1" TopPadding="1" BottomPadding="1">
+                    <TableBorderLeft Width="1">
+                        <TableBorderLine Width="1" PenStyle="1" Color="Black" Shade="100"/>
+                    </TableBorderLeft>
+                    <TableBorderRight Width="1">
+                        <TableBorderLine Width="1" PenStyle="1" Color="Black" Shade="100"/>
+                    </TableBorderRight>
+                    <TableBorderTop Width="1">
+                        <TableBorderLine Width="1" PenStyle="1" Color="Black" Shade="100"/>
+                    </TableBorderTop>
+                    <TableBorderBottom Width="1">
+                        <TableBorderLine Width="1" PenStyle="1" Color="Black" Shade="100"/>
+                    </TableBorderBottom>
+                    <StoryText>
+                        <DefaultStyle/>
+                        <ITEXT FONT="Iosevka SS03 Regular" FONTSIZE="11" CH="1"/>
+                        <trail ALIGN="1"/>
+                    </StoryText>
+                </Cell>
+                <Cell Row="3" Column="1" Style="" TextColumns="1" TextColGap="0" TextDistLeft="0" TextDistTop="0" TextDistBottom="0" TextDistRight="0" TextVertAlign="1" Flop="0" FillColor="None" FillShade="100" LeftPadding="1" RightPadding="1" TopPadding="1" BottomPadding="1">
+                    <TableBorderLeft Width="1">
+                        <TableBorderLine Width="1" PenStyle="1" Color="Black" Shade="100"/>
+                    </TableBorderLeft>
+                    <TableBorderRight Width="1">
+                        <TableBorderLine Width="1" PenStyle="1" Color="Black" Shade="100"/>
+                    </TableBorderRight>
+                    <TableBorderTop Width="1">
+                        <TableBorderLine Width="1" PenStyle="1" Color="Black" Shade="100"/>
+                    </TableBorderTop>
+                    <TableBorderBottom Width="1">
+                        <TableBorderLine Width="1" PenStyle="1" Color="Black" Shade="100"/>
+                    </TableBorderBottom>
+                    <StoryText>
+                        <DefaultStyle/>
+                        <ITEXT FONT="Iosevka SS03 Regular" FONTSIZE="11" CH="0"/>
+                        <trail ALIGN="1"/>
+                    </StoryText>
+                </Cell>
+                <Cell Row="3" Column="2" Style="" TextColumns="1" TextColGap="0" TextDistLeft="0" TextDistTop="0" TextDistBottom="0" TextDistRight="0" TextVertAlign="1" Flop="0" FillColor="None" FillShade="100" LeftPadding="1" RightPadding="1" TopPadding="1" BottomPadding="1">
+                    <TableBorderLeft Width="1">
+                        <TableBorderLine Width="1" PenStyle="1" Color="Black" Shade="100"/>
+                    </TableBorderLeft>
+                    <TableBorderRight Width="1">
+                        <TableBorderLine Width="1" PenStyle="1" Color="Black" Shade="100"/>
+                    </TableBorderRight>
+                    <TableBorderTop Width="1">
+                        <TableBorderLine Width="1" PenStyle="1" Color="Black" Shade="100"/>
+                    </TableBorderTop>
+                    <TableBorderBottom Width="1">
+                        <TableBorderLine Width="1" PenStyle="1" Color="Black" Shade="100"/>
+                    </TableBorderBottom>
+                    <StoryText>
+                        <DefaultStyle/>
+                        <ITEXT FONT="Iosevka SS03 Regular" FONTSIZE="11" CH="1"/>
+                        <trail ALIGN="1"/>
+                    </StoryText>
+                </Cell>
+                <Cell Row="4" Column="0" Style="" TextColumns="1" TextColGap="0" TextDistLeft="0" TextDistTop="0" TextDistBottom="0" TextDistRight="0" TextVertAlign="1" Flop="0" FillColor="None" FillShade="100" LeftPadding="1" RightPadding="1" TopPadding="1" BottomPadding="1">
+                    <TableBorderLeft Width="1">
+                        <TableBorderLine Width="1" PenStyle="1" Color="Black" Shade="100"/>
+                    </TableBorderLeft>
+                    <TableBorderRight Width="1">
+                        <TableBorderLine Width="1" PenStyle="1" Color="Black" Shade="100"/>
+                    </TableBorderRight>
+                    <TableBorderTop Width="1">
+                        <TableBorderLine Width="1" PenStyle="1" Color="Black" Shade="100"/>
+                    </TableBorderTop>
+                    <TableBorderBottom Width="1">
+                        <TableBorderLine Width="1" PenStyle="1" Color="Black" Shade="100"/>
+                    </TableBorderBottom>
+                    <StoryText>
+                        <DefaultStyle/>
+                        <ITEXT FONT="Iosevka SS03 Regular" FONTSIZE="11" CH="1"/>
+                        <trail ALIGN="1"/>
+                    </StoryText>
+                </Cell>
+                <Cell Row="4" Column="1" Style="" TextColumns="1" TextColGap="0" TextDistLeft="0" TextDistTop="0" TextDistBottom="0" TextDistRight="0" TextVertAlign="1" Flop="0" FillColor="None" FillShade="100" LeftPadding="1" RightPadding="1" TopPadding="1" BottomPadding="1">
+                    <TableBorderLeft Width="1">
+                        <TableBorderLine Width="1" PenStyle="1" Color="Black" Shade="100"/>
+                    </TableBorderLeft>
+                    <TableBorderRight Width="1">
+                        <TableBorderLine Width="1" PenStyle="1" Color="Black" Shade="100"/>
+                    </TableBorderRight>
+                    <TableBorderTop Width="1">
+                        <TableBorderLine Width="1" PenStyle="1" Color="Black" Shade="100"/>
+                    </TableBorderTop>
+                    <TableBorderBottom Width="1">
+                        <TableBorderLine Width="1" PenStyle="1" Color="Black" Shade="100"/>
+                    </TableBorderBottom>
+                    <StoryText>
+                        <DefaultStyle/>
+                        <ITEXT FONT="Iosevka SS03 Regular" FONTSIZE="11" CH="1"/>
+                        <trail ALIGN="1"/>
+                    </StoryText>
+                </Cell>
+                <Cell Row="4" Column="2" Style="" TextColumns="1" TextColGap="0" TextDistLeft="0" TextDistTop="0" TextDistBottom="0" TextDistRight="0" TextVertAlign="1" Flop="0" FillColor="None" FillShade="100" LeftPadding="1" RightPadding="1" TopPadding="1" BottomPadding="1">
+                    <TableBorderLeft Width="1">
+                        <TableBorderLine Width="1" PenStyle="1" Color="Black" Shade="100"/>
+                    </TableBorderLeft>
+                    <TableBorderRight Width="1">
+                        <TableBorderLine Width="1" PenStyle="1" Color="Black" Shade="100"/>
+                    </TableBorderRight>
+                    <TableBorderTop Width="1">
+                        <TableBorderLine Width="1" PenStyle="1" Color="Black" Shade="100"/>
+                    </TableBorderTop>
+                    <TableBorderBottom Width="1">
+                        <TableBorderLine Width="1" PenStyle="1" Color="Black" Shade="100"/>
+                    </TableBorderBottom>
+                    <StoryText>
+                        <DefaultStyle/>
+                        <ITEXT FONT="Iosevka SS03 Regular" FONTSIZE="11" CH="0"/>
+                        <trail ALIGN="1"/>
+                    </StoryText>
+                </Cell>
+            </TableData>
+        </PAGEOBJECT>
+        <PAGEOBJECT XPOS="243.544983031534" YPOS="3149.6664" OwnPage="3" ItemID="1926686921" PTYPE="4" WIDTH="308.410033936931" HEIGHT="34.4724000000001" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="1" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L308.41 0 L308.41 34.4724 L0 34.4724 L0 0 Z" copath="M0 0 L308.41 0 L308.41 34.4724 L0 34.4724 L0 0 Z" gXpos="243.544983031534" gYpos="2267.7776" gWidth="0" gHeight="0" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
+            <StoryText>
+                <DefaultStyle/>
+                <ITEXT FONT="Times New Roman Regular" FONTSIZE="11" CH="Таблица 3. Таблица истинности логической функции ИСКЛЮЧАЮЩЕЕ ИЛИ."/>
+                <trail ALIGN="1"/>
+            </StoryText>
+        </PAGEOBJECT>
+        <PAGEOBJECT XPOS="140" YPOS="2705.6664" OwnPage="3" ItemID="1907045657" PTYPE="4" WIDTH="515.2744" HEIGHT="20" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="1" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L515.274 0 L515.274 20 L0 20 L0 0 Z" copath="M0 0 L515.274 0 L515.274 20 L0 20 L0 0 Z" gXpos="140" gYpos="1823.7776" gWidth="0" gHeight="0" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
+            <StoryText>
+                <DefaultStyle/>
+                <ITEXT FONT="Times New Roman Bold" FONTSIZE="16" CH="3. Логическая функция ИСКЛЮЧАЮЩЕЕ ИЛИ"/>
+                <trail/>
+            </StoryText>
+        </PAGEOBJECT>
+        <PAGEOBJECT XPOS="165.7972" YPOS="1863.7776" OwnPage="2" ItemID="1912453289" PTYPE="2" WIDTH="463.68" HEIGHT="252" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="0.358330757341576" LOCALSCY="0.358330757341576" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="0" RATIO="1" Pagenumber="0" PFILE="" isInlineImage="1" inlineImageExt="png" ImageData="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" IRENDER="0" EMBEDDED="0" path="M0 0 L463.68 0 L463.68 252 L0 252 L0 0 Z" copath="M0 0 L463.68 0 L463.68 252 L0 252 L0 0 Z" gXpos="165.7972" gYpos="99.9999999999998" gWidth="0" gHeight="0" LAYER="0" NEXTITEM="-1" BACKITEM="-1"/>
+        <PAGEOBJECT XPOS="140" YPOS="2115.7776" OwnPage="2" ItemID="1911331145" PTYPE="4" WIDTH="515.2744" HEIGHT="20" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="1" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L515.274 0 L515.274 20 L0 20 L0 0 Z" copath="M0 0 L515.274 0 L515.274 20 L0 20 L0 0 Z" gXpos="140" gYpos="352" gWidth="0" gHeight="0" ALIGN="1" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
+            <StoryText>
+                <DefaultStyle ALIGN="1" ParagraphEffectOffset="0" ParagraphEffectIndent="0" DROP="0" DROPLIN="2" Bullet="0" BulletStr="•" Numeration="0" NumerationFormat="0" NumerationName="&lt;local block&gt;" NumerationLevel="0" NumerationPrefix="" NumerationSuffix="." NumerationStart="1" NumerationHigher="1"/>
+                <ITEXT FONT="Times New Roman Regular" FONTSIZE="11" CH="Рисунок 2. Функциональная и релейно-контактная схемы логической функции ИЛИ-НЕ."/>
+                <trail ALIGN="1" LINESPMode="1" ParagraphEffectOffset="0" ParagraphEffectIndent="0" DROP="0" DROPLIN="2" Bullet="0" BulletStr="•" Numeration="0" NumerationFormat="0" NumerationName="&lt;local block&gt;" NumerationLevel="0" NumerationPrefix="" NumerationSuffix="." NumerationStart="1" NumerationHigher="1"/>
+            </StoryText>
+        </PAGEOBJECT>
+        <PAGEOBJECT XPOS="307.3872" YPOS="2161.7776" OwnPage="2" ItemID="1945590873" PTYPE="16" WIDTH="180.5" HEIGHT="100.5" FRTYPE="0" CLIPEDIT="0" PWIDTH="0" PLINEART="1" Rows="5" Columns="3" RowPositions="0 19.5 39.5 59.5 79.5" RowHeights="19.5 20 20 20 20" ColumnPositions="0 59.5 119.5" ColumnWidths="59.5 60 60" CellAreas="" TableStyle="" path="M0 0 L180.5 0 L180.5 100.5 L0 100.5 L0 0 Z" copath="M0 0 L180.5 0 L180.5 100.5 L0 100.5 L0 0 Z" gXpos="307.3872" gYpos="398" gWidth="0" gHeight="0" LAYER="0">
+            <TableData Style="" FillColor="None" FillShade="100">
+                <TableBorderLeft>
+                    <TableBorderLine Width="1" PenStyle="1" Color="Black" Shade="100"/>
+                </TableBorderLeft>
+                <TableBorderRight>
+                    <TableBorderLine Width="1" PenStyle="1" Color="Black" Shade="100"/>
+                </TableBorderRight>
+                <TableBorderTop>
+                    <TableBorderLine Width="1" PenStyle="1" Color="Black" Shade="100"/>
+                </TableBorderTop>
+                <TableBorderBottom>
+                    <TableBorderLine Width="1" PenStyle="1" Color="Black" Shade="100"/>
+                </TableBorderBottom>
+                <Cell Row="0" Column="0" Style="" TextColumns="1" TextColGap="0" TextDistLeft="0" TextDistTop="0" TextDistBottom="0" TextDistRight="0" TextVertAlign="1" Flop="0" FillColor="None" FillShade="100" LeftPadding="1" RightPadding="1" TopPadding="1" BottomPadding="1">
+                    <TableBorderLeft Width="0.3">
+                        <TableBorderLine Width="0.3" PenStyle="1" Color="Black" Shade="100"/>
+                    </TableBorderLeft>
+                    <TableBorderRight Width="0.3">
+                        <TableBorderLine Width="0.3" PenStyle="1" Color="Black" Shade="100"/>
+                    </TableBorderRight>
+                    <TableBorderTop Width="0.3">
+                        <TableBorderLine Width="0.3" PenStyle="1" Color="Black" Shade="100"/>
+                    </TableBorderTop>
+                    <TableBorderBottom Width="0.3">
+                        <TableBorderLine Width="0.3" PenStyle="1" Color="Black" Shade="100"/>
+                    </TableBorderBottom>
+                    <StoryText>
+                        <DefaultStyle/>
+                        <ITEXT FONT="Iosevka SS03 Bold" FONTSIZE="11" CH="I1"/>
+                        <trail ALIGN="1"/>
+                    </StoryText>
+                </Cell>
+                <Cell Row="0" Column="1" Style="" TextColumns="1" TextColGap="0" TextDistLeft="0" TextDistTop="0" TextDistBottom="0" TextDistRight="0" TextVertAlign="1" Flop="0" FillColor="None" FillShade="100" LeftPadding="1" RightPadding="1" TopPadding="1" BottomPadding="1">
+                    <TableBorderLeft Width="1">
+                        <TableBorderLine Width="1" PenStyle="1" Color="Black" Shade="100"/>
+                    </TableBorderLeft>
+                    <TableBorderRight Width="1">
+                        <TableBorderLine Width="1" PenStyle="1" Color="Black" Shade="100"/>
+                    </TableBorderRight>
+                    <TableBorderTop Width="1">
+                        <TableBorderLine Width="1" PenStyle="1" Color="Black" Shade="100"/>
+                    </TableBorderTop>
+                    <TableBorderBottom Width="1">
+                        <TableBorderLine Width="1" PenStyle="1" Color="Black" Shade="100"/>
+                    </TableBorderBottom>
+                    <StoryText>
+                        <DefaultStyle/>
+                        <ITEXT FONT="Iosevka SS03 Bold" FONTSIZE="11" CH="I2"/>
+                        <trail ALIGN="1"/>
+                    </StoryText>
+                </Cell>
+                <Cell Row="0" Column="2" Style="" TextColumns="1" TextColGap="0" TextDistLeft="0" TextDistTop="0" TextDistBottom="0" TextDistRight="0" TextVertAlign="1" Flop="0" FillColor="None" FillShade="100" LeftPadding="1" RightPadding="1" TopPadding="1" BottomPadding="1">
+                    <TableBorderLeft Width="1">
+                        <TableBorderLine Width="1" PenStyle="1" Color="Black" Shade="100"/>
+                    </TableBorderLeft>
+                    <TableBorderRight Width="1">
+                        <TableBorderLine Width="1" PenStyle="1" Color="Black" Shade="100"/>
+                    </TableBorderRight>
+                    <TableBorderTop Width="1">
+                        <TableBorderLine Width="1" PenStyle="1" Color="Black" Shade="100"/>
+                    </TableBorderTop>
+                    <TableBorderBottom Width="1">
+                        <TableBorderLine Width="1" PenStyle="1" Color="Black" Shade="100"/>
+                    </TableBorderBottom>
+                    <StoryText>
+                        <DefaultStyle/>
+                        <ITEXT FONT="Iosevka SS03 Bold" FONTSIZE="11" CH="Q1"/>
+                        <trail ALIGN="1" LINESPMode="1"/>
+                    </StoryText>
+                </Cell>
+                <Cell Row="1" Column="0" Style="" TextColumns="1" TextColGap="0" TextDistLeft="0" TextDistTop="0" TextDistBottom="0" TextDistRight="0" TextVertAlign="1" Flop="0" FillColor="None" FillShade="100" LeftPadding="1" RightPadding="1" TopPadding="1" BottomPadding="1">
+                    <TableBorderLeft Width="1">
+                        <TableBorderLine Width="1" PenStyle="1" Color="Black" Shade="100"/>
+                    </TableBorderLeft>
+                    <TableBorderRight Width="1">
+                        <TableBorderLine Width="1" PenStyle="1" Color="Black" Shade="100"/>
+                    </TableBorderRight>
+                    <TableBorderTop Width="1">
+                        <TableBorderLine Width="1" PenStyle="1" Color="Black" Shade="100"/>
+                    </TableBorderTop>
+                    <TableBorderBottom Width="1">
+                        <TableBorderLine Width="1" PenStyle="1" Color="Black" Shade="100"/>
+                    </TableBorderBottom>
+                    <StoryText>
+                        <DefaultStyle/>
+                        <ITEXT FONT="Iosevka SS03 Regular" FONTSIZE="11" CH="0"/>
+                        <trail ALIGN="1"/>
+                    </StoryText>
+                </Cell>
+                <Cell Row="1" Column="1" Style="" TextColumns="1" TextColGap="0" TextDistLeft="0" TextDistTop="0" TextDistBottom="0" TextDistRight="0" TextVertAlign="1" Flop="0" FillColor="None" FillShade="100" LeftPadding="1" RightPadding="1" TopPadding="1" BottomPadding="1">
+                    <TableBorderLeft Width="1">
+                        <TableBorderLine Width="1" PenStyle="1" Color="Black" Shade="100"/>
+                    </TableBorderLeft>
+                    <TableBorderRight Width="1">
+                        <TableBorderLine Width="1" PenStyle="1" Color="Black" Shade="100"/>
+                    </TableBorderRight>
+                    <TableBorderTop Width="1">
+                        <TableBorderLine Width="1" PenStyle="1" Color="Black" Shade="100"/>
+                    </TableBorderTop>
+                    <TableBorderBottom Width="1">
+                        <TableBorderLine Width="1" PenStyle="1" Color="Black" Shade="100"/>
+                    </TableBorderBottom>
+                    <StoryText>
+                        <DefaultStyle/>
+                        <ITEXT FONT="Iosevka SS03 Regular" FONTSIZE="11" CH="0"/>
+                        <trail ALIGN="1"/>
+                    </StoryText>
+                </Cell>
+                <Cell Row="1" Column="2" Style="" TextColumns="1" TextColGap="0" TextDistLeft="0" TextDistTop="0" TextDistBottom="0" TextDistRight="0" TextVertAlign="1" Flop="0" FillColor="None" FillShade="100" LeftPadding="1" RightPadding="1" TopPadding="1" BottomPadding="1">
+                    <TableBorderLeft Width="1">
+                        <TableBorderLine Width="1" PenStyle="1" Color="Black" Shade="100"/>
+                    </TableBorderLeft>
+                    <TableBorderRight Width="1">
+                        <TableBorderLine Width="1" PenStyle="1" Color="Black" Shade="100"/>
+                    </TableBorderRight>
+                    <TableBorderTop Width="1">
+                        <TableBorderLine Width="1" PenStyle="1" Color="Black" Shade="100"/>
+                    </TableBorderTop>
+                    <TableBorderBottom Width="1">
+                        <TableBorderLine Width="1" PenStyle="1" Color="Black" Shade="100"/>
+                    </TableBorderBottom>
+                    <StoryText>
+                        <DefaultStyle/>
+                        <ITEXT FONT="Iosevka SS03 Regular" FONTSIZE="11" CH="1"/>
+                        <trail ALIGN="1"/>
+                    </StoryText>
+                </Cell>
+                <Cell Row="2" Column="0" Style="" TextColumns="1" TextColGap="0" TextDistLeft="0" TextDistTop="0" TextDistBottom="0" TextDistRight="0" TextVertAlign="1" Flop="0" FillColor="None" FillShade="100" LeftPadding="1" RightPadding="1" TopPadding="1" BottomPadding="1">
+                    <TableBorderLeft Width="1">
+                        <TableBorderLine Width="1" PenStyle="1" Color="Black" Shade="100"/>
+                    </TableBorderLeft>
+                    <TableBorderRight Width="1">
+                        <TableBorderLine Width="1" PenStyle="1" Color="Black" Shade="100"/>
+                    </TableBorderRight>
+                    <TableBorderTop Width="1">
+                        <TableBorderLine Width="1" PenStyle="1" Color="Black" Shade="100"/>
+                    </TableBorderTop>
+                    <TableBorderBottom Width="1">
+                        <TableBorderLine Width="1" PenStyle="1" Color="Black" Shade="100"/>
+                    </TableBorderBottom>
+                    <StoryText>
+                        <DefaultStyle/>
+                        <ITEXT FONT="Iosevka SS03 Regular" FONTSIZE="11" CH="0"/>
+                        <trail ALIGN="1"/>
+                    </StoryText>
+                </Cell>
+                <Cell Row="2" Column="1" Style="" TextColumns="1" TextColGap="0" TextDistLeft="0" TextDistTop="0" TextDistBottom="0" TextDistRight="0" TextVertAlign="1" Flop="0" FillColor="None" FillShade="100" LeftPadding="1" RightPadding="1" TopPadding="1" BottomPadding="1">
+                    <TableBorderLeft Width="1">
+                        <TableBorderLine Width="1" PenStyle="1" Color="Black" Shade="100"/>
+                    </TableBorderLeft>
+                    <TableBorderRight Width="1">
+                        <TableBorderLine Width="1" PenStyle="1" Color="Black" Shade="100"/>
+                    </TableBorderRight>
+                    <TableBorderTop Width="1">
+                        <TableBorderLine Width="1" PenStyle="1" Color="Black" Shade="100"/>
+                    </TableBorderTop>
+                    <TableBorderBottom Width="1">
+                        <TableBorderLine Width="1" PenStyle="1" Color="Black" Shade="100"/>
+                    </TableBorderBottom>
+                    <StoryText>
+                        <DefaultStyle/>
+                        <ITEXT FONT="Iosevka SS03 Regular" CH="1"/>
+                        <trail ALIGN="1"/>
+                    </StoryText>
+                </Cell>
+                <Cell Row="2" Column="2" Style="" TextColumns="1" TextColGap="0" TextDistLeft="0" TextDistTop="0" TextDistBottom="0" TextDistRight="0" TextVertAlign="1" Flop="0" FillColor="None" FillShade="100" LeftPadding="1" RightPadding="1" TopPadding="1" BottomPadding="1">
+                    <TableBorderLeft Width="1">
+                        <TableBorderLine Width="1" PenStyle="1" Color="Black" Shade="100"/>
+                    </TableBorderLeft>
+                    <TableBorderRight Width="1">
+                        <TableBorderLine Width="1" PenStyle="1" Color="Black" Shade="100"/>
+                    </TableBorderRight>
+                    <TableBorderTop Width="1">
+                        <TableBorderLine Width="1" PenStyle="1" Color="Black" Shade="100"/>
+                    </TableBorderTop>
+                    <TableBorderBottom Width="1">
+                        <TableBorderLine Width="1" PenStyle="1" Color="Black" Shade="100"/>
+                    </TableBorderBottom>
+                    <StoryText>
+                        <DefaultStyle/>
+                        <ITEXT FONT="Iosevka SS03 Regular" FONTSIZE="11" CH="0"/>
+                        <trail ALIGN="1"/>
+                    </StoryText>
+                </Cell>
+                <Cell Row="3" Column="0" Style="" TextColumns="1" TextColGap="0" TextDistLeft="0" TextDistTop="0" TextDistBottom="0" TextDistRight="0" TextVertAlign="1" Flop="0" FillColor="None" FillShade="100" LeftPadding="1" RightPadding="1" TopPadding="1" BottomPadding="1">
+                    <TableBorderLeft Width="1">
+                        <TableBorderLine Width="1" PenStyle="1" Color="Black" Shade="100"/>
+                    </TableBorderLeft>
+                    <TableBorderRight Width="1">
+                        <TableBorderLine Width="1" PenStyle="1" Color="Black" Shade="100"/>
+                    </TableBorderRight>
+                    <TableBorderTop Width="1">
+                        <TableBorderLine Width="1" PenStyle="1" Color="Black" Shade="100"/>
+                    </TableBorderTop>
+                    <TableBorderBottom Width="1">
+                        <TableBorderLine Width="1" PenStyle="1" Color="Black" Shade="100"/>
+                    </TableBorderBottom>
+                    <StoryText>
+                        <DefaultStyle/>
+                        <ITEXT FONT="Iosevka SS03 Regular" FONTSIZE="11" CH="1"/>
+                        <trail ALIGN="1"/>
+                    </StoryText>
+                </Cell>
+                <Cell Row="3" Column="1" Style="" TextColumns="1" TextColGap="0" TextDistLeft="0" TextDistTop="0" TextDistBottom="0" TextDistRight="0" TextVertAlign="1" Flop="0" FillColor="None" FillShade="100" LeftPadding="1" RightPadding="1" TopPadding="1" BottomPadding="1">
+                    <TableBorderLeft Width="1">
+                        <TableBorderLine Width="1" PenStyle="1" Color="Black" Shade="100"/>
+                    </TableBorderLeft>
+                    <TableBorderRight Width="1">
+                        <TableBorderLine Width="1" PenStyle="1" Color="Black" Shade="100"/>
+                    </TableBorderRight>
+                    <TableBorderTop Width="1">
+                        <TableBorderLine Width="1" PenStyle="1" Color="Black" Shade="100"/>
+                    </TableBorderTop>
+                    <TableBorderBottom Width="1">
+                        <TableBorderLine Width="1" PenStyle="1" Color="Black" Shade="100"/>
+                    </TableBorderBottom>
+                    <StoryText>
+                        <DefaultStyle/>
+                        <ITEXT FONT="Iosevka SS03 Regular" FONTSIZE="11" CH="0"/>
+                        <trail ALIGN="1"/>
+                    </StoryText>
+                </Cell>
+                <Cell Row="3" Column="2" Style="" TextColumns="1" TextColGap="0" TextDistLeft="0" TextDistTop="0" TextDistBottom="0" TextDistRight="0" TextVertAlign="1" Flop="0" FillColor="None" FillShade="100" LeftPadding="1" RightPadding="1" TopPadding="1" BottomPadding="1">
+                    <TableBorderLeft Width="1">
+                        <TableBorderLine Width="1" PenStyle="1" Color="Black" Shade="100"/>
+                    </TableBorderLeft>
+                    <TableBorderRight Width="1">
+                        <TableBorderLine Width="1" PenStyle="1" Color="Black" Shade="100"/>
+                    </TableBorderRight>
+                    <TableBorderTop Width="1">
+                        <TableBorderLine Width="1" PenStyle="1" Color="Black" Shade="100"/>
+                    </TableBorderTop>
+                    <TableBorderBottom Width="1">
+                        <TableBorderLine Width="1" PenStyle="1" Color="Black" Shade="100"/>
+                    </TableBorderBottom>
+                    <StoryText>
+                        <DefaultStyle/>
+                        <ITEXT FONT="Iosevka SS03 Regular" FONTSIZE="11" CH="0"/>
+                        <trail ALIGN="1"/>
+                    </StoryText>
+                </Cell>
+                <Cell Row="4" Column="0" Style="" TextColumns="1" TextColGap="0" TextDistLeft="0" TextDistTop="0" TextDistBottom="0" TextDistRight="0" TextVertAlign="1" Flop="0" FillColor="None" FillShade="100" LeftPadding="1" RightPadding="1" TopPadding="1" BottomPadding="1">
+                    <TableBorderLeft Width="1">
+                        <TableBorderLine Width="1" PenStyle="1" Color="Black" Shade="100"/>
+                    </TableBorderLeft>
+                    <TableBorderRight Width="1">
+                        <TableBorderLine Width="1" PenStyle="1" Color="Black" Shade="100"/>
+                    </TableBorderRight>
+                    <TableBorderTop Width="1">
+                        <TableBorderLine Width="1" PenStyle="1" Color="Black" Shade="100"/>
+                    </TableBorderTop>
+                    <TableBorderBottom Width="1">
+                        <TableBorderLine Width="1" PenStyle="1" Color="Black" Shade="100"/>
+                    </TableBorderBottom>
+                    <StoryText>
+                        <DefaultStyle/>
+                        <ITEXT FONT="Iosevka SS03 Regular" FONTSIZE="11" CH="1"/>
+                        <trail ALIGN="1"/>
+                    </StoryText>
+                </Cell>
+                <Cell Row="4" Column="1" Style="" TextColumns="1" TextColGap="0" TextDistLeft="0" TextDistTop="0" TextDistBottom="0" TextDistRight="0" TextVertAlign="1" Flop="0" FillColor="None" FillShade="100" LeftPadding="1" RightPadding="1" TopPadding="1" BottomPadding="1">
+                    <TableBorderLeft Width="1">
+                        <TableBorderLine Width="1" PenStyle="1" Color="Black" Shade="100"/>
+                    </TableBorderLeft>
+                    <TableBorderRight Width="1">
+                        <TableBorderLine Width="1" PenStyle="1" Color="Black" Shade="100"/>
+                    </TableBorderRight>
+                    <TableBorderTop Width="1">
+                        <TableBorderLine Width="1" PenStyle="1" Color="Black" Shade="100"/>
+                    </TableBorderTop>
+                    <TableBorderBottom Width="1">
+                        <TableBorderLine Width="1" PenStyle="1" Color="Black" Shade="100"/>
+                    </TableBorderBottom>
+                    <StoryText>
+                        <DefaultStyle/>
+                        <ITEXT FONT="Iosevka SS03 Regular" FONTSIZE="11" CH="1"/>
+                        <trail ALIGN="1"/>
+                    </StoryText>
+                </Cell>
+                <Cell Row="4" Column="2" Style="" TextColumns="1" TextColGap="0" TextDistLeft="0" TextDistTop="0" TextDistBottom="0" TextDistRight="0" TextVertAlign="1" Flop="0" FillColor="None" FillShade="100" LeftPadding="1" RightPadding="1" TopPadding="1" BottomPadding="1">
+                    <TableBorderLeft Width="1">
+                        <TableBorderLine Width="1" PenStyle="1" Color="Black" Shade="100"/>
+                    </TableBorderLeft>
+                    <TableBorderRight Width="1">
+                        <TableBorderLine Width="1" PenStyle="1" Color="Black" Shade="100"/>
+                    </TableBorderRight>
+                    <TableBorderTop Width="1">
+                        <TableBorderLine Width="1" PenStyle="1" Color="Black" Shade="100"/>
+                    </TableBorderTop>
+                    <TableBorderBottom Width="1">
+                        <TableBorderLine Width="1" PenStyle="1" Color="Black" Shade="100"/>
+                    </TableBorderBottom>
+                    <StoryText>
+                        <DefaultStyle/>
+                        <ITEXT FONT="Iosevka SS03 Regular" FONTSIZE="11" CH="0"/>
+                        <trail ALIGN="1"/>
+                    </StoryText>
+                </Cell>
+            </TableData>
+        </PAGEOBJECT>
+        <PAGEOBJECT XPOS="140" YPOS="2266.7776" OwnPage="2" ItemID="1927676361" PTYPE="4" WIDTH="515.2744" HEIGHT="20" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="1" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L515.274 0 L515.274 20 L0 20 L0 0 Z" copath="M0 0 L515.274 0 L515.274 20 L0 20 L0 0 Z" gXpos="140" gYpos="503" gWidth="0" gHeight="0" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
+            <StoryText>
+                <DefaultStyle/>
+                <ITEXT FONT="Times New Roman Regular" FONTSIZE="11" CH="Таблица 2. Таблица истинности логической функции ИЛИ-НЕ."/>
+                <trail ALIGN="1"/>
+            </StoryText>
+        </PAGEOBJECT>
+        <PAGEOBJECT XPOS="140" YPOS="1823.7776" OwnPage="2" ItemID="1937252697" PTYPE="4" WIDTH="515.2744" HEIGHT="20" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="1" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L515.274 0 L515.274 20 L0 20 L0 0 Z" copath="M0 0 L515.274 0 L515.274 20 L0 20 L0 0 Z" gXpos="140" gYpos="59.9999999999998" gWidth="0" gHeight="0" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
+            <StoryText>
+                <DefaultStyle/>
+                <ITEXT FONT="Times New Roman Bold" FONTSIZE="16" CH="2. Логическая функция ИЛИ-НЕ"/>
+                <trail/>
+            </StoryText>
+        </PAGEOBJECT>
+    </DOCUMENT>
+</SCRIBUSUTF8NEW>
