@@ -1,6 +1,6 @@
 ﻿namespace Lab_3
 {
-    partial class Form3:Lab_3.Form1
+    partial class InheritedPamphletForm : PamphletForm
     {
         /// <summary>
         /// Обязательная переменная конструктора.
@@ -40,7 +40,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.ClientSize = new System.Drawing.Size(586, 369);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
-            this.Name = "Form3";
+            this.Name = "InheritedPamphletForm";
             this.Text = "";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form3_FormClosing);
             this.ResumeLayout(false);

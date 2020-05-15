@@ -1,6 +1,6 @@
 ﻿namespace Lab_3
 {
-    partial class Form2
+    partial class MainForm
     {
         /// <summary>
         /// Required designer variable.
@@ -29,20 +29,20 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form2));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
-            this.открытьToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.буклетПродуктаToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.буклетГостиницыToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.буклетОрганизацииToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.видToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.каскадомToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.мозаикойToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.окноToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.выравнивнаниеToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.поЛевомуКраюToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.поЦентруToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.поПравомуКраюToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.openToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.productBookletToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.hotelBookletToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.organizationBookletToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.viewToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.cascadeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.mosaicToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.windowToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.alignmentToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.alignLeftToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.alignCenterToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.alignRightToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStrip1 = new System.Windows.Forms.ToolStrip();
             this.toolStripLabel1 = new System.Windows.Forms.ToolStripButton();
             this.toolStripLabel2 = new System.Windows.Forms.ToolStripButton();
@@ -58,7 +58,7 @@
             this.toolStripStatusLabel1 = new System.Windows.Forms.ToolStripStatusLabel();
             this.toolStripStatusLabel2 = new System.Windows.Forms.ToolStripStatusLabel();
             this.toolStripStatusLabel3 = new System.Windows.Forms.ToolStripStatusLabel();
-            this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.timer = new System.Windows.Forms.Timer(this.components);
             this.menuStrip1.SuspendLayout();
             this.toolStrip1.SuspendLayout();
             this.statusStrip1.SuspendLayout();
@@ -68,10 +68,10 @@
             // 
             this.menuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.открытьToolStripMenuItem,
-            this.видToolStripMenuItem,
-            this.окноToolStripMenuItem,
-            this.выравнивнаниеToolStripMenuItem});
+            this.openToolStripMenuItem,
+            this.viewToolStripMenuItem,
+            this.windowToolStripMenuItem,
+            this.alignmentToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Padding = new System.Windows.Forms.Padding(4, 2, 0, 2);
@@ -79,98 +79,98 @@
             this.menuStrip1.TabIndex = 1;
             this.menuStrip1.Text = "menuStrip1";
             // 
-            // открытьToolStripMenuItem
+            // openToolStripMenuItem
             // 
-            this.открытьToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.буклетПродуктаToolStripMenuItem,
-            this.буклетГостиницыToolStripMenuItem,
-            this.буклетОрганизацииToolStripMenuItem});
-            this.открытьToolStripMenuItem.Name = "открытьToolStripMenuItem";
-            this.открытьToolStripMenuItem.Size = new System.Drawing.Size(66, 20);
-            this.открытьToolStripMenuItem.Text = "Открыть";
+            this.openToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.productBookletToolStripMenuItem,
+            this.hotelBookletToolStripMenuItem,
+            this.organizationBookletToolStripMenuItem});
+            this.openToolStripMenuItem.Name = "openToolStripMenuItem";
+            this.openToolStripMenuItem.Size = new System.Drawing.Size(66, 20);
+            this.openToolStripMenuItem.Text = "Открыть";
             // 
-            // буклетПродуктаToolStripMenuItem
+            // productBookletToolStripMenuItem
             // 
-            this.буклетПродуктаToolStripMenuItem.Name = "буклетПродуктаToolStripMenuItem";
-            this.буклетПродуктаToolStripMenuItem.Size = new System.Drawing.Size(185, 22);
-            this.буклетПродуктаToolStripMenuItem.Text = "Буклет продукта";
-            this.буклетПродуктаToolStripMenuItem.Click += new System.EventHandler(this.createProduct_Click);
+            this.productBookletToolStripMenuItem.Name = "productBookletToolStripMenuItem";
+            this.productBookletToolStripMenuItem.Size = new System.Drawing.Size(185, 22);
+            this.productBookletToolStripMenuItem.Text = "Буклет продукта";
+            this.productBookletToolStripMenuItem.Click += new System.EventHandler(this.CreateProduct_Click);
             // 
-            // буклетГостиницыToolStripMenuItem
+            // hotelBookletToolStripMenuItem
             // 
-            this.буклетГостиницыToolStripMenuItem.Name = "буклетГостиницыToolStripMenuItem";
-            this.буклетГостиницыToolStripMenuItem.Size = new System.Drawing.Size(185, 22);
-            this.буклетГостиницыToolStripMenuItem.Text = "Буклет гостиницы";
-            this.буклетГостиницыToolStripMenuItem.Click += new System.EventHandler(this.createHotel_Click);
+            this.hotelBookletToolStripMenuItem.Name = "hotelBookletToolStripMenuItem";
+            this.hotelBookletToolStripMenuItem.Size = new System.Drawing.Size(185, 22);
+            this.hotelBookletToolStripMenuItem.Text = "Буклет гостиницы";
+            this.hotelBookletToolStripMenuItem.Click += new System.EventHandler(this.CreateHotel_Click);
             // 
-            // буклетОрганизацииToolStripMenuItem
+            // organizationBookletToolStripMenuItem
             // 
-            this.буклетОрганизацииToolStripMenuItem.Name = "буклетОрганизацииToolStripMenuItem";
-            this.буклетОрганизацииToolStripMenuItem.Size = new System.Drawing.Size(185, 22);
-            this.буклетОрганизацииToolStripMenuItem.Text = "Буклет организации";
-            this.буклетОрганизацииToolStripMenuItem.Click += new System.EventHandler(this.organizationCreate_Click);
+            this.organizationBookletToolStripMenuItem.Name = "organizationBookletToolStripMenuItem";
+            this.organizationBookletToolStripMenuItem.Size = new System.Drawing.Size(185, 22);
+            this.organizationBookletToolStripMenuItem.Text = "Буклет организации";
+            this.organizationBookletToolStripMenuItem.Click += new System.EventHandler(this.OrganizationCreate_Click);
             // 
-            // видToolStripMenuItem
+            // viewToolStripMenuItem
             // 
-            this.видToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.каскадомToolStripMenuItem,
-            this.мозаикойToolStripMenuItem});
-            this.видToolStripMenuItem.Name = "видToolStripMenuItem";
-            this.видToolStripMenuItem.Size = new System.Drawing.Size(39, 20);
-            this.видToolStripMenuItem.Text = "Вид";
+            this.viewToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.cascadeToolStripMenuItem,
+            this.mosaicToolStripMenuItem});
+            this.viewToolStripMenuItem.Name = "viewToolStripMenuItem";
+            this.viewToolStripMenuItem.Size = new System.Drawing.Size(39, 20);
+            this.viewToolStripMenuItem.Text = "Вид";
             // 
-            // каскадомToolStripMenuItem
+            // cascadeToolStripMenuItem
             // 
-            this.каскадомToolStripMenuItem.Name = "каскадомToolStripMenuItem";
-            this.каскадомToolStripMenuItem.Size = new System.Drawing.Size(130, 22);
-            this.каскадомToolStripMenuItem.Text = "Каскадом";
-            this.каскадомToolStripMenuItem.Click += new System.EventHandler(this.cascad_Click);
+            this.cascadeToolStripMenuItem.Name = "cascadeToolStripMenuItem";
+            this.cascadeToolStripMenuItem.Size = new System.Drawing.Size(130, 22);
+            this.cascadeToolStripMenuItem.Text = "Каскадом";
+            this.cascadeToolStripMenuItem.Click += new System.EventHandler(this.Cascad_Click);
             // 
-            // мозаикойToolStripMenuItem
+            // mosaicToolStripMenuItem
             // 
-            this.мозаикойToolStripMenuItem.Name = "мозаикойToolStripMenuItem";
-            this.мозаикойToolStripMenuItem.Size = new System.Drawing.Size(130, 22);
-            this.мозаикойToolStripMenuItem.Text = "Мозаикой";
-            this.мозаикойToolStripMenuItem.Click += new System.EventHandler(this.mosaic_Click);
+            this.mosaicToolStripMenuItem.Name = "mosaicToolStripMenuItem";
+            this.mosaicToolStripMenuItem.Size = new System.Drawing.Size(130, 22);
+            this.mosaicToolStripMenuItem.Text = "Мозаикой";
+            this.mosaicToolStripMenuItem.Click += new System.EventHandler(this.Mosaic_Click);
             // 
-            // окноToolStripMenuItem
+            // windowToolStripMenuItem
             // 
-            this.окноToolStripMenuItem.Name = "окноToolStripMenuItem";
-            this.окноToolStripMenuItem.Size = new System.Drawing.Size(48, 20);
-            this.окноToolStripMenuItem.Text = "Окно";
+            this.windowToolStripMenuItem.Name = "windowToolStripMenuItem";
+            this.windowToolStripMenuItem.Size = new System.Drawing.Size(48, 20);
+            this.windowToolStripMenuItem.Text = "Окно";
             // 
-            // выравнивнаниеToolStripMenuItem
+            // alignmentToolStripMenuItem
             // 
-            this.выравнивнаниеToolStripMenuItem.CheckOnClick = true;
-            this.выравнивнаниеToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.поЛевомуКраюToolStripMenuItem,
-            this.поЦентруToolStripMenuItem,
-            this.поПравомуКраюToolStripMenuItem});
-            this.выравнивнаниеToolStripMenuItem.Name = "выравнивнаниеToolStripMenuItem";
-            this.выравнивнаниеToolStripMenuItem.Size = new System.Drawing.Size(107, 20);
-            this.выравнивнаниеToolStripMenuItem.Text = "Выравнивнание";
+            this.alignmentToolStripMenuItem.CheckOnClick = true;
+            this.alignmentToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.alignLeftToolStripMenuItem,
+            this.alignCenterToolStripMenuItem,
+            this.alignRightToolStripMenuItem});
+            this.alignmentToolStripMenuItem.Name = "alignmentToolStripMenuItem";
+            this.alignmentToolStripMenuItem.Size = new System.Drawing.Size(107, 20);
+            this.alignmentToolStripMenuItem.Text = "Выравнивнание";
             // 
-            // поЛевомуКраюToolStripMenuItem
+            // alignLeftToolStripMenuItem
             // 
-            this.поЛевомуКраюToolStripMenuItem.Name = "поЛевомуКраюToolStripMenuItem";
-            this.поЛевомуКраюToolStripMenuItem.Size = new System.Drawing.Size(173, 22);
-            this.поЛевомуКраюToolStripMenuItem.Text = "По левому краю";
-            this.поЛевомуКраюToolStripMenuItem.Click += new System.EventHandler(this.leftEdge_Click);
+            this.alignLeftToolStripMenuItem.Name = "alignLeftToolStripMenuItem";
+            this.alignLeftToolStripMenuItem.Size = new System.Drawing.Size(173, 22);
+            this.alignLeftToolStripMenuItem.Text = "По левому краю";
+            this.alignLeftToolStripMenuItem.Click += new System.EventHandler(this.AlignLeft_Click);
             // 
-            // поЦентруToolStripMenuItem
+            // alignCenterToolStripMenuItem
             // 
-            this.поЦентруToolStripMenuItem.CheckOnClick = true;
-            this.поЦентруToolStripMenuItem.Name = "поЦентруToolStripMenuItem";
-            this.поЦентруToolStripMenuItem.Size = new System.Drawing.Size(173, 22);
-            this.поЦентруToolStripMenuItem.Text = "По центру";
-            this.поЦентруToolStripMenuItem.Click += new System.EventHandler(this.center_Click);
+            this.alignCenterToolStripMenuItem.CheckOnClick = true;
+            this.alignCenterToolStripMenuItem.Name = "alignCenterToolStripMenuItem";
+            this.alignCenterToolStripMenuItem.Size = new System.Drawing.Size(173, 22);
+            this.alignCenterToolStripMenuItem.Text = "По центру";
+            this.alignCenterToolStripMenuItem.Click += new System.EventHandler(this.AlignCenter_Click);
             // 
-            // поПравомуКраюToolStripMenuItem
+            // alignRightToolStripMenuItem
             // 
-            this.поПравомуКраюToolStripMenuItem.Name = "поПравомуКраюToolStripMenuItem";
-            this.поПравомуКраюToolStripMenuItem.Size = new System.Drawing.Size(173, 22);
-            this.поПравомуКраюToolStripMenuItem.Text = "По правому краю";
-            this.поПравомуКраюToolStripMenuItem.Click += new System.EventHandler(this.rightEdge_Click);
+            this.alignRightToolStripMenuItem.Name = "alignRightToolStripMenuItem";
+            this.alignRightToolStripMenuItem.Size = new System.Drawing.Size(173, 22);
+            this.alignRightToolStripMenuItem.Text = "По правому краю";
+            this.alignRightToolStripMenuItem.Click += new System.EventHandler(this.AlignRight_Click);
             // 
             // toolStrip1
             // 
@@ -201,7 +201,7 @@
             this.toolStripLabel1.Name = "toolStripLabel1";
             this.toolStripLabel1.Size = new System.Drawing.Size(57, 22);
             this.toolStripLabel1.Text = "Продукт";
-            this.toolStripLabel1.Click += new System.EventHandler(this.createProduct_Click);
+            this.toolStripLabel1.Click += new System.EventHandler(this.CreateProduct_Click);
             // 
             // toolStripLabel2
             // 
@@ -211,7 +211,7 @@
             this.toolStripLabel2.Name = "toolStripLabel2";
             this.toolStripLabel2.Size = new System.Drawing.Size(69, 22);
             this.toolStripLabel2.Text = "Гостиница";
-            this.toolStripLabel2.Click += new System.EventHandler(this.createHotel_Click);
+            this.toolStripLabel2.Click += new System.EventHandler(this.CreateHotel_Click);
             // 
             // toolStripLabel3
             // 
@@ -221,7 +221,7 @@
             this.toolStripLabel3.Name = "toolStripLabel3";
             this.toolStripLabel3.Size = new System.Drawing.Size(83, 22);
             this.toolStripLabel3.Text = "Организация";
-            this.toolStripLabel3.Click += new System.EventHandler(this.organizationCreate_Click);
+            this.toolStripLabel3.Click += new System.EventHandler(this.OrganizationCreate_Click);
             // 
             // toolStripSeparator1
             // 
@@ -236,7 +236,7 @@
             this.toolStripLabel4.Name = "toolStripLabel4";
             this.toolStripLabel4.Size = new System.Drawing.Size(64, 22);
             this.toolStripLabel4.Text = "Каскадом";
-            this.toolStripLabel4.Click += new System.EventHandler(this.cascad_Click);
+            this.toolStripLabel4.Click += new System.EventHandler(this.Cascad_Click);
             // 
             // toolStripLabel5
             // 
@@ -246,7 +246,7 @@
             this.toolStripLabel5.Name = "toolStripLabel5";
             this.toolStripLabel5.Size = new System.Drawing.Size(67, 22);
             this.toolStripLabel5.Text = "Мозаикой";
-            this.toolStripLabel5.Click += new System.EventHandler(this.mosaic_Click);
+            this.toolStripLabel5.Click += new System.EventHandler(this.Mosaic_Click);
             // 
             // toolStripSeparator2
             // 
@@ -260,8 +260,8 @@
             this.toolStripLabel6.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripLabel6.Name = "toolStripLabel6";
             this.toolStripLabel6.Size = new System.Drawing.Size(29, 22);
-            this.toolStripLabel6.Text = "<--";
-            this.toolStripLabel6.Click += new System.EventHandler(this.leftEdge_Click);
+            this.toolStripLabel6.Text = "По левому краю";
+            this.toolStripLabel6.Click += new System.EventHandler(this.AlignLeft_Click);
             // 
             // toolStripLabel7
             // 
@@ -270,8 +270,8 @@
             this.toolStripLabel7.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripLabel7.Name = "toolStripLabel7";
             this.toolStripLabel7.Size = new System.Drawing.Size(27, 22);
-            this.toolStripLabel7.Text = "<>";
-            this.toolStripLabel7.Click += new System.EventHandler(this.center_Click);
+            this.toolStripLabel7.Text = "По центру";
+            this.toolStripLabel7.Click += new System.EventHandler(this.AlignCenter_Click);
             // 
             // toolStripLabel8
             // 
@@ -280,8 +280,8 @@
             this.toolStripLabel8.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripLabel8.Name = "toolStripLabel8";
             this.toolStripLabel8.Size = new System.Drawing.Size(29, 22);
-            this.toolStripLabel8.Text = "-->";
-            this.toolStripLabel8.Click += new System.EventHandler(this.rightEdge_Click);
+            this.toolStripLabel8.Text = "По правому краю";
+            this.toolStripLabel8.Click += new System.EventHandler(this.AlignRight_Click);
             // 
             // statusStrip1
             // 
@@ -312,10 +312,10 @@
             this.toolStripStatusLabel3.Name = "toolStripStatusLabel3";
             this.toolStripStatusLabel3.Size = new System.Drawing.Size(0, 17);
             // 
-            // timer1
+            // timer
             // 
-            this.timer1.Enabled = true;
-            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
+            this.timer.Enabled = true;
+            this.timer.Tick += new System.EventHandler(this.Timer_Tick);
             // 
             // Form2
             // 
@@ -329,10 +329,10 @@
             this.IsMdiContainer = true;
             this.MainMenuStrip = this.menuStrip1;
             this.Margin = new System.Windows.Forms.Padding(2);
-            this.Name = "Form2";
-            this.Text = "Form2";
+            this.Name = "MainForm";
+            this.Text = "MainForm";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
-            this.Load += new System.EventHandler(this.Form2_Load);
+            this.Load += new System.EventHandler(this.MainForm_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.toolStrip1.ResumeLayout(false);
@@ -347,18 +347,18 @@
         #endregion
 
         private System.Windows.Forms.MenuStrip menuStrip1;
-        private System.Windows.Forms.ToolStripMenuItem открытьToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem буклетПродуктаToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem буклетГостиницыToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem буклетОрганизацииToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem видToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem каскадомToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem мозаикойToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem окноToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem выравнивнаниеToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem поЛевомуКраюToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem поЦентруToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem поПравомуКраюToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem openToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem productBookletToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem hotelBookletToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem organizationBookletToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem viewToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem cascadeToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem mosaicToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem windowToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem alignmentToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem alignLeftToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem alignCenterToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem alignRightToolStripMenuItem;
         private System.Windows.Forms.ToolStrip toolStrip1;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator1;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator2;
@@ -373,7 +373,7 @@
         private System.Windows.Forms.StatusStrip statusStrip1;
         private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel1;
         private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel2;
-        private System.Windows.Forms.Timer timer1;
+        private System.Windows.Forms.Timer timer;
         private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel3;
     }
 }
