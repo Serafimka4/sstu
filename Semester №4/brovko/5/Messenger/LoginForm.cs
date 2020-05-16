@@ -1,6 +1,6 @@
-﻿using System;
+﻿using BLL;
+using System;
 using System.Windows.Forms;
-using BLL;
 
 namespace Lab_5
 {
@@ -20,21 +20,14 @@ namespace Lab_5
 
         private void LoginBtn_Click(object sender, EventArgs e)
         {
-            string password = bll.GetPassword(userNameTxt.Text);
-            if(password == "")
-            {
-                warningLbl.Text = "There is no such user!";
-            }
-            else if(password.Equals(passwordTxt.Text))
+            string password = Bll.GetPassword(userNameTxt.Text);
+
+            if (password.Equals(passwordTxt.Text))
             {
                 Messenger m = (Messenger)MdiParent;
                 m.currUser = userNameTxt.Text;
                 Login?.Invoke();
                 Close();
-            }
-            else
-            {
-                warningLbl.Text = "Invalid login or password";
             }
         }
 

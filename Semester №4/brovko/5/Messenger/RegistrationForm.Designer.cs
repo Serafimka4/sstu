@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.helloLbl = new System.Windows.Forms.Label();
             this.userNameLbl = new System.Windows.Forms.Label();
             this.fullNameLbl = new System.Windows.Forms.Label();
             this.passwordLbl = new System.Windows.Forms.Label();
@@ -39,29 +38,19 @@
             this.errorLbl = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // helloLbl
-            // 
-            this.helloLbl.AutoSize = true;
-            this.helloLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.helloLbl.Location = new System.Drawing.Point(89, 25);
-            this.helloLbl.Name = "helloLbl";
-            this.helloLbl.Size = new System.Drawing.Size(244, 17);
-            this.helloLbl.TabIndex = 0;
-            this.helloLbl.Text = "Please fill the registration fields ";
-            // 
             // userNameLbl
             // 
             this.userNameLbl.AutoSize = true;
-            this.userNameLbl.Location = new System.Drawing.Point(92, 131);
+            this.userNameLbl.Location = new System.Drawing.Point(120, 42);
             this.userNameLbl.Name = "userNameLbl";
-            this.userNameLbl.Size = new System.Drawing.Size(58, 13);
+            this.userNameLbl.Size = new System.Drawing.Size(33, 13);
             this.userNameLbl.TabIndex = 1;
-            this.userNameLbl.Text = "User name";
+            this.userNameLbl.Text = "Login";
             // 
             // fullNameLbl
             // 
             this.fullNameLbl.AutoSize = true;
-            this.fullNameLbl.Location = new System.Drawing.Point(92, 163);
+            this.fullNameLbl.Location = new System.Drawing.Point(120, 88);
             this.fullNameLbl.Name = "fullNameLbl";
             this.fullNameLbl.Size = new System.Drawing.Size(52, 13);
             this.fullNameLbl.TabIndex = 2;
@@ -70,7 +59,7 @@
             // passwordLbl
             // 
             this.passwordLbl.AutoSize = true;
-            this.passwordLbl.Location = new System.Drawing.Point(92, 196);
+            this.passwordLbl.Location = new System.Drawing.Point(120, 131);
             this.passwordLbl.Name = "passwordLbl";
             this.passwordLbl.Size = new System.Drawing.Size(53, 13);
             this.passwordLbl.TabIndex = 3;
@@ -78,32 +67,32 @@
             // 
             // userNameTxt
             // 
-            this.userNameTxt.Location = new System.Drawing.Point(184, 131);
+            this.userNameTxt.Location = new System.Drawing.Point(123, 58);
             this.userNameTxt.Name = "userNameTxt";
             this.userNameTxt.Size = new System.Drawing.Size(100, 20);
             this.userNameTxt.TabIndex = 4;
             // 
             // fullNameTxt
             // 
-            this.fullNameTxt.Location = new System.Drawing.Point(184, 163);
+            this.fullNameTxt.Location = new System.Drawing.Point(123, 104);
             this.fullNameTxt.Name = "fullNameTxt";
             this.fullNameTxt.Size = new System.Drawing.Size(100, 20);
             this.fullNameTxt.TabIndex = 5;
             // 
             // passwordTxt
             // 
-            this.passwordTxt.Location = new System.Drawing.Point(184, 189);
+            this.passwordTxt.Location = new System.Drawing.Point(123, 146);
             this.passwordTxt.Name = "passwordTxt";
             this.passwordTxt.Size = new System.Drawing.Size(100, 20);
             this.passwordTxt.TabIndex = 6;
             // 
             // registerBtn
             // 
-            this.registerBtn.Location = new System.Drawing.Point(184, 270);
+            this.registerBtn.Location = new System.Drawing.Point(132, 190);
             this.registerBtn.Name = "registerBtn";
             this.registerBtn.Size = new System.Drawing.Size(75, 23);
             this.registerBtn.TabIndex = 7;
-            this.registerBtn.Text = "Register";
+            this.registerBtn.Text = "Sign Up";
             this.registerBtn.UseVisualStyleBackColor = true;
             this.registerBtn.Click += new System.EventHandler(this.RegisterBtn_Click);
             // 
@@ -111,7 +100,7 @@
             // 
             this.errorLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.5F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.errorLbl.ForeColor = System.Drawing.Color.Red;
-            this.errorLbl.Location = new System.Drawing.Point(78, 87);
+            this.errorLbl.Location = new System.Drawing.Point(17, 14);
             this.errorLbl.Name = "errorLbl";
             this.errorLbl.Size = new System.Drawing.Size(295, 23);
             this.errorLbl.TabIndex = 8;
@@ -121,7 +110,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(430, 329);
+            this.ClientSize = new System.Drawing.Size(351, 260);
             this.Controls.Add(this.errorLbl);
             this.Controls.Add(this.registerBtn);
             this.Controls.Add(this.passwordTxt);
@@ -130,7 +119,6 @@
             this.Controls.Add(this.passwordLbl);
             this.Controls.Add(this.fullNameLbl);
             this.Controls.Add(this.userNameLbl);
-            this.Controls.Add(this.helloLbl);
             this.Name = "RegistrationForm";
             this.Text = "Registration";
             this.ResumeLayout(false);
@@ -139,8 +127,6 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.Label helloLbl;
         private System.Windows.Forms.Label userNameLbl;
         private System.Windows.Forms.Label fullNameLbl;
         private System.Windows.Forms.Label passwordLbl;

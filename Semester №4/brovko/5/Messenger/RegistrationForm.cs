@@ -1,6 +1,6 @@
-﻿using System;
+﻿using BLL;
+using System;
 using System.Windows.Forms;
-using BLL;
 
 namespace Lab_5
 {
@@ -13,12 +13,12 @@ namespace Lab_5
 
         private void RegisterBtn_Click(object sender, EventArgs e)
         {
-            OperationResult or = bll.AddUser(userNameTxt.Text, passwordTxt.Text, fullNameTxt.Text);
-            if(or == OperationResult.UserExists)
+            OperationResult or = Bll.AddUser(userNameTxt.Text, passwordTxt.Text, fullNameTxt.Text);
+            if (or == OperationResult.UserExists)
             {
                 errorLbl.Text = "User with this user name is exist";
             }
-            if(or == OperationResult.OK)
+            if (or == OperationResult.OK)
             {
                 LoginForm lf = new LoginForm();
                 lf.MdiParent = this.MdiParent;

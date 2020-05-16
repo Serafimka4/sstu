@@ -8,7 +8,7 @@ namespace Lab_5
         public bool isLegitUser;
         public string currUser;
         private MessengesForm messenges;
-         
+
         public Messenger()
         {
             InitializeComponent();

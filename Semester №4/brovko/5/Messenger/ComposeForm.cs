@@ -1,6 +1,6 @@
-﻿using System;
+﻿using BLL;
+using System;
 using System.Windows.Forms;
-using BLL;
 
 namespace Lab_5
 {
@@ -18,16 +18,12 @@ namespace Lab_5
 
         private void SendBtn_Click(object sender, EventArgs e)
         {
-            Messenger m = (Messenger)MdiParent;
-            if(bll.AddMessege(m.currUser, toTxt.Text, subTxt.Text, bodyRTxt.Text) == OperationResult.BadWords)
-            {
-                errorLbl.Text = "Bad words!!!";
-            }
+            Messenger m = (Messenger) MdiParent;
+
+            if (Bll.AddMessege(m.currUser, toTxt.Text, subTxt.Text, bodyRTxt.Text) == OperationResult.BadWords)
+                errorLbl.Text = "There are bad words in the message.";
             else
-            {
                 this.Close();
-            }
-            
         }
     }
 }
