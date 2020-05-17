@@ -1,6 +1,6 @@
-﻿namespace WFLab6
+﻿namespace Lab_6
 {
-    partial class Form1
+    partial class MainForm
     {
         /// <summary>
         /// Обязательная переменная конструктора.
@@ -70,7 +70,7 @@
             this.calculator1.Size = new System.Drawing.Size(359, 218);
             this.calculator1.TabIndex = 0;
             // 
-            // Form1
+            // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -79,8 +79,8 @@
             this.Controls.Add(this.toCalcBtn);
             this.Controls.Add(this.textRef1);
             this.Controls.Add(this.calculator1);
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.Name = "MainForm";
+            this.Text = "MainForm";
             this.ResumeLayout(false);
 
         }

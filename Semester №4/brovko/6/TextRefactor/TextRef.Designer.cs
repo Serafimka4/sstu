@@ -52,47 +52,47 @@
             // 
             // colourBtn
             // 
-            this.colourBtn.Location = new System.Drawing.Point(126, 210);
+            this.colourBtn.Location = new System.Drawing.Point(322, 157);
             this.colourBtn.Name = "colourBtn";
             this.colourBtn.Size = new System.Drawing.Size(75, 23);
             this.colourBtn.TabIndex = 1;
-            this.colourBtn.Text = "Colour";
+            this.colourBtn.Text = "Color";
             this.colourBtn.UseVisualStyleBackColor = true;
             this.colourBtn.Click += new System.EventHandler(this.ColourBtn_Click);
             // 
             // leftCorBtn
             // 
-            this.leftCorBtn.Location = new System.Drawing.Point(145, 157);
+            this.leftCorBtn.Location = new System.Drawing.Point(3, 157);
             this.leftCorBtn.Name = "leftCorBtn";
-            this.leftCorBtn.Size = new System.Drawing.Size(29, 23);
+            this.leftCorBtn.Size = new System.Drawing.Size(42, 23);
             this.leftCorBtn.TabIndex = 2;
-            this.leftCorBtn.Text = "<<";
+            this.leftCorBtn.Text = "Left";
             this.leftCorBtn.UseVisualStyleBackColor = true;
             this.leftCorBtn.Click += new System.EventHandler(this.LeftCorBtn_Click);
             // 
             // cenCorBtn
             // 
-            this.cenCorBtn.Location = new System.Drawing.Point(218, 157);
+            this.cenCorBtn.Location = new System.Drawing.Point(51, 157);
             this.cenCorBtn.Name = "cenCorBtn";
-            this.cenCorBtn.Size = new System.Drawing.Size(34, 23);
+            this.cenCorBtn.Size = new System.Drawing.Size(51, 23);
             this.cenCorBtn.TabIndex = 3;
-            this.cenCorBtn.Text = "<->";
+            this.cenCorBtn.Text = "Center";
             this.cenCorBtn.UseVisualStyleBackColor = true;
             this.cenCorBtn.Click += new System.EventHandler(this.CenCorBtn_Click);
             // 
             // rightCorBtn
             // 
-            this.rightCorBtn.Location = new System.Drawing.Point(296, 157);
+            this.rightCorBtn.Location = new System.Drawing.Point(108, 157);
             this.rightCorBtn.Name = "rightCorBtn";
-            this.rightCorBtn.Size = new System.Drawing.Size(29, 23);
+            this.rightCorBtn.Size = new System.Drawing.Size(50, 23);
             this.rightCorBtn.TabIndex = 4;
-            this.rightCorBtn.Text = ">>";
+            this.rightCorBtn.Text = "Right";
             this.rightCorBtn.UseVisualStyleBackColor = true;
             this.rightCorBtn.Click += new System.EventHandler(this.RightCorBtn_Click);
             // 
             // fontBtn
             // 
-            this.fontBtn.Location = new System.Drawing.Point(271, 210);
+            this.fontBtn.Location = new System.Drawing.Point(403, 157);
             this.fontBtn.Name = "fontBtn";
             this.fontBtn.Size = new System.Drawing.Size(75, 23);
             this.fontBtn.TabIndex = 5;
@@ -102,7 +102,7 @@
             // 
             // saveBtn
             // 
-            this.saveBtn.Location = new System.Drawing.Point(145, 262);
+            this.saveBtn.Location = new System.Drawing.Point(3, 252);
             this.saveBtn.Name = "saveBtn";
             this.saveBtn.Size = new System.Drawing.Size(75, 23);
             this.saveBtn.TabIndex = 6;
@@ -112,7 +112,7 @@
             // 
             // loadBtn
             // 
-            this.loadBtn.Location = new System.Drawing.Point(250, 262);
+            this.loadBtn.Location = new System.Drawing.Point(403, 252);
             this.loadBtn.Name = "loadBtn";
             this.loadBtn.Size = new System.Drawing.Size(75, 23);
             this.loadBtn.TabIndex = 7;

@@ -1,29 +1,19 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace WFLab6
+namespace Lab_6
 {
-    public partial class Form1 : Form
+    public partial class MainForm : Form
     {
-        public Form1()
+        public MainForm()
         {
             InitializeComponent();
         }
 
         private void ToCalcBtn_Click(object sender, EventArgs e)
         {
-            double nothing = 0;
-            if(double.TryParse(textRef1.RichText, out nothing))
-            {
-                calculator1.Num = nothing;
-            }
+            if (double.TryParse(textRef1.RichText, out double d))
+                calculator1.Num = d;
         }
 
         private void ToTxtBtn_Click(object sender, EventArgs e)

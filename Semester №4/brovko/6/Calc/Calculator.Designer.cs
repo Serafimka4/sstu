@@ -58,37 +58,37 @@
             // 
             // minusBtn
             // 
-            this.minusBtn.Location = new System.Drawing.Point(141, 112);
+            this.minusBtn.Location = new System.Drawing.Point(104, 112);
             this.minusBtn.Name = "minusBtn";
             this.minusBtn.Size = new System.Drawing.Size(75, 23);
             this.minusBtn.TabIndex = 2;
-            this.minusBtn.Text = "-";
+            this.minusBtn.Text = "−";
             this.minusBtn.UseVisualStyleBackColor = true;
             this.minusBtn.Click += new System.EventHandler(this.MathBtb_Click);
             // 
             // multBtn
             // 
-            this.multBtn.Location = new System.Drawing.Point(264, 112);
+            this.multBtn.Location = new System.Drawing.Point(185, 112);
             this.multBtn.Name = "multBtn";
             this.multBtn.Size = new System.Drawing.Size(75, 23);
             this.multBtn.TabIndex = 3;
-            this.multBtn.Text = "*";
+            this.multBtn.Text = "×";
             this.multBtn.UseVisualStyleBackColor = true;
             this.multBtn.Click += new System.EventHandler(this.MathBtb_Click);
             // 
             // divBtn
             // 
-            this.divBtn.Location = new System.Drawing.Point(18, 170);
+            this.divBtn.Location = new System.Drawing.Point(266, 112);
             this.divBtn.Name = "divBtn";
             this.divBtn.Size = new System.Drawing.Size(75, 23);
             this.divBtn.TabIndex = 4;
-            this.divBtn.Text = "/";
+            this.divBtn.Text = "÷";
             this.divBtn.UseVisualStyleBackColor = true;
             this.divBtn.Click += new System.EventHandler(this.MathBtb_Click);
             // 
             // eqBtn
             // 
-            this.eqBtn.Location = new System.Drawing.Point(264, 170);
+            this.eqBtn.Location = new System.Drawing.Point(266, 168);
             this.eqBtn.Name = "eqBtn";
             this.eqBtn.Size = new System.Drawing.Size(75, 23);
             this.eqBtn.TabIndex = 5;
@@ -98,7 +98,7 @@
             // 
             // resTxt
             // 
-            this.resTxt.Location = new System.Drawing.Point(185, 57);
+            this.resTxt.Location = new System.Drawing.Point(185, 54);
             this.resTxt.Name = "resTxt";
             this.resTxt.ReadOnly = true;
             this.resTxt.Size = new System.Drawing.Size(154, 20);
@@ -108,7 +108,7 @@
             // 
             this.resultLbl.AutoSize = true;
             this.resultLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.resultLbl.Location = new System.Drawing.Point(127, 57);
+            this.resultLbl.Location = new System.Drawing.Point(127, 54);
             this.resultLbl.Name = "resultLbl";
             this.resultLbl.Size = new System.Drawing.Size(52, 17);
             this.resultLbl.TabIndex = 7;
