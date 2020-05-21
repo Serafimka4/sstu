@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Windows.Forms;
 
-namespace WFLab8_1
+namespace Lab_8
 {
     static class Program
     {
@@ -13,7 +13,7 @@ namespace WFLab8_1
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new DrawingForm());
         }
     }
 }

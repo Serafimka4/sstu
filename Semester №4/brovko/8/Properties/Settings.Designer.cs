@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace WFLab8_1.Properties
+namespace Lab_8.Properties
 {
 
 

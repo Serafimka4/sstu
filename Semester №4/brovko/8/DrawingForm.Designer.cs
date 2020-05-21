@@ -1,6 +1,6 @@
-﻿namespace WFLab8_1
+﻿namespace Lab_8
 {
-    partial class Form1
+    partial class DrawingForm
     {
         /// <summary>
         /// Обязательная переменная конструктора.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(DrawingForm));
             this.toolStrip1 = new System.Windows.Forms.ToolStrip();
             this.moveToolStripBtn = new System.Windows.Forms.ToolStripButton();
             this.resizeToolStripBtn = new System.Windows.Forms.ToolStripButton();
@@ -36,13 +36,13 @@
             this.lineToolStripBtn = new System.Windows.Forms.ToolStripButton();
             this.rectangleToolStripBtn = new System.Windows.Forms.ToolStripButton();
             this.EllipseToolStripBtn = new System.Windows.Forms.ToolStripButton();
-            this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
+            this.toolStripSeparator3 = new System.Windows.Forms.ToolStripSeparator();
             this.colorToolStripBtn = new System.Windows.Forms.ToolStripButton();
             this.toolStripLabel1 = new System.Windows.Forms.ToolStripLabel();
             this.sizeToolStripTxt = new System.Windows.Forms.ToolStripTextBox();
-            this.colorDialog1 = new System.Windows.Forms.ColorDialog();
+            this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
             this.deleteToolStripBtn = new System.Windows.Forms.ToolStripButton();
-            this.toolStripSeparator3 = new System.Windows.Forms.ToolStripSeparator();
+            this.colorDialog1 = new System.Windows.Forms.ColorDialog();
             this.toolStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -123,10 +123,10 @@
             this.EllipseToolStripBtn.Text = "Ellipse";
             this.EllipseToolStripBtn.Click += new System.EventHandler(this.EllipseToolStripBtn_Click);
             // 
-            // toolStripSeparator2
+            // toolStripSeparator3
             // 
-            this.toolStripSeparator2.Name = "toolStripSeparator2";
-            this.toolStripSeparator2.Size = new System.Drawing.Size(6, 25);
+            this.toolStripSeparator3.Name = "toolStripSeparator3";
+            this.toolStripSeparator3.Size = new System.Drawing.Size(6, 25);
             // 
             // colorToolStripBtn
             // 
@@ -134,8 +134,8 @@
             this.colorToolStripBtn.Image = ((System.Drawing.Image)(resources.GetObject("colorToolStripBtn.Image")));
             this.colorToolStripBtn.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.colorToolStripBtn.Name = "colorToolStripBtn";
-            this.colorToolStripBtn.Size = new System.Drawing.Size(47, 22);
-            this.colorToolStripBtn.Text = "Colour";
+            this.colorToolStripBtn.Size = new System.Drawing.Size(40, 22);
+            this.colorToolStripBtn.Text = "Color";
             this.colorToolStripBtn.Click += new System.EventHandler(this.ColorToolStripBtn_Click);
             // 
             // toolStripLabel1
@@ -146,10 +146,14 @@
             // 
             // sizeToolStripTxt
             // 
-            this.sizeToolStripTxt.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.sizeToolStripTxt.Name = "sizeToolStripTxt";
             this.sizeToolStripTxt.Size = new System.Drawing.Size(100, 25);
             this.sizeToolStripTxt.TextChanged += new System.EventHandler(this.SizeToolStripTxt_TextChanged);
+            // 
+            // toolStripSeparator2
+            // 
+            this.toolStripSeparator2.Name = "toolStripSeparator2";
+            this.toolStripSeparator2.Size = new System.Drawing.Size(6, 25);
             // 
             // deleteToolStripBtn
             // 
@@ -161,23 +165,18 @@
             this.deleteToolStripBtn.Text = "Delete";
             this.deleteToolStripBtn.Click += new System.EventHandler(this.DeleteToolStripBtn_Click);
             // 
-            // toolStripSeparator3
-            // 
-            this.toolStripSeparator3.Name = "toolStripSeparator3";
-            this.toolStripSeparator3.Size = new System.Drawing.Size(6, 25);
-            // 
-            // Form1
+            // DrawingForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(690, 387);
             this.Controls.Add(this.toolStrip1);
-            this.Name = "Form1";
-            this.Text = "Form1";
-            this.Paint += new System.Windows.Forms.PaintEventHandler(this.Form1_Paint);
-            this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Form1_MouseDown);
-            this.MouseMove += new System.Windows.Forms.MouseEventHandler(this.Form1_MouseMove);
-            this.MouseUp += new System.Windows.Forms.MouseEventHandler(this.Form1_MouseUp);
+            this.Name = "DrawingForm";
+            this.Text = "DrawingForm";
+            this.Paint += new System.Windows.Forms.PaintEventHandler(this.DrawingForm_Paint);
+            this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.DrawingForm_MouseDown);
+            this.MouseMove += new System.Windows.Forms.MouseEventHandler(this.DrawingForm_MouseMove);
+            this.MouseUp += new System.Windows.Forms.MouseEventHandler(this.DrawingForm_MouseUp);
             this.toolStrip1.ResumeLayout(false);
             this.toolStrip1.PerformLayout();
             this.ResumeLayout(false);

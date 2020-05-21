@@ -1,17 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace WFLab8_1
+namespace Lab_8
 {
-    //перечисление фигур для рисования
-    public enum CurrFig
+    public enum Figures
     {
         Move,
         Resize,
@@ -19,81 +13,80 @@ namespace WFLab8_1
         Rectangle,
         Ellipse
     }
-    public partial class Form1 : Form
+    public partial class DrawingForm : Form
     {
-        //Лист отображаемых фигур
         List<Figure> figures;
-        //вместо Х2 и Х4 должны были быть Y1 и Y2
         int X1, X2, X3, X4;
-        //выбранная фигура для рисования
-        CurrFig currFig = new CurrFig();
-        //Текущее перо
-        Pen pen;
-        //текущая добавляемая фигура 
+        Figures currentFigure = new Figures();
+        Pen currentPen;
         Figure f;
-        //выбранная фигура
         Figure selectedFigure;
-        //фигура выбора
         Figure selection;
-        //текущее положение курсора в листе фигур
         int c = -1;
 
 
         private void LineToolStripBtn_Click(object sender, EventArgs e)
         {
-            currFig = CurrFig.Line;
+            currentFigure = Figures.Line;
         }
 
         private void RectangleToolStripBtn_Click(object sender, EventArgs e)
         {
-            currFig = CurrFig.Rectangle;
+            currentFigure = Figures.Rectangle;
         }
 
         private void EllipseToolStripBtn_Click(object sender, EventArgs e)
         {
-            currFig = CurrFig.Ellipse;
+            currentFigure = Figures.Ellipse;
         }
 
-        private void Form1_MouseMove(object sender, MouseEventArgs e)
+        private void DrawingForm_MouseMove(object sender, MouseEventArgs e)
         {
-            if(e.Button == MouseButtons.Left && currFig != CurrFig.Move && currFig != CurrFig.Resize)
+            if (e.Button == MouseButtons.Left && currentFigure != Figures.Move && currentFigure != Figures.Resize)
             {
                 X3 = e.X;
                 X4 = e.Y;
-                switch (currFig)
+
+                switch (currentFigure)
                 {
-                    case CurrFig.Ellipse:
-                        f = new Ellipse(new Pen(pen.Color, pen.Width), X1, X2, X3, X4);
+                    case Figures.Ellipse:
+                        f = new Ellipse(new Pen(currentPen.Color, currentPen.Width), X1, X2, X3, X4);
                         break;
-                    case CurrFig.Rectangle:
-                        f = new Rectangle(new Pen(pen.Color, pen.Width), X1, X2, X3, X4);
+                    case Figures.Rectangle:
+                        f = new Rectangle(new Pen(currentPen.Color, currentPen.Width), X1, X2, X3, X4);
                         break;
-                    case CurrFig.Line:
-                        f = new Line(new Pen(pen.Color, pen.Width), X1, X2, X3, X4);
+                    case Figures.Line:
+                        f = new Line(new Pen(currentPen.Color, currentPen.Width), X1, X2, X3, X4);
                         break;
                 }
             }
-            if(currFig == CurrFig.Move && c != -1 && e.Button == MouseButtons.Left)
+
+            if (currentFigure == Figures.Move && c != -1 && e.Button == MouseButtons.Left)
             {
                 int width = figures[c].X3 - figures[c].X1;
                 int height = figures[c].X4 - figures[c].X2;
+                
                 figures[c].X1 = e.X;
                 figures[c].X2 = e.Y;
                 figures[c].X3 = e.X + width;
                 figures[c].X4 = e.Y + height;
+                
                 Invalidate();
             }
-            if(currFig == CurrFig.Resize && c != -1 && e.Button == MouseButtons.Left)
+
+            if (currentFigure == Figures.Resize && c != -1 && e.Button == MouseButtons.Left)
             {
                 figures[c].X1 = e.X;
                 figures[c].X2 = e.Y;
+                
                 Invalidate();
             }
         }
 
-        private void Form1_MouseUp(object sender, MouseEventArgs e)
+        private void DrawingForm_MouseUp(object sender, MouseEventArgs e)
         {
-            if(currFig != CurrFig.Resize && currFig != CurrFig.Move) figures.Add(f);
+            if (currentFigure != Figures.Resize && currentFigure != Figures.Move)
+                figures.Add(f);
 
             Invalidate();
         }
@@ -101,7 +94,11 @@ namespace WFLab8_1
         private void ColorToolStripBtn_Click(object sender, EventArgs e)
         {
             colorDialog1.ShowDialog();
-            if(currFig != CurrFig.Move && c == -1 && currFig != CurrFig.Resize) pen.Color = colorDialog1.Color;
+
+            if (currentFigure != Figures.Move && c == -1 && currentFigure != Figures.Resize)
+            {
+                currentPen.Color = colorDialog1.Color;
+            }
             else
             {
                 figures[c].Pen.Color = colorDialog1.Color;
@@ -111,28 +108,33 @@ namespace WFLab8_1
 
         private void SizeToolStripTxt_TextChanged(object sender, EventArgs e)
         {
-            float size = pen.Width;
-            if(float.TryParse(sizeToolStripTxt.Text, out size) && size > 0)
+            float size = currentPen.Width;
+            
+            if (float.TryParse(sizeToolStripTxt.Text, out size) && size > 0)
             {
-                if(currFig != CurrFig.Move && c == -1 && currFig != CurrFig.Resize) pen.Width = size;
-                else if((currFig == CurrFig.Move || currFig == CurrFig.Resize) && c != -1)
+                if (currentFigure != Figures.Move && c == -1 && currentFigure != Figures.Resize)
                 {
-                    
+                    currentPen.Width = size;
+                }
+                else if ((currentFigure == Figures.Move || currentFigure == Figures.Resize) && c != -1)
+                {
                     figures[c].Pen.Width = size;
                     Invalidate();
                 }
             }
-            if (size < 1) sizeToolStripTxt.Text = "1";
+
+            if (size < 1)
+                sizeToolStripTxt.Text = "1";
         }
 
         private void MoveToolStripBtn_Click(object sender, EventArgs e)
         {
-            currFig = CurrFig.Move;
+            currentFigure = Figures.Move;
         }
 
         private void ResizeToolStripBtn_Click(object sender, EventArgs e)
         {
-            currFig = CurrFig.Resize;
+            currentFigure = Figures.Resize;
         }
 
         private void DeleteToolStripBtn_Click(object sender, EventArgs e)
@@ -147,14 +149,12 @@ namespace WFLab8_1
             }
         }
 
-        private void Form1_MouseDown(object sender, MouseEventArgs e)
+        private void DrawingForm_MouseDown(object sender, MouseEventArgs e)
         {
-            //счетчик количества выбранных фигур
             int count = 0;
-            //счетчик цикла
             int k = 0;
             
-            if(currFig != CurrFig.Move && currFig != CurrFig.Resize)
+            if (currentFigure != Figures.Move && currentFigure != Figures.Resize)
             { 
                 X1 = e.X;
                 X2 = e.Y;
@@ -164,22 +164,33 @@ namespace WFLab8_1
                 foreach(Figure f in figures)
                 {
                     k++;
-                    Pen p = new Pen(Color.Black, 1f);
-                    p.DashStyle = System.Drawing.Drawing2D.DashStyle.Dash;
-                    int x1 = f.X1, x2 = f.X2, x3 = f.X3, x4 = f.X4;
+
+                    Pen p = new Pen(Color.Black, 1f)
+                    {
+                        DashStyle = System.Drawing.Drawing2D.DashStyle.Dash
+                    };
+
+                    int x1 = f.X1;
+                    int x2 = f.X2;
+                    int x3 = f.X3;
+                    int x4 = f.X4;
+
                     if (x1 > x3)
                     {
-                        int t = x1;
+                        int temp = x1;
                         x1 = x3;
-                        x3 = t;
+                        x3 = temp;
                     }
-                    if(x2 > x4)
+
+                    if (x2 > x4)
                     {
-                        int t = x2;
+                        int temp = x2;
                         x2 = x4;
-                        x4 = t;
+                        x4 = temp;
                     }
+
                     Rectangle r = new Rectangle(p, x1, x2, x3, x4);
+
                     if (e.X > r.X1 && e.X < r.X3 && e.Y > r.X2 && e.Y < r.X4)
                     {
                         c = k - 1;
@@ -190,35 +201,35 @@ namespace WFLab8_1
                         sizeToolStripTxt.Text = f.Pen.Width.ToString();
                     }
                 }
+
                 if (count == 0)
                 {
                     selection = null;
                     selectedFigure = null;
                     c = -1;
-                    sizeToolStripTxt.Text = pen.Width.ToString();
+                    sizeToolStripTxt.Text = currentPen.Width.ToString();
                 }
             }
         }
 
-        private void Form1_Paint(object sender, PaintEventArgs e)
+        private void DrawingForm_Paint(object sender, PaintEventArgs e)
         {
-            Graphics gr = e.Graphics;
+            Graphics g = e.Graphics;
+
             foreach(Figure f in figures)
-            {
-                f.Draw(gr);
-            }
+                f.Draw(g);
+            
             if (selection != null)
-            {
-                selection.Draw(gr);
-            }
+                selection.Draw(g);
         }
 
-        public Form1()
+        public DrawingForm()
         {
             InitializeComponent();
+
             figures = new List<Figure>();
-            pen = new Pen(Color.Black);
-            f = new Line(pen, 0, 0, 0, 0);
+            currentPen = new Pen(Color.Black);
+            f = new Line(currentPen, 0, 0, 0, 0);
         }
     }
 }

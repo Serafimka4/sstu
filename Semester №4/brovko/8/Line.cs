@@ -1,18 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Drawing;
+﻿using System.Drawing;
 
-namespace WFLab8_1
+namespace Lab_8
 {
     public class Line : Figure
     {
-        public Line()
-        {
-
-        }
         public Line(Pen pen, int x1, int x2, int x3, int x4)
         {
             Pen = pen;
