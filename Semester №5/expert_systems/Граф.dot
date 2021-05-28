@@ -11,32 +11,32 @@ digraph G {
 /* 2 */
 	feature_2 [shape=plaintext, label="2. Повышенный уровень масла\nв картере двигателя"];
 	feature_2 -> feature_9 [label="   Нет  "];
-	feature_2 -> terminal_node_1 [label="   Да  "];
-	terminal_node_1 [color=lightgray, style=filled, shape=plaintext, label="1. Повреждение диафрагмы\nтопливного насоса\nили нарушение\nгерметичности клапанов"]
+	feature_2 -> terminal_node_76 [label="   Да  "];
+	terminal_node_76 [color=lightgray, style=filled, shape=plaintext, label="76. Повреждение диафрагмы\nтопливного насоса\nили нарушение\nгерметичности клапанов"];
 
 /* 4 */
 	feature_4 [shape=plaintext, label="4. Двигатель запускается только\nпри сильном нажатии на\nпедаль акселератора"];
 	feature_4 -> feature_6 [label="   Нет  "];
-	feature_4 -> terminal_node_2 [label="   Да  "];
-	terminal_node_2 [color=lightgray, style=filled, shape=plaintext, label="2. Засорение жиклеров холостого хода"]
+	feature_4 -> terminal_node_77 [label="   Да  "];
+	terminal_node_77 [color=lightgray, style=filled, shape=plaintext, label="77. Засорение жиклеров холостого хода"];
 
 /* 6 */
 	feature_6 [shape=plaintext, label="6. Двигатель глохнет\nпри увеличении\nоборотов"];
 	feature_6 -> feature_7 [label="   Нет  "];
-	feature_6 -> terminal_node_3 [label="   Да  "];
-	terminal_node_3 [color=lightgray, style=filled, shape=plaintext, label="3. Засорение жиклеров главного хода"]
+	feature_6 -> terminal_node_78 [label="   Да  "];
+	terminal_node_78 [color=lightgray, style=filled, shape=plaintext, label="78. Засорение жиклеров главного хода"];
 
 /* 7 */
 	feature_7 [shape=plaintext, label="7. Слышно шипение в карбюраторе"];
 	feature_7 -> feature_13 [label="   Нет  "];
-	feature_7 -> terminal_node_4 [label="   Да  "];
-	terminal_node_4 [color=lightgray, style=filled, shape=plaintext, label="4. Неплотности в соединениях карбюратора с\nвпускной трубой"];
+	feature_7 -> terminal_node_79 [label="   Да  "];
+	terminal_node_79 [color=lightgray, style=filled, shape=plaintext, label="79. Неплотности в соединениях карбюратора с\nвпускной трубой"];
 
 /* 13 */
 	feature_13 [shape=plaintext, label="13. Двигатель работает неустойчиво\nна холостом ходу"];
 	feature_13 -> feature_15 [label="   Нет  "];
-	feature_13 -> terminal_node_7 [label="   Да  "];
-	terminal_node_7 [color=lightgray, style=filled, shape=plaintext, label="7. Неправильная регулировка\nхолостого хода"];
+	feature_13 -> terminal_node_82 [label="   Да  "];
+	terminal_node_82 [color=lightgray, style=filled, shape=plaintext, label="82. Неправильная регулировка\nхолостого хода"];
 
 /* 15 */
 	feature_15 [shape=plaintext, label="15. Двигатель работает неустойчиво"];
@@ -46,56 +46,56 @@ digraph G {
 /* 9 */
 	feature_9 [shape=plaintext, label="9. Слышны хлопки в глушителе"];
 	feature_9 -> feature_11 [label="   Нет  "];
-	feature_9 -> terminal_node_5 [label="   Да  "];
-	terminal_node_5 [color=lightgray, style=filled, shape=plaintext, label="5. Нарушение герметичности поплавка"]
+	feature_9 -> terminal_node_80 [label="   Да  "];
+	terminal_node_80 [color=lightgray, style=filled, shape=plaintext, label="80. Нарушение герметичности поплавка"];
 
 /* 11 */
 	feature_11 [shape=plaintext, label="11. Отсутствует искра между электродами\nсвечей зажигания"];
 	feature_11 -> feature_45 [label="   Нет  "];
-	feature_11 -> terminal_node_6 [label="   Да  "];
-	terminal_node_6 [color=lightgray, style=filled, shape=plaintext, label="6. Неисправность катушки зажигания"]
+	feature_11 -> terminal_node_81 [label="   Да  "];
+	terminal_node_81 [color=lightgray, style=filled, shape=plaintext, label="81. Неисправность катушки зажигания"];
 
 /* 45 */
 	feature_45 [shape=plaintext, label="45. Лампочка контроля\nзаряда АКБ не горит"];
 	feature_45 -> feature_46 [label="   Нет  "];
-	feature_45 -> terminal_node_33 [label="   Да  "];
-	terminal_node_33 [color=lightgray, style=filled, shape=plaintext, label="33. Разряжена или неисправна\nаккумуляторная батарея"];
+	feature_45 -> terminal_node_108 [label="   Да  "];
+	terminal_node_108 [color=lightgray, style=filled, shape=plaintext, label="108. Разряжена или неисправна\nаккумуляторная батарея"];
 
 /* 46 */
 	feature_46 [shape=plaintext, label="46. При включении\nстартера слышны\nповторяющиеся\nщелчки тягового\nреле и удары\nшестерни привода о\nвенец маховика колеса"];
 	feature_46 -> feature_48 [label="   Нет  "];
-	feature_46 -> terminal_node_34 [label="   Да  "];
-	terminal_node_34 [color=lightgray, style=filled, shape=plaintext, label="34. Отсутствие надежного контакта\nв цепи стартера"];
+	feature_46 -> terminal_node_109 [label="   Да  "];
+	terminal_node_109 [color=lightgray, style=filled, shape=plaintext, label="109. Отсутствие надежного контакта\nв цепи стартера"];
 
 /* 48 */
 	feature_48 [shape=plaintext, label="48. Стартер работает в\nхолостую"];
-	feature_48 -> terminal_node_36 [label="   Да  "];
-	terminal_node_36 [color=lightgray, style=filled, shape=plaintext, label="36. Нарушение регулировки хода шестерни\nпривода"];
+	feature_48 -> terminal_node_111 [label="   Да  "];
+	terminal_node_111 [color=lightgray, style=filled, shape=plaintext, label="111. Нарушение регулировки хода шестерни\nпривода"];
 
 /* 18 */
 	feature_18 [shape=plaintext, label="18. Видимый износ поршневых колец"];
-	feature_18 -> terminal_node_10 [label="   Да  "];
-	terminal_node_10 [color=lightgray, style=filled, shape=plaintext, label="10. Нагар на свечах зажигания"];
-	feature_18 -> terminal_node_8 [label="   Нет  "];
-	terminal_node_8 [color=lightgray, style=filled, shape=plaintext, label="8. Слишком маленькие зазоры клапанов"];
+	feature_18 -> terminal_node_85 [label="   Да  "];
+	terminal_node_85 [color=lightgray, style=filled, shape=plaintext, label="85. Нагар на свечах зажигания"];
+	feature_18 -> terminal_node_83 [label="   Нет  "];
+	terminal_node_83 [color=lightgray, style=filled, shape=plaintext, label="83. Слишком маленькие зазоры клапанов"];
 
 /* 17 */
 	feature_17 [shape=plaintext, label="17. Слышен стук клапанов\nпри заведенном двигателе"];
 	feature_17 -> feature_20 [label="   Нет  "];
-	feature_17 -> terminal_node_9 [label="   Да  "];
-	terminal_node_9 [color=lightgray, style=filled, shape=plaintext, label="9. Слишком большие зазоры клапанов"];
+	feature_17 -> terminal_node_84 [label="   Да  "];
+	terminal_node_84 [color=lightgray, style=filled, shape=plaintext, label="84. Слишком большие зазоры клапанов"];
 
 /* 20 */
 	feature_20 [shape=plaintext, label="20. Чувствуется повышенная токсичность\nвыхлопных газов"];
 	feature_20 -> feature_16 [label="   Нет  "];
-	feature_20 -> terminal_node_11 [label="   Да  "];
-	terminal_node_11 [color=lightgray, style=filled, shape=plaintext, label="11. Негерметичность соединений трубки\nвакуум-корректора автомата\nблока управления"];
+	feature_20 -> terminal_node_86 [label="   Да  "];
+	terminal_node_86 [color=lightgray, style=filled, shape=plaintext, label="86. Негерметичность соединений трубки\nвакуум-корректора автомата\nблока управления"];
 
 /* 16 */
 	feature_16 [shape=plaintext, label="16. Двигатель не развивает полной мощности"];
 	feature_16 -> feature_23 [label="   Нет  "];
-	feature_16 -> terminal_node_12 [label="   Да  "];
-	terminal_node_12 [color=lightgray, style=filled, shape=plaintext, label="12. Поломка подшипников\nкулачкового вала\nтопливного насоса"];
+	feature_16 -> terminal_node_87 [label="   Да  "];
+	terminal_node_87 [color=lightgray, style=filled, shape=plaintext, label="87. Поломка подшипников\nкулачкового вала\nтопливного насоса"];
 
 /* 23 */
 	feature_23 [shape=plaintext, label="23. Уводы автомобиля в сторону\nпри движении по\nнеровным поверхностям"];
@@ -104,10 +104,10 @@ digraph G {
 
 /* 25 */
 	feature_25 [shape=plaintext, label="25. Повышенный зазор между\nцапфой и балкой\n(больше 0,25 миллимитра)"];
-	feature_25 -> terminal_node_13 [label="   Да  "];
-	terminal_node_13 [color=lightgray, style=filled, shape=plaintext, label="13. Износ опорного подшипника шкворня"];
-	feature_25 -> terminal_node_14 [label="   Нет  "];
-	terminal_node_14 [color=lightgray, style=filled, shape=plaintext, label="14. Радиальный люфт\nв шкворневом соединении\nиз-за износа шкворня и втулок"];
+	feature_25 -> terminal_node_88 [label="   Да  "];
+	terminal_node_88 [color=lightgray, style=filled, shape=plaintext, label="88. Износ опорного подшипника шкворня"];
+	feature_25 -> terminal_node_89 [label="   Нет  "];
+	terminal_node_89 [color=lightgray, style=filled, shape=plaintext, label="89. Радиальный люфт\nв шкворневом соединении\nиз-за износа шкворня и втулок"];
 
 /* 27 */
 	feature_27 [shape=plaintext, label="27. Повышенно усилие\nповорота рулевого колеса\n(«тяжелый руль»)"];
@@ -116,16 +116,16 @@ digraph G {
 
 /* 28 */
 	feature_28 [shape=plaintext, label="28. Слышен скрип втулок\nпри повороте колеса"];
-	feature_28 -> terminal_node_15 [label="   Да  "];
-	terminal_node_15 [color=lightgray, style=filled, shape=plaintext, label="15. Задир втулок шкворня"];
-	feature_28 -> terminal_node_16 [label="   Нет  "];
-	terminal_node_16 [color=lightgray, style=filled, shape=plaintext, label="16. Занижено давление воздуха\nв шинах управляемых колес"];
+	feature_28 -> terminal_node_90 [label="   Да  "];
+	terminal_node_90 [color=lightgray, style=filled, shape=plaintext, label="90. Задир втулок шкворня"];
+	feature_28 -> terminal_node_91 [label="   Нет  "];
+	terminal_node_91 [color=lightgray, style=filled, shape=plaintext, label="91. Занижено давление воздуха\nв шинах управляемых колес"];
 
 /* 29 */
 	feature_29 [shape=plaintext, label="29. Занос или увод автомобиля в сторону\nпри торможении"];
 	feature_29 -> feature_30 [label="   Нет  "];
-	feature_29 -> terminal_node_17 [label="   Да  "];
-	terminal_node_17 [color=lightgray, style=filled, shape=plaintext, label="17. Неодинаковое давление воздуха\nв шинах передних колес"];
+	feature_29 -> terminal_node_92 [label="   Да  "];
+	terminal_node_92 [color=lightgray, style=filled, shape=plaintext, label="92. Неодинаковое давление воздуха\nв шинах передних колес"];
 
 /* 30 */
 	feature_30 [shape=plaintext, label="30. «Проваливается» педаль тормоза"];
@@ -134,16 +134,16 @@ digraph G {
 
 /* 31 */
 	feature_31 [shape=plaintext, label="31. Тормозная жидкость имеет темный цвет"];
-	feature_31 -> terminal_node_18 [label="   Да  "];
-	terminal_node_18 [color=lightgray, style=filled, shape=plaintext, label="18. Содержание конденсата в тормозной жидкости"];
-	feature_31 -> terminal_node_19 [label="   Нет  "];
-	terminal_node_19 [color=lightgray, style=filled, shape=plaintext, label="19. Попадание воздуха в гидросистему\nтормозных магистралей"];
+	feature_31 -> terminal_node_93 [label="   Да  "];
+	terminal_node_93 [color=lightgray, style=filled, shape=plaintext, label="93. Содержание конденсата в тормозной жидкости"];
+	feature_31 -> terminal_node_94 [label="   Нет  "];
+	terminal_node_94 [color=lightgray, style=filled, shape=plaintext, label="94. Попадание воздуха в гидросистему\nтормозных магистралей"];
 
 /* 32 */
 	feature_32 [shape=plaintext, label="32. Педаль тормоза «проваливается»,\nно становится устойчивой\nпосле нескольких качков"];
 	feature_32 -> feature_33 [label="   Нет  "];
-	feature_32 -> terminal_node_20 [label="   Да  "];
-	terminal_node_20 [color=lightgray, style=filled, shape=plaintext, label="20. Износ резиновых\nуплотнителей узла ГТЦ"];
+	feature_32 -> terminal_node_95 [label="   Да  "];
+	terminal_node_95 [color=lightgray, style=filled, shape=plaintext, label="95. Износ резиновых\nуплотнителей узла ГТЦ"];
 
 /* 33 */
 	feature_33 [shape=plaintext, label="33. Не работает ближний свет\nлевой головной фары"];
@@ -168,36 +168,36 @@ digraph G {
 /* 37 */
 	feature_37 [shape=plaintext, label="37. Лампа сигнализатора поворота\nмигает с двойной частотой\nпри включении указателей поворота"];
 	feature_37 -> feature_42 [label="   Нет  "];
-	feature_37 -> terminal_node_25 [label="   Да  "];
-	terminal_node_25 [color=lightgray, style=filled, shape=plaintext, label="25. Неисправность ламп\nуказателей поворота"];
+	feature_37 -> terminal_node_100 [label="   Да  "];
+	terminal_node_100 [color=lightgray, style=filled, shape=plaintext, label="100. Неисправность ламп\nуказателей поворота"];
 
 /* 38 */
 	feature_38 [shape=plaintext, label="38. Видимое перегорание\nплавкой вставки\nпредохранителя №7"];
-	feature_38 -> terminal_node_21 [label="   Нет  "];
-	terminal_node_21 [color=lightgray, style=filled, shape=plaintext, label="21. Неисправность лампы накаливания\nближнего света\nлевой головной фары"];
-	feature_38 -> terminal_node_26 [label="   Да  "];
-	terminal_node_26 [color=lightgray, style=filled, shape=plaintext, label="26. Неисправность предохранителя №7"];
+	feature_38 -> terminal_node_96 [label="   Нет  "];
+	terminal_node_96 [color=lightgray, style=filled, shape=plaintext, label="96. Неисправность лампы накаливания\nближнего света\nлевой головной фары"];
+	feature_38 -> terminal_node_101 [label="   Да  "];
+	terminal_node_101 [color=lightgray, style=filled, shape=plaintext, label="101. Неисправность предохранителя №7"];
 
 /* 39 */
 	feature_39 [shape=plaintext, label="39. Видимое перегорание\nплавкой вставки\nпредохранителя №8"];
-	feature_39 -> terminal_node_22 [label="   Нет  "];
-	terminal_node_22 [color=lightgray, style=filled, shape=plaintext, label="22. Неисправность лампы накаливания\nближнего света\nправой головной фары"];
-	feature_39 -> terminal_node_27 [label="   Да  "];
-	terminal_node_27 [color=lightgray, style=filled, shape=plaintext, label="27. Неисправность предохранителя №8"];
+	feature_39 -> terminal_node_97 [label="   Нет  "];
+	terminal_node_97 [color=lightgray, style=filled, shape=plaintext, label="97. Неисправность лампы накаливания\nближнего света\nправой головной фары"];
+	feature_39 -> terminal_node_102 [label="   Да  "];
+	terminal_node_102 [color=lightgray, style=filled, shape=plaintext, label="102. Неисправность предохранителя №8"];
 
 /* 40 */
 	feature_40 [shape=plaintext, label="40. Видимое перегорание\nплавкой вставки\nпредохранителя №9"];
-	feature_40 -> terminal_node_23 [label="   Нет  "];
-	terminal_node_23 [color=lightgray, style=filled, shape=plaintext, label="23. Неисправность лампы накаливания\nдальнего света\nлевой головной фары"];
-	feature_40 -> terminal_node_28 [label="   Да  "];
-	terminal_node_28 [color=lightgray, style=filled, shape=plaintext, label="28. Неисправность предохранителя №9"];
+	feature_40 -> terminal_node_98 [label="   Нет  "];
+	terminal_node_98 [color=lightgray, style=filled, shape=plaintext, label="98. Неисправность лампы накаливания\nдальнего света\nлевой головной фары"];
+	feature_40 -> terminal_node_103 [label="   Да  "];
+	terminal_node_103 [color=lightgray, style=filled, shape=plaintext, label="103. Неисправность предохранителя №9"];
 
 /* 41 */
 	feature_41 [shape=plaintext, label="41. Видимое перегорание\nплавкой вставки\nпредохранителя №10"];
-	feature_41 -> terminal_node_24 [label="   Нет  "];
-	terminal_node_24 [color=lightgray, style=filled, shape=plaintext, label="24. Неисправность лампы накаливания\nдальнего света\nправой головной фары"];
-	feature_41 -> terminal_node_29 [label="   Да  "];
-	terminal_node_29 [color=lightgray, style=filled, shape=plaintext, label="29. Неисправность предохранителя №10"];
+	feature_41 -> terminal_node_99 [label="   Нет  "];
+	terminal_node_99 [color=lightgray, style=filled, shape=plaintext, label="99. Неисправность лампы накаливания\nдальнего света\nправой головной фары"];
+	feature_41 -> terminal_node_104 [label="   Да  "];
+	terminal_node_104 [color=lightgray, style=filled, shape=plaintext, label="104. Неисправность предохранителя №10"];
 
 /* 42 */
 	feature_42 [shape=plaintext, label="42. Не работает сигнализатор\nуказателей поворота"];
@@ -206,34 +206,34 @@ digraph G {
 
 /* 43 */
 	feature_43 [shape=plaintext, label="43. Не работает один или\nнесколько из указателей поворота"];
-	feature_43 -> terminal_node_30 [label="   Нет  "];
-	terminal_node_30 [color=lightgray, style=filled, shape=plaintext, label="30. Перегорание лампы\nсигнализатора указателей поворота"];
-	feature_43 -> terminal_node_31 [label="   Да  "];
-	terminal_node_31 [color=lightgray, style=filled, shape=plaintext, label="31. Перегорание одной из ламп\nуказателей поворота"];
+	feature_43 -> terminal_node_105 [label="   Нет  "];
+	terminal_node_105 [color=lightgray, style=filled, shape=plaintext, label="105. Перегорание лампы\nсигнализатора указателей поворота"];
+	feature_43 -> terminal_node_106 [label="   Да  "];
+	terminal_node_106 [color=lightgray, style=filled, shape=plaintext, label="106. Перегорание одной из ламп\nуказателей поворота"];
 
 /* 44 */
 	feature_44 [shape=plaintext, label="44. Стрелка указателя напряжения\nпри включении фар\nпри средней частоте вращения\nколенчатого вала\nнаходится в красной зоне"];
 	feature_44 -> feature_47 [label="   Нет  "];
-	feature_44 -> terminal_node_32 [label="   Да  "];
-	terminal_node_32 [color=lightgray, style=filled, shape=plaintext, label="32. Ослаблено натяжение\nремня генератора"];
+	feature_44 -> terminal_node_107 [label="   Да  "];
+	terminal_node_107 [color=lightgray, style=filled, shape=plaintext, label="107. Ослаблено натяжение\nремня генератора"];
 
 /* 47 */
 	feature_47 [shape=plaintext, label="47. При влючении стартера\nслышен скрежет"];
 	feature_47 -> feature_49 [label="   Нет  "];
-	feature_47 -> terminal_node_35 [label="   Да  "];
-	terminal_node_35 [color=lightgray, style=filled, shape=plaintext, label="35. Забоины на зубьях венца маховика"];
+	feature_47 -> terminal_node_110 [label="   Да  "];
+	terminal_node_110 [color=lightgray, style=filled, shape=plaintext, label="110. Забоины на зубьях венца маховика"];
 
 /* 49 */
 	feature_49 [shape=plaintext, label="49. Стартер продолжает крутить\nпосле поворота ключа зажигания\nв исходное положение"];
 	feature_49 -> feature_50 [label="   Нет  "];
-	feature_49 -> terminal_node_37 [label="   Да  "];
-	terminal_node_37 [color=lightgray, style=filled, shape=plaintext, label="37. Слипание контактов\nна тяговом реле"];
+	feature_49 -> terminal_node_112 [label="   Да  "];
+	terminal_node_112 [color=lightgray, style=filled, shape=plaintext, label="112. Слипание контактов\nна тяговом реле"];
 
 /* 50 */
 	feature_50 [shape=plaintext, label="50. Стартер начинает крутить\nлишь после нескольких\nпопыток включения"];
 	feature_50 -> feature_53 [label="   Нет  "];
-	feature_50 -> terminal_node_38 [label="   Да  "];
-	terminal_node_38 [color=lightgray, style=filled, shape=plaintext, label="38. Прогорание контактов на втягивающем реле"];
+	feature_50 -> terminal_node_113 [label="   Да  "];
+	terminal_node_113 [color=lightgray, style=filled, shape=plaintext, label="113. Прогорание контактов на втягивающем реле"];
 
 /* 53 */
 	feature_53 [shape=plaintext, label="53. Пробуксовка сцепления"];
@@ -242,28 +242,28 @@ digraph G {
 
 /* 52 */
 	feature_52 [shape=plaintext, label="52. Толщина фрикционных накладок\nменьше 5 миллиметров"];
-	feature_52 -> terminal_node_43 [label="   Нет  "];
-	terminal_node_43 [color=lightgray, style=filled, shape=plaintext, label="43. Ослабление нажимной\nдиафрагменной пружины"];
-	feature_52 -> terminal_node_39 [label="   Да  "];
-	terminal_node_39 [color=lightgray, style=filled, shape=plaintext, label="39. Износ фрикционных накладок"];
+	feature_52 -> terminal_node_118 [label="   Нет  "];
+	terminal_node_118 [color=lightgray, style=filled, shape=plaintext, label="118. Ослабление нажимной\nдиафрагменной пружины"];
+	feature_52 -> terminal_node_114 [label="   Да  "];
+	terminal_node_114 [color=lightgray, style=filled, shape=plaintext, label="114. Износ фрикционных накладок"];
 
 /* 54 */
 	feature_54 [shape=plaintext, label="54. Вибрация руля при торможении"];
 	feature_54 -> feature_56 [label="   Нет  "];
-	feature_54 -> terminal_node_40 [label="   Да  "];
-	terminal_node_40 [color=lightgray, style=filled, shape=plaintext, label="40. Деформация тормозных дисков"];
+	feature_54 -> terminal_node_115 [label="   Да  "];
+	terminal_node_115 [color=lightgray, style=filled, shape=plaintext, label="115. Деформация тормозных дисков"];
 
 /* 56 */
 	feature_56 [shape=plaintext, label="56. Дым и сильный запах,\nисходящий от тормозов"];
 	feature_56 -> feature_57 [label="   Нет  "];
-	feature_56 -> terminal_node_41 [label="   Да  "];
-	terminal_node_41 [color=lightgray, style=filled, shape=plaintext, label="41. Перегрев тормозных механизмов"];
+	feature_56 -> terminal_node_116 [label="   Да  "];
+	terminal_node_116 [color=lightgray, style=filled, shape=plaintext, label="116. Перегрев тормозных механизмов"];
 
 /* 57 */
 	feature_57 [shape=plaintext, label="57. Неполное выключение сцепления\n(сцепление «ведет»)"];
 	feature_57 -> feature_61 [label="   Нет  "];
-	feature_57 -> terminal_node_42 [label="   Да  "];
-	terminal_node_42 [color=lightgray, style=filled, shape=plaintext, label="42. Заедание ступицы\nведомого диска\nна шлицах первичного вала"];
+	feature_57 -> terminal_node_117 [label="   Да  "];
+	terminal_node_117 [color=lightgray, style=filled, shape=plaintext, label="117. Заедание ступицы\nведомого диска\nна шлицах первичного вала"];
 
 /* 61 */
 	feature_61 [shape=plaintext, label="61. Вибрации, шумы и металлические\nдрибезжания в трансмиссии\nпри движении"];
@@ -272,10 +272,10 @@ digraph G {
 
 /* 62 */
 	feature_62 [shape=plaintext, label="62. Рывки при трогании с места"];
-	feature_62 -> terminal_node_45 [label="   Нет  "];
-	terminal_node_45 [color=lightgray, style=filled, shape=plaintext, label="45. Ослабление нажимной пружины\nфрикционного гасителя"];
-	feature_62 -> terminal_node_44 [label="   Да  "];
-	terminal_node_44 [color=lightgray, style=filled, shape=plaintext, label="44. Поломка или износ деталей\nдемпферного устройства\nведомого диска"];
+	feature_62 -> terminal_node_120 [label="   Нет  "];
+	terminal_node_120 [color=lightgray, style=filled, shape=plaintext, label="120. Ослабление нажимной пружины\nфрикционного гасителя"];
+	feature_62 -> terminal_node_119 [label="   Да  "];
+	terminal_node_119 [color=lightgray, style=filled, shape=plaintext, label="119. Поломка или износ деталей\nдемпферного устройства\nведомого диска"];
 
 /* 63 */
 	feature_63 [shape=plaintext, label="63. Слышен шум в сцеплении\nпри работающем двигателе"];
@@ -284,34 +284,34 @@ digraph G {
 
 /* 64 */
 	feature_64 [shape=plaintext, label="64. Автомобиль не трогается с места"];
-	feature_64 -> terminal_node_47 [label="   Нет  "];
-	terminal_node_47 [color=lightgray, style=filled, shape=plaintext, label="47. Выход из строя подшипника\nвыключения спецления"];
-	feature_64 -> terminal_node_46 [label="   Да  "];
-	terminal_node_46 [color=lightgray, style=filled, shape=plaintext, label="46. Обрыв ступицы\nдиска сцепления"];
+	feature_64 -> terminal_node_122 [label="   Нет  "];
+	terminal_node_122 [color=lightgray, style=filled, shape=plaintext, label="122. Выход из строя подшипника\nвыключения спецления"];
+	feature_64 -> terminal_node_121 [label="   Да  "];
+	terminal_node_121 [color=lightgray, style=filled, shape=plaintext, label="121. Обрыв ступицы\nдиска сцепления"];
 
 /* 65 */
 	feature_65 [shape=plaintext, label="65. Скрип при нажатии\nна педаль сцепления\nпри неработающем двигателе"];
 	feature_65 -> feature_66 [label="   Нет  "];
-	feature_65 -> terminal_node_48 [label="   Да  "];
-	terminal_node_48 [color=lightgray, style=filled, shape=plaintext, label="48. Отсутствие смазки\nили износ пластмассовых втулок\nоси педали"];
+	feature_65 -> terminal_node_123 [label="   Да  "];
+	terminal_node_123 [color=lightgray, style=filled, shape=plaintext, label="123. Отсутствие смазки\nили износ пластмассовых втулок\nоси педали"];
 
 /* 66 */
 	feature_66 [shape=plaintext, label="66. Самопроизвольное выключение передач"];
 	feature_66 -> feature_67 [label="   Нет  "];
-	feature_66 -> terminal_node_49 [label="   Да  "];
-	terminal_node_49 [color=lightgray, style=filled, shape=plaintext, label="49. Износ или поломка\nзубьев шестерен"];
+	feature_66 -> terminal_node_124 [label="   Да  "];
+	terminal_node_124 [color=lightgray, style=filled, shape=plaintext, label="124. Износ или поломка\nзубьев шестерен"];
 
 /* 67 */
 	feature_67 [shape=plaintext, label="67. Слышен стук коробки передач\nпри движении"];
 	feature_67 -> feature_68 [label="   Нет  "];
-	feature_67 -> terminal_node_50 [label="   Да  "];
-	terminal_node_50 [color=lightgray, style=filled, shape=plaintext, label="50. Ослабление затяжки гаек крепления\nкоробки передач"];
+	feature_67 -> terminal_node_125 [label="   Да  "];
+	terminal_node_125 [color=lightgray, style=filled, shape=plaintext, label="125. Ослабление затяжки гаек крепления\nкоробки передач"];
 
 /* 68 */
 	feature_68 [shape=plaintext, label="68. Течь масла\nиз коробки передач"];
 	feature_68 -> feature_69 [label="   Нет  "];
-	feature_68 -> terminal_node_51 [label="   Да  "];
-	terminal_node_51 [color=lightgray, style=filled, shape=plaintext, label="51. Загрязнение сапуна или\nего повреждение"];
+	feature_68 -> terminal_node_126 [label="   Да  "];
+	terminal_node_126 [color=lightgray, style=filled, shape=plaintext, label="126. Загрязнение сапуна или\nего повреждение"];
 
 /* 69 */
 	feature_69 [shape=plaintext, label="69. Нарушение синхронизации\nвключения передач\n(передачи включаются со скрежетом)"];
@@ -320,31 +320,31 @@ digraph G {
 
 /* 71 */
 	feature_71 [shape=plaintext, label="71. Заметная коррозия\nдеталей КПП"];
-	feature_71 -> terminal_node_52 [label="   Нет  "];
-	terminal_node_52 [color=lightgray, style=filled, shape=plaintext, label="52. Износ резьбы\nконической поверхности\nблокирующего кольца синхронизатора"];
-	feature_71 -> terminal_node_54 [label="   Да  "];
-	terminal_node_54 [color=lightgray, style=filled, shape=plaintext, label="54. Попадание воды\nчерез сапун в КПП"];
+	feature_71 -> terminal_node_127 [label="   Нет  "];
+	terminal_node_127 [color=lightgray, style=filled, shape=plaintext, label="127. Износ резьбы\nконической поверхности\nблокирующего кольца синхронизатора"];
+	feature_71 -> terminal_node_129 [label="   Да  "];
+	terminal_node_129 [color=lightgray, style=filled, shape=plaintext, label="129. Попадание воды\nчерез сапун в КПП"];
 
 /* 70 */
 	feature_70 [shape=plaintext, label="70. Слышен характерный «вой»\nКПП при работающем двигателе\nна любой передаче"];
 	feature_70 -> feature_72 [label="   Нет  "];
-	feature_70 -> terminal_node_53 [label="   Да  "];
-	terminal_node_53 [color=lightgray, style=filled, shape=plaintext, label="53. Износ подшипника\nведущей шестерни"];
+	feature_70 -> terminal_node_128 [label="   Да  "];
+	terminal_node_128 [color=lightgray, style=filled, shape=plaintext, label="128. Износ подшипника\nведущей шестерни"];
 
 /* 72 */
 	feature_72 [shape=plaintext, label="72. Слышен характерный «вой»\nКПП при работающем двигателе\nтолько на нейтральной передаче"];
 	feature_72 -> feature_73 [label="   Нет  "];
-	feature_72 -> terminal_node_55 [label="   Да  "];
-	terminal_node_55 [color=lightgray, style=filled, shape=plaintext, label="55. Износ подшипника\nведущего вала"];
+	feature_72 -> terminal_node_130 [label="   Да  "];
+	terminal_node_130 [color=lightgray, style=filled, shape=plaintext, label="130. Износ подшипника\nведущего вала"];
 
 /* 73 */
 	feature_73 [shape=plaintext, label="73. Слышен шум КПП\nпри работающем двигателе\nна одной из передач"];
 	feature_73 -> feature_74 [label="   Нет  "];
-	feature_73 -> terminal_node_56 [label="   Да  "];
-	terminal_node_56 [color=lightgray, style=filled, shape=plaintext, label="56. Поломка или износ синхронизатора"];
+	feature_73 -> terminal_node_131 [label="   Да  "];
+	terminal_node_131 [color=lightgray, style=filled, shape=plaintext, label="131. Поломка или износ синхронизатора"];
 
 /* 74 */
 	feature_74 [shape=plaintext, label="74. Слышен шум\nв момент переключения передачи"];
-	feature_74 -> terminal_node_57 [label="   Да  "];
-	terminal_node_57 [color=lightgray, style=filled, shape=plaintext, label="57. Поломка блокирующего устройства\nили его деформация"];
+	feature_74 -> terminal_node_132 [label="   Да  "];
+	terminal_node_132 [color=lightgray, style=filled, shape=plaintext, label="132. Поломка блокирующего устройства\nили его деформация"];
 }
