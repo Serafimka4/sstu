@@ -1,0 +1,20 @@
+{
+  "name": "computer-security",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "assymetric": "DATA=data node src/3-assymetric.js",
+    "digital-signature": "DATA=data node src/4-digital-signature.js",
+    "steganography": "DATA=data node src/5-steganography.js",
+    "clean": "rm -f data/{3-encrypted-file,3-decrypted-file,3-keypair.xml,3-keypair.json,4-signature,5-covert-message.png,5-revealed}",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "UNLICENSE",
+  "dependencies": {
+    "js-crypto-rsa": "^1.0.3",
+    "md5-file": "^5.0.0",
+    "steggy": "^2.0.1",
+    "xml-js": "^1.6.11"
+  }
+}
