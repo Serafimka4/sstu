@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="88.06517mm"
+   height="44.949997mm"
+   viewBox="0 0 88.06517 44.949997"
+   version="1.1"
+   id="svg260094"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20, custom)"
+   sodipodi:docname="IDEF0.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview260096"
+     pagecolor="#505050"
+     bordercolor="#ffffff"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.93859299"
+     inkscape:cx="30.897312"
+     inkscape:cy="215.21576"
+     inkscape:window-width="928"
+     inkscape:window-height="1016"
+     inkscape:window-x="32"
+     inkscape:window-y="32"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     fit-margin-top="5"
+     lock-margins="true"
+     fit-margin-left="5"
+     fit-margin-right="5"
+     fit-margin-bottom="5" />
+  <defs
+     id="defs260091">
+    <marker
+       style="overflow:visible"
+       id="marker20184-31-1"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend"
+       inkscape:isstock="true">
+      <path
+         transform="scale(-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:0.625;stroke-linejoin:round"
+         id="path19942-94-5" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker260165"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend"
+       inkscape:isstock="true">
+      <path
+         transform="scale(-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:0.625;stroke-linejoin:round"
+         id="path260163" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker260169"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend"
+       inkscape:isstock="true">
+      <path
+         transform="scale(-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:0.625;stroke-linejoin:round"
+         id="path260167" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker260173"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend"
+       inkscape:isstock="true">
+      <path
+         transform="scale(-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:0.625;stroke-linejoin:round"
+         id="path260171" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker260177"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend"
+       inkscape:isstock="true">
+      <path
+         transform="scale(-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:0.625;stroke-linejoin:round"
+         id="path260175" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker260181"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend"
+       inkscape:isstock="true">
+      <path
+         transform="scale(-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:0.625;stroke-linejoin:round"
+         id="path260179" />
+    </marker>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-64.402313,-83.966615)">
+    <g
+       id="g17021"
+       transform="translate(-208.49297,150.77802)"
+       style="display:inline">
+      <rect
+         style="fill:#cacaca;fill-opacity:1;stroke:#000000;stroke-width:0.154038;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="rect5292"
+         width="30.698856"
+         height="19.652096"
+         x="300.53494"
+         y="-53.263794" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:2.11667px;line-height:1;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.150813;stroke-miterlimit:4;stroke-dasharray:none"
+       x="107.42917"
+       y="106.57908"
+       id="text5633"
+       inkscape:label="Label"><tspan
+         sodipodi:role="line"
+         x="107.42917"
+         y="107.08758"
+         style="font-weight:bold;font-size:2.11667px;text-align:center;text-anchor:middle;stroke-width:0.150813;stroke-miterlimit:4;stroke-dasharray:none"
+         id="tspan5631">Компиляция</tspan><tspan
+         sodipodi:role="line"
+         x="107.42917"
+         y="109.20425"
+         style="font-weight:bold;font-size:2.11667px;text-align:center;text-anchor:middle;stroke-width:0.150813;stroke-miterlimit:4;stroke-dasharray:none"
+         id="tspan13025">единицы трасляции</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:1.41111px;line-height:1;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.150813;stroke-miterlimit:4;stroke-dasharray:none"
+       x="95.392975"
+       y="90.013924"
+       id="text17299"
+       inkscape:label="Label"><tspan
+         sodipodi:role="line"
+         x="95.392975"
+         y="90.352921"
+         style="font-weight:normal;font-size:1.41111px;text-align:center;text-anchor:middle;stroke-width:0.150813;stroke-miterlimit:4;stroke-dasharray:none"
+         id="tspan17297">ISO/IEC</tspan><tspan
+         sodipodi:role="line"
+         x="95.392975"
+         y="91.76403"
+         style="font-weight:normal;font-size:1.41111px;text-align:center;text-anchor:middle;stroke-width:0.150813;stroke-miterlimit:4;stroke-dasharray:none"
+         id="tspan191772">9899:1999</tspan></text>
+    <path
+       style="display:inline;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.146153;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker20184-31-1)"
+       d="m 95.41119,92.77666 v 4.43959"
+       id="path17040"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:1.41111px;line-height:1;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.150813;stroke-miterlimit:4;stroke-dasharray:none"
+       x="77.2995"
+       y="107.23768"
+       id="text18878"
+       inkscape:label="Label"><tspan
+         sodipodi:role="line"
+         x="77.2995"
+         y="107.57668"
+         style="font-weight:normal;font-size:1.41111px;text-align:center;text-anchor:middle;stroke-width:0.150813;stroke-miterlimit:4;stroke-dasharray:none"
+         id="tspan18876">Исходный код</tspan><tspan
+         sodipodi:role="line"
+         x="77.2995"
+         y="108.98779"
+         style="font-weight:normal;font-size:1.41111px;text-align:center;text-anchor:middle;stroke-width:0.150813;stroke-miterlimit:4;stroke-dasharray:none"
+         id="tspan21340">единицы трансляции</tspan></text>
+    <path
+       style="display:inline;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.146153;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker20184-31-1)"
+       d="m 87.30441,107.7214 h 4.43958"
+       id="path18880"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:1.41111px;line-height:1;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.150813;stroke-miterlimit:4;stroke-dasharray:none"
+       x="107.35767"
+       y="123.89663"
+       id="text22366"
+       inkscape:label="Label"><tspan
+         sodipodi:role="line"
+         x="107.35767"
+         y="123.89663"
+         style="font-weight:normal;font-size:1.41111px;text-align:center;text-anchor:middle;stroke-width:0.150813;stroke-miterlimit:4;stroke-dasharray:none"
+         id="tspan22364">Пользователь</tspan></text>
+    <path
+       style="display:inline;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.146153;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker20184-31-1)"
+       d="M 107.3928,121.90389 V 117.4643"
+       id="path22368"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:1.41111px;line-height:1;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.150813;stroke-miterlimit:4;stroke-dasharray:none"
+       x="138.01691"
+       y="108.12955"
+       id="text24144"
+       inkscape:label="Label"><tspan
+         sodipodi:role="line"
+         x="138.01691"
+         y="108.12955"
+         style="font-weight:normal;font-size:1.41111px;text-align:center;text-anchor:middle;stroke-width:0.150813;stroke-miterlimit:4;stroke-dasharray:none"
+         id="tspan24142">Код на языке ассемблера</tspan></text>
+    <path
+       style="display:inline;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.146153;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker20184-31-1)"
+       d="m 122.89092,107.71859 h 4.43958"
+       id="path24146"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:1.41111px;line-height:1;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.150813;stroke-miterlimit:4;stroke-dasharray:none"
+       x="107.5799"
+       y="91.76403"
+       id="text183460"
+       inkscape:label="Label"><tspan
+         sodipodi:role="line"
+         x="107.5799"
+         y="91.76403"
+         style="font-weight:normal;font-size:1.41111px;text-align:center;text-anchor:middle;stroke-width:0.150813;stroke-miterlimit:4;stroke-dasharray:none"
+         id="tspan183458">AMD64 ISA</tspan></text>
+    <path
+       style="display:inline;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.146153;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker20184-31-1)"
+       d="m 107.57847,92.77666 v 4.43959"
+       id="path183462"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:1.41111px;line-height:1;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.150813;stroke-miterlimit:4;stroke-dasharray:none"
+       x="119.74615"
+       y="91.764793"
+       id="text189934"
+       inkscape:label="Label"><tspan
+         sodipodi:role="line"
+         x="119.74615"
+         y="91.764793"
+         style="font-weight:normal;font-size:1.41111px;text-align:center;text-anchor:middle;stroke-width:0.150813;stroke-miterlimit:4;stroke-dasharray:none"
+         id="tspan189932">System V AB</tspan></text>
+    <path
+       style="display:inline;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.146153;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker20184-31-1)"
+       d="m 119.74577,92.77666 v 4.43959"
+       id="path189936"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+  </g>
+</svg>

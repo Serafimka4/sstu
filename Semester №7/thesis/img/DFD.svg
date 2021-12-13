@@ -1,0 +1,446 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="36.946941mm"
+   height="87.332794mm"
+   viewBox="0 0 36.946941 87.332794"
+   version="1.1"
+   id="svg357045"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20, custom)"
+   sodipodi:docname="dfd.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview357047"
+     pagecolor="#505050"
+     bordercolor="#ffffff"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     lock-margins="true"
+     fit-margin-top="5"
+     fit-margin-left="5"
+     fit-margin-right="5"
+     fit-margin-bottom="5"
+     inkscape:zoom="0.93859299"
+     inkscape:cx="49.542241"
+     inkscape:cy="236.52425"
+     inkscape:window-width="1024"
+     inkscape:window-height="1016"
+     inkscape:window-x="32"
+     inkscape:window-y="32"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs357042">
+    <marker
+       style="overflow:visible"
+       id="Arrow2Mend"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend"
+       inkscape:isstock="true">
+      <path
+         transform="scale(-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:0.625;stroke-linejoin:round"
+         id="path1020" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker357116"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend"
+       inkscape:isstock="true">
+      <path
+         transform="scale(-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:0.625;stroke-linejoin:round"
+         id="path357114" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker357120"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend"
+       inkscape:isstock="true">
+      <path
+         transform="scale(-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:0.625;stroke-linejoin:round"
+         id="path357118" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker357124"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend"
+       inkscape:isstock="true">
+      <path
+         transform="scale(-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:0.625;stroke-linejoin:round"
+         id="path357122" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker357128"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend"
+       inkscape:isstock="true">
+      <path
+         transform="scale(-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:0.625;stroke-linejoin:round"
+         id="path357126" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker357132"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend"
+       inkscape:isstock="true">
+      <path
+         transform="scale(-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:0.625;stroke-linejoin:round"
+         id="path357130" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker357136"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend"
+       inkscape:isstock="true">
+      <path
+         transform="scale(-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:0.625;stroke-linejoin:round"
+         id="path357134" />
+    </marker>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-76.407066,-96.661121)">
+    <g
+       id="g340728"
+       transform="translate(21.122008,-71.912986)">
+      <g
+         id="g308349"
+         inkscape:label="Box"
+         transform="translate(-0.2443496,177.52164)">
+        <rect
+           style="fill:#ffccaa;fill-opacity:1;stroke:#000000;stroke-width:0.132292;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none"
+           id="rect308347"
+           width="13.493752"
+           height="7.1437492"
+           x="61.26516"
+           y="14.552084"
+           ry="1.4488363" />
+      </g>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:1.41111px;line-height:1;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         x="67.802826"
+         y="195.29662"
+         id="text308361"
+         inkscape:label="Label"><tspan
+           sodipodi:role="line"
+           x="67.802826"
+           y="195.63562"
+           id="tspan308359"
+           style="font-weight:normal;text-align:center;text-anchor:middle">Лексический</tspan><tspan
+           sodipodi:role="line"
+           x="67.802826"
+           y="197.04672"
+           style="font-weight:normal;text-align:center;text-anchor:middle"
+           id="tspan330661">анализ</tspan></text>
+    </g>
+    <g
+       id="g340741"
+       transform="translate(21.122008,-73.648571)">
+      <g
+         id="g316289"
+         inkscape:label="Box"
+         transform="translate(-0.20369785,189.58188)">
+        <rect
+           style="fill:#ffccaa;fill-opacity:1;stroke:#000000;stroke-width:0.132292;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none"
+           id="rect316287"
+           width="13.493752"
+           height="7.1437492"
+           x="61.26516"
+           y="14.552084"
+           ry="1.4488363" />
+      </g>
+      <g
+         id="g340733">
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:1.41111px;line-height:1;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+           x="67.832794"
+           y="207.35686"
+           id="text316295"
+           inkscape:label="Label"><tspan
+             sodipodi:role="line"
+             x="67.832794"
+             y="207.69586"
+             id="tspan316293"
+             style="font-weight:normal;text-align:center;text-anchor:middle">Синтаксический</tspan><tspan
+             sodipodi:role="line"
+             x="67.832794"
+             y="209.10696"
+             style="font-weight:normal;text-align:center;text-anchor:middle"
+             id="tspan328899">анализ</tspan></text>
+      </g>
+    </g>
+    <g
+       id="g340748"
+       transform="translate(21.122008,-73.725101)">
+      <g
+         id="g317501"
+         inkscape:label="Box"
+         transform="translate(-0.20369785,199.98308)">
+        <rect
+           style="fill:#ffccaa;fill-opacity:1;stroke:#000000;stroke-width:0.132292;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none"
+           id="rect317499"
+           width="13.493752"
+           height="7.1437492"
+           x="61.26516"
+           y="14.552084"
+           ry="1.4488363" />
+      </g>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:1.41111px;line-height:1;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         x="67.802826"
+         y="217.62129"
+         id="text317507"
+         inkscape:label="Label"><tspan
+           sodipodi:role="line"
+           x="67.802826"
+           y="217.9603"
+           style="font-weight:normal;text-align:center;text-anchor:middle"
+           id="tspan318589">Построение</tspan><tspan
+           sodipodi:role="line"
+           x="67.802826"
+           y="219.3714"
+           style="font-weight:normal;text-align:center;text-anchor:middle"
+           id="tspan331745">AST</tspan></text>
+    </g>
+    <g
+       id="g340755"
+       transform="translate(21.122008,-73.438797)">
+      <g
+         id="g319981"
+         inkscape:label="Box"
+         transform="translate(-0.26984385,210.02142)">
+        <rect
+           style="fill:#ffccaa;fill-opacity:1;stroke:#000000;stroke-width:0.132292;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none"
+           id="rect319979"
+           width="13.493752"
+           height="7.1437492"
+           x="61.26516"
+           y="14.552084"
+           ry="1.4488363" />
+      </g>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:1.41111px;line-height:1;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         x="67.736679"
+         y="227.65964"
+         id="text319987"
+         inkscape:label="Label"><tspan
+           sodipodi:role="line"
+           x="67.736679"
+           y="227.99864"
+           style="font-weight:normal;text-align:center;text-anchor:middle"
+           id="tspan319985">Построение</tspan><tspan
+           sodipodi:role="line"
+           x="67.736679"
+           y="229.40974"
+           style="font-weight:normal;text-align:center;text-anchor:middle"
+           id="tspan334689">3AC</tspan></text>
+    </g>
+    <g
+       id="g340762"
+       transform="translate(21.122008,-72.362926)">
+      <g
+         id="g322585"
+         inkscape:label="Box"
+         transform="translate(-0.26984385,219.27022)">
+        <rect
+           style="fill:#ffccaa;fill-opacity:1;stroke:#000000;stroke-width:0.132292;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none"
+           id="rect322583"
+           width="13.493752"
+           height="7.1437492"
+           x="61.26516"
+           y="14.552084"
+           ry="1.4488363" />
+      </g>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:1.41111px;line-height:1;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         x="67.736679"
+         y="236.90843"
+         id="text322591"
+         inkscape:label="Label"><tspan
+           sodipodi:role="line"
+           x="67.736679"
+           y="237.24744"
+           style="font-weight:normal;text-align:center;text-anchor:middle"
+           id="tspan322589">Построение</tspan><tspan
+           sodipodi:role="line"
+           x="67.736679"
+           y="238.65854"
+           style="font-weight:normal;text-align:center;text-anchor:middle"
+           id="tspan338857">SSA</tspan></text>
+    </g>
+    <g
+       id="g340768"
+       transform="translate(21.122008,-71.912986)">
+      <g
+         id="g323453"
+         inkscape:label="Box"
+         transform="translate(-0.26984385,229.14492)">
+        <rect
+           style="fill:#ffccaa;fill-opacity:1;stroke:#000000;stroke-width:0.132292;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none"
+           id="rect323451"
+           width="13.493752"
+           height="7.1437492"
+           x="61.26516"
+           y="14.552084"
+           ry="1.4488363" />
+      </g>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:1.41111px;line-height:1;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         x="67.732887"
+         y="247.63647"
+         id="text323459"
+         inkscape:label="Label"><tspan
+           sodipodi:role="line"
+           x="67.732887"
+           y="247.63647"
+           style="font-weight:normal;text-align:center;text-anchor:middle"
+           id="tspan323457">Кодогенерация</tspan></text>
+    </g>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.131;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#Arrow2Mend)"
+       d="m 88.889263,116.28083 v 3.74593"
+       id="path342251" />
+    <g
+       id="g340772"
+       inkscape:label="Box"
+       transform="translate(21.239416,87.175183)">
+      <rect
+         style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.132292;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none"
+         id="rect340770"
+         width="13.493752"
+         height="7.1437492"
+         x="61.26516"
+         y="14.552084"
+         ry="0" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:1.41111px;line-height:1;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="89.223892"
+       y="105.80352"
+       id="text340778"
+       inkscape:label="Label"><tspan
+         sodipodi:role="line"
+         x="89.223892"
+         y="105.80352"
+         style="font-weight:normal;text-align:center;text-anchor:middle"
+         id="tspan340776">Пользователь</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:1.41111px;line-height:1;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="89.304253"
+       y="113.27359"
+       id="text342257"
+       inkscape:label="Label"><tspan
+         sodipodi:role="line"
+         x="89.304253"
+         y="113.61259"
+         style="font-weight:normal;text-align:center;text-anchor:middle"
+         id="tspan342255">Исходный код</tspan><tspan
+         sodipodi:role="line"
+         x="89.304253"
+         y="115.0237"
+         style="font-weight:normal;text-align:center;text-anchor:middle"
+         id="tspan343385">единицы трансляции</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.131;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 88.864199,108.87101 v 2.46058"
+       id="path342253" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:1.41111px;line-height:1;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="103.01239"
+       y="142.31627"
+       id="text346285"
+       inkscape:label="Label"><tspan
+         sodipodi:role="line"
+         x="103.01239"
+         y="142.65527"
+         style="font-weight:normal;text-align:center;text-anchor:middle"
+         id="tspan346283">Ассемблерный</tspan><tspan
+         sodipodi:role="line"
+         x="103.01239"
+         y="144.06638"
+         style="font-weight:normal;text-align:center;text-anchor:middle"
+         id="tspan347091">код</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.131;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#Arrow2Mend)"
+       d="m 88.890006,127.30449 v 2.96565"
+       id="path344110" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.131;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#Arrow2Mend)"
+       d="m 88.890006,137.58022 v 2.96565"
+       id="path344112" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.131;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#Arrow2Mend)"
+       d="m 88.890006,147.90486 v 2.96565"
+       id="path344114" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.131;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#Arrow2Mend)"
+       d="m 88.890006,158.22953 v 2.96565"
+       id="path344116" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.131;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#Arrow2Mend)"
+       d="m 88.890006,168.55417 v 2.96565"
+       id="path344118" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.131;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 95.677221,175.69751 7.276599,2.3e-4 v -29.7635"
+       id="path344122"
+       sodipodi:nodetypes="ccc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.131;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#Arrow2Mend)"
+       d="M 102.95382,139.66277 V 105.29868 H 96.260916"
+       id="path355540"
+       sodipodi:nodetypes="ccc" />
+  </g>
+</svg>
