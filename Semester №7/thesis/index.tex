@@ -3,6 +3,8 @@
 % не менее 12 пунктов [1, §́ 6.1.1].
 \documentclass[14pt,russian]{extarticle}
 
+\usepackage{rotating}
+
 \usepackage{amsmath}
 
 \usepackage[shortcuts]{extdash}
@@ -477,11 +479,11 @@ IDEF0 является методологией функционального �
 	\caption{Комплексная диаграмма IDEF0}
 \end{figure}
 
-\begin{figure}[H]
+\begin{sidewaysfigure}
 	\centering
-	\includegraphics[width=\textwidth,clip=true]{img/IDEF0-2.png}
+	\includegraphics[width=\textwidth]{img/IDEF0-2.png}
 	\caption{Декомпозиция комплексной диаграммы IDEF0}
-\end{figure}
+\end{sidewaysfigure}
 
 \subsection{IDEF3}
 
@@ -500,11 +502,11 @@ IDEF0 является методологией функционального �
 Перекрёстки подразделяются на следующие типы: \obj{И}, \obj{ИЛИ},
 \obj{синхронное И}, \obj{синхронное ИЛИ}, а также \obj{исключающее ИЛИ}.
 
-\begin{figure}[H]
+\begin{sidewaysfigure}
 	\centering
 	\includegraphics[width=\textwidth,clip=true]{img/IDEF3.png}
 	\caption{IDEF3 диаграмма}
-\end{figure}
+\end{sidewaysfigure}
 
 \subsection{DFD}
 
@@ -561,11 +563,11 @@ DFD состоит из следующих компонентов: внешня�
 сконструированные компоненты могут быть переиспользованы или, при необходимости,
 заменены на некие ``эквивалентные'' или ``совместимые'' компоненты.
 
-\begin{figure}[H]
+\begin{sidewaysfigure}
 	\centering
-	\includegraphics[width=\textwidth,clip=true]{img/UML-components.png}
+	\includegraphics{img/UML-components.png}
 	\caption{Диаграмма компонентов UML}
-\end{figure}
+\end{sidewaysfigure}
 
 \subsubsection{Диаграмма потока информации}
 
